@@ -4,11 +4,68 @@
   
     
     <entry>
+      <title>待整理-个人建站相关</title>
+      <link href="/onion.github.io/2024/10/8060158be97f.html"/>
+      <url>/onion.github.io/2024/10/8060158be97f.html</url>
+      
+        <content type="html"><![CDATA[<p>用于创建个人导航页：<br><a href="https://github.com/free-nav/freenav">free-nav&#x2F;freenav (github.com)</a><br>个人完美博客创建教程-夜法之书大佬：<br><a href="https://blog.17lai.site/posts/253706ff/">hexo博客博文撰写篇之完美笔记大攻略终极完全版 | 夜法之书 (17lai.site)</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 待研究网站及项目 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>网站搭建教程</title>
+      <link href="/onion.github.io/2024/10/2befadf5e091.html"/>
+      <url>/onion.github.io/2024/10/2befadf5e091.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="配图"><a href="#配图" class="headerlink" title="配图"></a>配图<a href="https://blog.17lai.site/posts/253706ff/#%E9%85%8D%E5%9B%BE"></a></h2><p>众所周知，<strong>博客好不好看，配图占一半</strong>。这里给大家推荐几个我常用找配图的地方。<strong>另外，请遵循相关网站的版权协议。</strong></p><p><a href="https://www.google.com/imghp?hl=zh-CN">Google Image</a>是你的好搭档</p><h3 id="Wallpaper-Hub"><a href="#Wallpaper-Hub" class="headerlink" title="Wallpaper Hub"></a>Wallpaper Hub<a href="https://blog.17lai.site/posts/253706ff/#Wallpaper-Hub"></a></h3><p><img src="https://cimg1.17lai.site/data/2022/08/18/20220818103222.webp" alt="Wallpaper Hub"></p><p><strong>Wallpaper Hub</strong></p><p><strong><a href="https://wallpaperhub.app/">点击跳转到 Wallpaper Hub</a></strong></p><h3 id="Wallhaven"><a href="#Wallhaven" class="headerlink" title="Wallhaven"></a>Wallhaven<a href="https://blog.17lai.site/posts/253706ff/#Wallhaven"></a></h3><p><img src="https://cimg1.17lai.site/data/2022/08/18/20220818103222-1.webp" alt="Wallhaven"></p><p><strong>Wallhaven</strong></p><p><strong><a href="https://wallhaven.cc/">点击跳转到 Wallhaven</a></strong></p><h3 id="Unsplash"><a href="#Unsplash" class="headerlink" title="Unsplash"></a>Unsplash<a href="https://blog.17lai.site/posts/253706ff/#Unsplash"></a></h3><p><img src="https://cimg1.17lai.site/data/2022/08/18/20220818103222-2.webp" alt="Unsplash"></p><p><strong>Unsplash</strong></p><p><strong><a href="https://unsplash.com/">点击跳转到 Unsplash</a></strong></p><p>来源: 夜法之书<br>作者: 夜法之书<br>文章链接: <a href="https://blog.17lai.site/posts/253706ff/#%E9%85%8D%E5%9B%BE">https://blog.17lai.site/posts/253706ff/#%E9%85%8D%E5%9B%BE</a><br>本文章著作权归作者所有，任何形式的转载都请注明出处。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客网站创建及使用 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>运筹学基础资源-思维导图</title>
+      <link href="/onion.github.io/2024/10/96a512c37990.html"/>
+      <url>/onion.github.io/2024/10/96a512c37990.html</url>
+      
+        <content type="html"><![CDATA[<p><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80%E8%B5%84%E6%BA%90-%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/image-20241018112917433.jpg"></p><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a href="https://www.scmor.com/view/6135">运筹学知识体系思维导图 - 思谋网 (scmor.com)</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机相关课程 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>计算机系统结构笔记</title>
       <link href="/onion.github.io/2024/10/bc53815ebd36.html"/>
       <url>/onion.github.io/2024/10/bc53815ebd36.html</url>
       
-        <content type="html"><![CDATA[<h1 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h1><h2 id="第一节"><a href="#第一节" class="headerlink" title="第一节"></a>第一节</h2><p>计算机系统 &#x3D; 硬件&#x2F;固件 + 软件<br>计算机语言从低级到高级发展：高一级语言的语句相较于第一级的语言来说，功能性更强，更便于应用，但都以低级语言为基础(更快)。<br>层次结构由高到低依次为：应用语言机器级M5、高级语言机器级M4、汇编语言机器级M3、OS机器级M2、传统语言机器级M1、微程序语言机器级M0。<br>虚拟机：由软件实现的机器；<br>语言实现的两个技术：</p><ol><li>翻译： 先将N+1级语言全部转化为N级语言之后，再去执行新生成的N级语言的程序，执行过程中N+1级语言不再访问；</li><li>解释：每当一条N+1级指令被译码之后，直接去执行等效的N级指令，然后再去下一条N+1级指令，重复，边译码边执行。</li></ol>]]></content>
+        <content type="html"><![CDATA[<h1 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h1><h2 id="第一节"><a href="#第一节" class="headerlink" title="第一节"></a>第一节</h2><h3 id="1-1计算机系统组成"><a href="#1-1计算机系统组成" class="headerlink" title="1.1计算机系统组成"></a>1.1计算机系统组成</h3><p>计算机系统 &#x3D; <strong>硬件&#x2F;固件+软件</strong></p><h3 id="1-2计算机语言的发展"><a href="#1-2计算机语言的发展" class="headerlink" title="1.2计算机语言的发展"></a>1.2计算机语言的发展</h3><p>计算机语言从低级到高级发展，高级语言的语句相较于低级语言功能更强，使用更方便，但都以低级语言为基础(更快)，以实现更高的执行效率。</p><h3 id="1-3层次结构"><a href="#1-3层次结构" class="headerlink" title="1.3层次结构"></a>1.3层次结构</h3><p>计算机语言的层次结构由高到低依次为：</p><ul><li><strong>应用语言机器级 M5</strong>：python、R等</li><li><strong>高级语言机器级 M4</strong>：接近机器一点</li><li><strong>汇编语言机器级 M3</strong>：特定计算机架构使用</li><li><strong>OS 机器级 M2</strong>：操作系统</li><li><strong>传统语言机器级 M1</strong>：早期</li><li><strong>微程序语言机器级 M0</strong>：实现指令集架构</li></ul><h3 id="1-4虚拟机"><a href="#1-4虚拟机" class="headerlink" title="1.4虚拟机"></a>1.4虚拟机</h3><p>虚拟机是由<strong>软件</strong>实现的机器。</p><h3 id="1-5语言实现的技术"><a href="#1-5语言实现的技术" class="headerlink" title="1.5语言实现的技术"></a>1.5语言实现的技术</h3><p>语言实现主要有两种技术：</p><ol><li><strong>翻译</strong>：将 N+1 级语言全部转化为 N 级语言后再执行，执行过程中 N+1 级语言不再访问。</li><li><strong>解释</strong>：每当一条 N+1 级指令被译码后，直接执行等效的 N 级指令，然后继续下一条 N+1 级指令，重复执行过程。</li></ol><h2 id="第二节-计算机系统结构、计算机组成和计算机实现"><a href="#第二节-计算机系统结构、计算机组成和计算机实现" class="headerlink" title="第二节 计算机系统结构、计算机组成和计算机实现"></a>第二节 计算机系统结构、计算机组成和计算机实现</h2><h3 id="2-1计算机系统结构的定义与内涵"><a href="#2-1计算机系统结构的定义与内涵" class="headerlink" title="2.1计算机系统结构的定义与内涵"></a>2.1计算机系统结构的定义与内涵</h3><p>定义：计算机系统结构是<strong>软件和硬件&#x2F;固件的交界面</strong>，即机器语言程序员看到的机器物理系统的抽象（简化概念）。</p><p>实质：确定计算机系统中软、硬件的界面，界面之上是硬件和软件实现的功能，界面之下是与硬件和固件实现的功能。</p><p>透明性：在计算机技术中，把这种百年来存在的事物或属性从某个角度看不到，则称之为对它透明。</p><h3 id="2-2计算机组成与计算机实现的定义与内涵"><a href="#2-2计算机组成与计算机实现的定义与内涵" class="headerlink" title="2.2计算机组成与计算机实现的定义与内涵"></a>2.2计算机组成与计算机实现的定义与内涵</h3><ul><li><p><strong>计算机组成定义</strong>：<br>  指计算机系统结构的逻辑实现，包括：</p><ul><li>机器级内部的数据流和控制流的组成。</li><li>逻辑设计等方面。</li></ul></li><li><p><strong>计算机实现定义</strong>：<br>  指计算机组成的物理实现，包括：</p><ul><li>处理机、主存等部件的物理结构。</li><li>器件的继承度和速度。</li><li>器件、模块的划分与连接。</li><li>专用器件的设计。</li></ul></li></ul><h3 id="2-3计算机系统结构、组成和实现的相互关系和影响"><a href="#2-3计算机系统结构、组成和实现的相互关系和影响" class="headerlink" title="2.3计算机系统结构、组成和实现的相互关系和影响"></a>2.3计算机系统结构、组成和实现的相互关系和影响</h3><ol><li>相同系统结构，可以有不同的组成；</li><li>一个组成可以有多种不同的实现方法；</li><li>采用不同的系统结构会使可以采用的组成技术产生差异；</li><li>组成也会影响结构；</li></ol><h2 id="第三节-计算机系统的软、硬件取舍及定量设计原理"><a href="#第三节-计算机系统的软、硬件取舍及定量设计原理" class="headerlink" title="第三节 计算机系统的软、硬件取舍及定量设计原理"></a>第三节 计算机系统的软、硬件取舍及定量设计原理</h2><h3 id="3-1软硬件取舍的基本原则"><a href="#3-1软硬件取舍的基本原则" class="headerlink" title="3.1软硬件取舍的基本原则"></a>3.1软硬件取舍的基本原则</h3><ol><li><p><strong>性能与成本权衡</strong>：</p><ul><li>提高硬件功能比例可提升解题速度，减少程序所需存储空间，但会增加硬件成本，并降低硬件利用率和系统灵活性。</li><li>提高软件比例可降低硬件成本，增强系统灵活性和适应性，但可能导致解题速度下降，并增加软件设计复杂性和存储需求。</li></ul></li><li><p><strong>性价比优化</strong>：</p><ul><li>从实现费用、速度和其他性能要求综合考虑，确保获取高性价比的解决方案。</li></ul></li><li><p><strong>技术选择的灵活性</strong>：</p><ul><li>考虑到当前和未来可能采用的组成技术，避免过多或不合理的限制，以促进各种技术的灵活应用。</li></ul></li><li><p><strong>综合考虑软硬件支持</strong>：</p><ul><li>不仅要从硬件角度考虑如何便利应用组成技术，还应关注如何为编译器、操作系统及高级语言程序设计提供更好的硬件支持。</li></ul></li></ol><h3 id="3-2-计算机系统的定量设计原理"><a href="#3-2-计算机系统的定量设计原理" class="headerlink" title="3.2 计算机系统的定量设计原理"></a>3.2 计算机系统的定量设计原理</h3><ol><li><p><strong>Huffman原理</strong>：</p><ul><li>优先加速处理高频率事件的性能提升，效果显著，远胜于加速处理低概率事件。</li></ul></li><li><p><strong>Amdahl定律</strong>：</p><ul><li><strong>思想</strong>：加速某个部件的执行速度所能获得的系统性能提升，受限于该部件在总执行时间中所占的比例。</li><li><strong>加速比公式</strong>：Sp &#x3D; Told&#x2F;Tnew &#x3D; 1&#x2F;((1-Fnew) + 可改进比 Fnew&#x2F;部件加速比Rnew)</li><li><img src="/onion.github.io/source/images/Pasted%20image%2020241018105202.png"></li></ul><ol><li>原理：定义系统性能的加速比，确定对系统中性能瓶颈部件，计算改进某些部件所获得的性能提高。</li></ol></li><li><p>程序访问的局部性定律</p><ol><li>空间局部性：循环语句；变量，数据；</li><li>时间局部性：顺序语句：</li></ol></li></ol>]]></content>
       
       
       <categories>
@@ -77,7 +134,7 @@
       <link href="/onion.github.io/2024/10/cee6e52e4b89.html"/>
       <url>/onion.github.io/2024/10/cee6e52e4b89.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="选择使用-Hexo-主题"><a href="#选择使用-Hexo-主题" class="headerlink" title="选择使用 Hexo 主题"></a>选择使用 Hexo 主题</h1><p>博主目前使用的是 Butterfly 主题。之前尝试过 Fluid 主题，虽然 Fluid 更适合专注于写作，但博主希望在博客中展示更多内容。因此，选择一个更具理工特色的主题显得更为合适。<br><img src="/onion.github.io/images/%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E5%88%9B%E5%BB%BA%E5%8F%8A%E4%BD%BF%E7%94%A8_%E4%BD%BF%E7%94%A8git+hexo+github-pages%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%EF%BC%88%E4%BA%8C%EF%BC%89/image-20241018120005811.jpg"><br>主题演示网站：<a href="https://butterfly.js.org/">Butterfly - A Simple and Card UI Design theme for Hexo</a></p>]]></content>
       
       
       <categories>
@@ -205,7 +262,7 @@
       <link href="/onion.github.io/2024/10/bcba7f9ec12d.html"/>
       <url>/onion.github.io/2024/10/bcba7f9ec12d.html</url>
       
-        <content type="html"><![CDATA[<p>本学期，我选择了信息工程专业的大数据算法课程。在这门课中，我不仅学习了理论知识，还积极参与了实践操作。为了更好地巩固所学内容，我决定在这里记录一些课堂笔记和问题思考，帮助自己加深理解，也为日后复习提供参考。</p><h3 id="课堂笔记"><a href="#课堂笔记" class="headerlink" title="课堂笔记"></a>课堂笔记</h3><ol><li><p><strong>大数据的定义与特征</strong></p><ul><li>大数据是指在一定时间内，数据量巨大、类型丰富、生成速度快、价值密度低的数据集合。其主要特征包括：<ul><li><strong>体量大</strong>：数据量庞大，通常以TB或PB计量。</li><li><strong>速度快</strong>：数据生成和处理速度迅猛。</li><li><strong>多样性</strong>：数据来源多样，包括结构化、半结构化和非结构化数据。</li></ul></li></ul></li><li><p><strong>大数据算法的基本概念</strong></p><ul><li>学习了常用的大数据处理算法，如 MapReduce、Spark 等。这些算法帮助我们在海量数据中提取出有价值的信息。</li></ul></li><li><p><strong>数据挖掘与分析</strong></p><ul><li>探讨了数据挖掘的基本流程，包括数据预处理、模型建立、评估与应用。我们还学习了常用的挖掘技术，如分类、聚类和关联规则分析。</li></ul></li></ol><h3 id="问题思考"><a href="#问题思考" class="headerlink" title="问题思考"></a>问题思考</h3><ul><li><p><strong>如何选择合适的算法？</strong><br>  选择算法时需要考虑数据的特性、处理的复杂度以及预期的结果。例如，对于实时数据流，可以选择 Spark Streaming；而对于批量数据处理，MapReduce<a href="/_posts/%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%AE%97%E6%B3%95/%E5%90%8D%E8%AF%8D%EF%BC%9AMapReduce.md">名词：MapReduce</a> 则更为合适。</p></li><li><p><strong>大数据的隐私与安全问题</strong><br>  在处理大数据时，如何保护用户隐私和数据安全是一个重要课题。我们需要思考如何在不侵犯隐私的前提下，提取和利用数据。</p></li><li><p><strong>未来的研究方向</strong><br>  大数据领域快速发展，未来可能会出现更多创新算法和技术。思考如何结合人工智能与大数据，推动智能决策和自动化分析的发展。</p></li></ul><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>通过这门课程的学习，我对大数据算法有了更深入的理解。希望通过不断的笔记和思考，能够将所学知识内化为自己的能力，为未来的学习和职业发展打下坚实的基础。</p>]]></content>
+        <content type="html"><![CDATA[<p>本学期，我选择了信息工程专业的大数据算法课程。在这门课中，我不仅学习了理论知识，还积极参与了实践操作。为了更好地巩固所学内容，我决定在这里记录一些课堂笔记和问题思考，帮助自己加深理解，也为日后复习提供参考。</p><h3 id="课堂笔记"><a href="#课堂笔记" class="headerlink" title="课堂笔记"></a>课堂笔记</h3><ol><li><p><strong>大数据的定义与特征</strong></p><ul><li>大数据是指在一定时间内，数据量巨大、类型丰富、生成速度快、价值密度低的数据集合。其主要特征包括：<ul><li><strong>体量大</strong>：数据量庞大，通常以TB或PB计量。</li><li><strong>速度快</strong>：数据生成和处理速度迅猛。</li><li><strong>多样性</strong>：数据来源多样，包括结构化、半结构化和非结构化数据。</li></ul></li></ul></li><li><p><strong>大数据算法的基本概念</strong></p><ul><li>学习了常用的大数据处理算法，如 MapReduce、Spark 等。这些算法帮助我们在海量数据中提取出有价值的信息。</li></ul></li><li><p><strong>数据挖掘与分析</strong></p><ul><li>探讨了数据挖掘的基本流程，包括数据预处理、模型建立、评估与应用。我们还学习了常用的挖掘技术，如分类、聚类和关联规则分析。</li></ul></li></ol><h3 id="问题思考"><a href="#问题思考" class="headerlink" title="问题思考"></a>问题思考</h3><ul><li><p><strong>如何选择合适的算法？</strong><br>  选择算法时需要考虑数据的特性、处理的复杂度以及预期的结果。例如，对于实时数据流，可以选择 Spark Streaming；而对于批量数据处理，MapReduce<a href="_posts/%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%AE%97%E6%B3%95/%E5%90%8D%E8%AF%8D%EF%BC%9AMapReduce.md">名词：MapReduce</a> 则更为合适。</p></li><li><p><strong>大数据的隐私与安全问题</strong><br>  在处理大数据时，如何保护用户隐私和数据安全是一个重要课题。我们需要思考如何在不侵犯隐私的前提下，提取和利用数据。</p></li><li><p><strong>未来的研究方向</strong><br>  大数据领域快速发展，未来可能会出现更多创新算法和技术。思考如何结合人工智能与大数据，推动智能决策和自动化分析的发展。</p></li></ul><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>通过这门课程的学习，我对大数据算法有了更深入的理解。希望通过不断的笔记和思考，能够将所学知识内化为自己的能力，为未来的学习和职业发展打下坚实的基础。</p>]]></content>
       
       
       <categories>
