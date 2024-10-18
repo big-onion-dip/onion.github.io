@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>计算机系统结构资源汇总</title>
-      <link href="/onion.github.io/2024/10/307ea3092fb8.html"/>
-      <url>/onion.github.io/2024/10/307ea3092fb8.html</url>
+      <title>计算机系统结构笔记</title>
+      <link href="/onion.github.io/2024/10/bc53815ebd36.html"/>
+      <url>/onion.github.io/2024/10/bc53815ebd36.html</url>
       
-        <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/weixin_43605641/article/details/124428484">02325《计算机系统结构》自考复习重点目录_02325填空题简答题考点-CSDN博客</a></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h1><h2 id="第一节"><a href="#第一节" class="headerlink" title="第一节"></a>第一节</h2><p>计算机系统 &#x3D; 硬件&#x2F;固件 + 软件<br>计算机语言从低级到高级发展：高一级语言的语句相较于第一级的语言来说，功能性更强，更便于应用，但都以低级语言为基础(更快)。<br>层次结构由高到低依次为：应用语言机器级M5、高级语言机器级M4、汇编语言机器级M3、OS机器级M2、传统语言机器级M1、微程序语言机器级M0。<br>虚拟机：由软件实现的机器；<br>语言实现的两个技术：</p><ol><li>翻译： 先将N+1级语言全部转化为N级语言之后，再去执行新生成的N级语言的程序，执行过程中N+1级语言不再访问；</li><li>解释：每当一条N+1级指令被译码之后，直接去执行等效的N级指令，然后再去下一条N+1级指令，重复，边译码边执行。</li></ol>]]></content>
       
       
       <categories>
@@ -17,6 +17,37 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> 计算机系统结构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>计算机系统结构资源汇总</title>
+      <link href="/onion.github.io/2024/10/72c17e25381b.html"/>
+      <url>/onion.github.io/2024/10/72c17e25381b.html</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/weixin_43605641/article/details/124428484">02325《计算机系统结构》自考复习重点目录_02325填空题简答题考点-CSDN博客</a><br><a href="https://blog.csdn.net/meiaoxue1234/article/details/136080117">计算机系统结构-考试知识点总结_自考计算机系统结构知识点!-CSDN博客</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机相关课程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机系统结构 </tag>
+            
+        </tags>
       
     </entry>
     
