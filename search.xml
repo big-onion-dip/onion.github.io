@@ -4,11 +4,30 @@
   
     
     <entry>
+      <title>计算机系统结构笔记-第六章</title>
+      <link href="/onion.github.io/2024/10/1f0c6f553ee9.html"/>
+      <url>/onion.github.io/2024/10/1f0c6f553ee9.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机相关课程 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>计算机系统结构笔记-第五章</title>
       <link href="/onion.github.io/2024/10/bb076bbf7370.html"/>
       <url>/onion.github.io/2024/10/bb076bbf7370.html</url>
       
-        <content type="html"><![CDATA[<h1 id="第五章-标量处理机"><a href="#第五章-标量处理机" class="headerlink" title="第五章 标量处理机"></a>第五章 标量处理机</h1><h2 id="第一节-重叠方式"><a href="#第一节-重叠方式" class="headerlink" title="第一节 重叠方式"></a>第一节 重叠方式</h2><h3 id="1-1-重叠原理与一次重叠"><a href="#1-1-重叠原理与一次重叠" class="headerlink" title="1.1 重叠原理与一次重叠"></a>1.1 重叠原理与一次重叠</h3><p>定义：指令的重叠解释是指在解释第k条指令的操作完成之前，就可以开始解释第K+1条指令。<br>实现指令的重叠解释必须在计算机组成上满足以下要求：</p><ol><li>要解决访主存的冲突；</li><li>要解决‘分析’与‘执行’操作的并行；</li><li>要解决‘分析’与‘执行’操作控制上的同步；</li><li>要解决指令间各种相关的处理。</li></ol><h3 id="1-2-相关处理"><a href="#1-2-相关处理" class="headerlink" title="1.2 相关处理"></a>1.2 相关处理</h3>]]></content>
+        <content type="html"><![CDATA[<h1 id="第五章-标量处理机"><a href="#第五章-标量处理机" class="headerlink" title="第五章 标量处理机"></a>第五章 标量处理机</h1><h2 id="第一节-重叠方式"><a href="#第一节-重叠方式" class="headerlink" title="第一节 重叠方式"></a>第一节 重叠方式</h2><h2 id="1-1-重叠原理与一次重叠"><a href="#1-1-重叠原理与一次重叠" class="headerlink" title="1.1 重叠原理与一次重叠"></a>1.1 重叠原理与一次重叠</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>重叠解释是指在解释第 k条指令的操作完成之前，就可以开始解释第 k+1 条指令。这种方法能够提高指令的执行效率，减少处理器的空闲时间。</p><h3 id="实现重叠解释的要求"><a href="#实现重叠解释的要求" class="headerlink" title="实现重叠解释的要求"></a>实现重叠解释的要求</h3><p>为了实现指令的重叠解释，计算机在组成上需要满足以下要求：</p><ol><li><strong>解决访主存的冲突</strong>：确保不同指令对主存的访问不会发生冲突，以避免数据不一致或访问延迟。</li><li><strong>解决“分析”与“执行”操作的并行</strong>：分析指令的过程和执行指令的过程应能并行进行。</li><li><strong>解决“分析”与“执行”操作控制上的同步</strong>：确保分析和执行操作之间的同步，避免不同步导致的错误。</li><li><strong>解决指令间的相关处理</strong>：合理调度指令的执行顺序，以确保数据的正确性和处理的高效性。</li></ol><h2 id="1-2-相关处理"><a href="#1-2-相关处理" class="headerlink" title="1.2 相关处理"></a>1.2 相关处理</h2><h3 id="指令间的相关处理"><a href="#指令间的相关处理" class="headerlink" title="指令间的相关处理"></a>指令间的相关处理</h3><p>在实现重叠解释时，处理指令间的相关性是至关重要的：</p><ul><li><strong>数据依赖</strong>：确保指令之间的依赖关系得到正确处理。</li><li><strong>控制依赖</strong>：处理条件分支指令，确保正确的指令流被选择。</li><li><strong>指令调度</strong>：合理调度指令以减少因数据依赖导致的延迟。</li><li><strong>资源管理</strong>：合理分配CPU、缓存等资源，以避免资源竞争和冲突。</li></ul><h2 id="第二节-流水方式"><a href="#第二节-流水方式" class="headerlink" title="第二节 流水方式"></a>第二节 流水方式</h2><h3 id="2-1-基本概念"><a href="#2-1-基本概念" class="headerlink" title="2.1 基本概念"></a>2.1 基本概念</h3><p>流水线技术将一个重复的过程分解为多个子过程，每个子过程与其他子过程并行进行。流水的分类包括：</p><ol><li><strong>静态流水线</strong>：在某个时间内各段只能按一种功能连接，必须等流水线全部流空后才能切换功能。</li><li><strong>动态流水线</strong>：各个功能段可以在同一时间内按不同运算或功能连接。</li></ol><h3 id="2-2-标量流水线的主要性能"><a href="#2-2-标量流水线的主要性能" class="headerlink" title="2.2 标量流水线的主要性能"></a>2.2 标量流水线的主要性能</h3><ol><li><strong>吞吐率 Tp 和加速比Sp</strong><ol><li>吞吐率Tp &#x3D; n&#x2F;Tk，是流水线单位时间里能流出的任务数或结果数。</li><li>加速比Sp &#x3D; T0&#x2F;Tk，完成一批惹怒我使用非流水线执行时间和使用流水线执行时间之比。</li><li>流水线最大吞吐率 T &#x3D; 1&#x2F;max{ti}，为了提高流水线的最大吞吐率，首先要找出瓶颈，然后设法消除瓶颈。将瓶颈子程序再细分；通过重复设置多套瓶径段并联，让它们交叉并行。</li></ol></li><li><strong>效率</strong>E<ol><li>流水线的效率E &#x3D; n个任务实际占用的时空区&#x2F;m个段总的时空区，是指流水线种设备的实际使用时间占整个运行时间之比，也称流水线设备的时间利用率。</li></ol></li></ol><h3 id="2-3-标量流水机的相关处理和控制机构"><a href="#2-3-标量流水机的相关处理和控制机构" class="headerlink" title="2.3 标量流水机的相关处理和控制机构"></a>2.3 标量流水机的相关处理和控制机构</h3><ol><li>局部性相关的处理</li><li>全局性相关的处理<ol><li>使用猜测法。</li><li>加快和提前形成条形码。</li><li>采用延迟处理。</li><li>加快短循环程序的处理。</li></ol></li><li>流水机器的中断处理</li><li>非线性流水线的调度</li></ol><h3 id="第三节-指令级高度并行的超级处理机"><a href="#第三节-指令级高度并行的超级处理机" class="headerlink" title="第三节 指令级高度并行的超级处理机"></a>第三节 指令级高度并行的超级处理机</h3><h4 id="3-1-超标量处理机"><a href="#3-1-超标量处理机" class="headerlink" title="3.1 超标量处理机"></a>3.1 超标量处理机</h4><p>超标量处理机适合求解稀疏向量或稀疏矩阵等标量计算问题。</p><h4 id="3-2-超长指令字处理机-VLIW"><a href="#3-2-超长指令字处理机-VLIW" class="headerlink" title="3.2 超长指令字处理机 (VLIW)"></a>3.2 超长指令字处理机 (VLIW)</h4><p>不适用于一般的应用领域。</p><h4 id="3-3-超流水线处理机"><a href="#3-3-超流水线处理机" class="headerlink" title="3.3 超流水线处理机"></a>3.3 超流水线处理机</h4><p>结合了流水线技术以提高处理器的性能。</p><h4 id="3-4-超标量超流水线处理机"><a href="#3-4-超标量超流水线处理机" class="headerlink" title="3.4 超标量超流水线处理机"></a>3.4 超标量超流水线处理机</h4><p>结合超标量和超流水线的特性，以实现更高的指令级并行性。</p>]]></content>
       
       
       <categories>
@@ -233,7 +252,7 @@
       <link href="/onion.github.io/2024/10/72c17e25381b.html"/>
       <url>/onion.github.io/2024/10/72c17e25381b.html</url>
       
-        <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/weixin_43605641/article/details/124428484">02325《计算机系统结构》自考复习重点目录_02325填空题简答题考点-CSDN博客</a><br><a href="https://blog.csdn.net/meiaoxue1234/article/details/136080117">计算机系统结构-考试知识点总结_自考计算机系统结构知识点!-CSDN博客</a><br>名词解释：<a href="https://abg.baidu.com/ndoffview/83b447272f60ddccda38a0ec">自考02325计算机系统结构–复习资料大全 - 百度爱伴功 (baidu.com)</a><br>章节:<a href="https://abg.baidu.com/view/5a655ae9998fcc22bcd10d4f">自考02325计算机系统结构考点笔记 - 百度爱伴功 (baidu.com)</a></p>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>英语、计算机、数学，无论将来做什么都是有用的。<br>——沃巴</p></blockquote><p>英语是学不会了，没有点这个天赋，但是计算机和数学可以学一点，为了督促自己学习计算机，报名了计算机网络技术的成人自考，以为会好好学，现在成了临阵磨枪，60分万岁了qwq</p><p><a href="https://blog.csdn.net/weixin_43605641/article/details/124428484">02325《计算机系统结构》自考复习重点目录_02325填空题简答题考点-CSDN博客</a><br><a href="https://blog.csdn.net/meiaoxue1234/article/details/136080117">计算机系统结构-考试知识点总结_自考计算机系统结构知识点!-CSDN博客</a><br>名词解释：<a href="https://abg.baidu.com/ndoffview/83b447272f60ddccda38a0ec">自考02325计算机系统结构–复习资料大全 - 百度爱伴功 (baidu.com)</a><br>章节:<a href="https://abg.baidu.com/view/5a655ae9998fcc22bcd10d4f">自考02325计算机系统结构考点笔记 - 百度爱伴功 (baidu.com)</a></p>]]></content>
       
       
       <categories>
