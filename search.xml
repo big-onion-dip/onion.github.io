@@ -18,6 +18,14 @@
       </categories>
       
       
+        <tags>
+            
+            <tag> python小项目 </tag>
+            
+            <tag> 小工具 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -46,7 +54,7 @@
       <link href="/onion.github.io/2024/10/036601ae8f86.html"/>
       <url>/onion.github.io/2024/10/036601ae8f86.html</url>
       
-        <content type="html"><![CDATA[<h3 id="实验方案"><a href="#实验方案" class="headerlink" title="实验方案"></a>实验方案</h3><h4 id="1-实验目的"><a href="#1-实验目的" class="headerlink" title="1. 实验目的"></a>1. 实验目的</h4><ul><li>利用机器学习算法从多个植物根系图像中自动提取并统计根长度和节点数量，以提高分析效率和准确性，最终为植物健康评估提供数据支持。</li></ul><h4 id="2-材料"><a href="#2-材料" class="headerlink" title="2. 材料"></a>2. 材料</h4><ul><li><p><strong>设备</strong>：</p><ul><li>高分辨率相机或智能手机（以确保图像质量）</li><li>计算机（运行图像处理和机器学习算法）</li></ul></li><li><p><strong>软件</strong>：</p><ul><li>Python（OpenCV, scikit-learn, TensorFlow&#x2F;PyTorch, NumPy, Pandas）</li><li>数据可视化工具（如Matplotlib或Seaborn）</li></ul></li><li><p><strong>数据集</strong>：</p><ul><li>多种植物根系图像（如油菜、大豆等），确保涵盖不同的生长阶段和健康状态</li><li>手动标注的根长度和节点数量数据，形成训练集和测试集</li></ul></li></ul><h4 id="3-实验方法"><a href="#3-实验方法" class="headerlink" title="3. 实验方法"></a>3. 实验方法</h4><ol><li><p><strong>数据准备</strong>：</p><ul><li>收集和拍摄多张植物根系图像，确保在均匀光照条件下进行拍摄。</li><li>记录样本的生长条件（如水分、土壤类型、施肥情况等）。</li><li>对根系进行手动标注，获取每张图像的根长度和节点数量，形成标签数据集。</li></ul></li><li><p><strong>图像预处理</strong>：</p><ul><li><strong>去噪</strong>：使用高斯模糊或非局部均值去噪，减少图像噪声。</li><li><strong>灰度处理</strong>：将图像转换为灰度图，以简化后续处理。</li><li><strong>边缘检测</strong>：使用Canny边缘检测算法提取根系边缘。</li><li><strong>图像增强</strong>：对比度增强、直方图均衡化，以提高根系特征的可识别性。</li></ul></li><li><p><strong>特征提取</strong>：</p><ul><li><strong>形状特征</strong>：提取根系的几何特征（如面积、周长、直径等）。</li><li><strong>颜色特征</strong>：若需分析根系健康，可以提取颜色分布特征。</li><li><strong>纹理特征</strong>：使用LBP（局部二值模式）等方法提取纹理特征。</li></ul></li><li><p><strong>模型训练</strong>：</p><ul><li><strong>算法选择</strong>：<ul><li>根长度回归：可使用线性回归、随机森林回归或神经网络等。</li><li>节点数量分类：可使用决策树、支持向量机或深度学习分类器。</li></ul></li><li><strong>训练过程</strong>：<ul><li>使用K折交叉验证（K-fold cross-validation）确保模型的稳健性。</li><li>选择合适的损失函数（如均方误差用于回归）和评估指标（如准确率、F1-score用于分类）。</li></ul></li></ul></li><li><p><strong>模型验证</strong>：</p><ul><li>使用测试集评估模型性能，绘制混淆矩阵、ROC曲线等可视化结果。</li><li>调整超参数以优化模型性能（如网格搜索、随机搜索等）。</li></ul></li><li><p><strong>结果输出</strong>：</p><ul><li>将预测的根长度和节点数量输出到Excel或CSV文件中，便于数据分析。</li><li>生成可视化图表，展示各样本的根长度和节点数量的分布情况。</li></ul></li></ol><h4 id="4-数据分析"><a href="#4-数据分析" class="headerlink" title="4. 数据分析"></a>4. 数据分析</h4><ul><li><p><strong>统计分析</strong>：</p><ul><li>分析根长度与节点数量之间的相关性，使用皮尔逊相关系数等。</li><li>比较不同植物种类的根系特征，探讨影响根系生长的环境因素。</li></ul></li><li><p><strong>机器学习模型的分析</strong>：</p><ul><li>评估模型的误差分布，分析误差较大的样本，寻找潜在原因。</li><li>通过SHAP值或LIME等方法分析特征对模型输出的贡献。</li></ul></li></ul><h4 id="5-预期结果"><a href="#5-预期结果" class="headerlink" title="5. 预期结果"></a>5. 预期结果</h4><ul><li>开发一个高效的机器学习模型，能够准确提取和统计植物根系特征。</li><li>提供根系健康状态的定量评估，为后续植物研究提供数据支持。</li></ul><h3 id="6-实验总结"><a href="#6-实验总结" class="headerlink" title="6. 实验总结"></a>6. 实验总结</h3><ul><li>总结模型的性能、实际应用效果及潜在的改进方向。</li><li>提出未来的研究方向，如扩大样本数量、改进数据标注精度、引入新的特征等。</li></ul>]]></content>
+        <content type="html"><![CDATA[<h3 id="实验方案"><a href="#实验方案" class="headerlink" title="实验方案"></a>实验方案</h3><h4 id="1-实验目的"><a href="#1-实验目的" class="headerlink" title="1. 实验目的"></a>1. 实验目的</h4><ul><li>利用机器学习算法从多个植物根系图像中自动提取并统计根长度和节点数量，以提高分析效率和准确性，最终为植物健康评估提供数据支持。</li></ul><h4 id="2-材料"><a href="#2-材料" class="headerlink" title="2. 材料"></a>2. 材料</h4><ul><li><p><strong>设备</strong>：</p><ul><li>高分辨率相机或智能手机（以确保图像质量）</li><li>计算机（运行图像处理和机器学习算法）</li></ul></li><li><p><strong>软件</strong>：</p><ul><li>Python（OpenCV, scikit-learn, TensorFlow&#x2F;PyTorch, NumPy, Pandas）</li><li>数据可视化工具（如Matplotlib或Seaborn）</li></ul></li><li><p><strong>数据集</strong>：</p><ul><li>多种植物根系图像（如油菜、大豆等），确保涵盖不同的生长阶段和健康状态</li><li>手动标注的根长度和节点数量数据，形成训练集和测试集</li></ul></li></ul><h4 id="3-实验方法"><a href="#3-实验方法" class="headerlink" title="3. 实验方法"></a>3. 实验方法</h4><ol><li><p><strong>数据准备</strong>：</p><ul><li>收集和拍摄多张植物根系图像，确保在均匀光照条件下进行拍摄。</li><li>记录样本的生长条件（如水分、土壤类型、施肥情况等）。</li><li>对根系进行手动标注，获取每张图像的根长度和节点数量，形成标签数据集。</li></ul></li><li><p><strong>图像预处理</strong>：</p><ul><li><strong>去噪</strong>：使用高斯模糊或非局部均值去噪，减少图像噪声。</li><li><strong>灰度处理</strong>：将图像转换为灰度图，以简化后续处理。</li><li><strong>边缘检测</strong>：使用Canny边缘检测算法提取根系边缘。</li><li><strong>图像增强</strong>：对比度增强、直方图均衡化，以提高根系特征的可识别性。</li></ul></li><li><p><strong>特征提取</strong>：</p><ul><li><strong>形状特征</strong>：提取根系的几何特征（如面积、周长、直径等）。</li><li><strong>颜色特征</strong>：若需分析根系健康，可以提取颜色分布特征。</li><li><strong>纹理特征</strong>：使用LBP（局部二值模式）等方法提取纹理特征。</li></ul></li><li><p><strong>模型训练</strong>：</p><ul><li><strong>算法选择</strong>：<ul><li>根长度回归：可使用线性回归、随机森林回归或神经网络等。</li><li>节点数量分类：可使用决策树、支持向量机或深度学习分类器。</li></ul></li><li><strong>训练过程</strong>：<ul><li>使用K折交叉验证（K-fold cross-validation）确保模型的稳健性。</li><li>选择合适的损失函数（如均方误差用于回归）和评估指标（如准确率、F1-score用于分类）。</li></ul></li></ul></li><li><p><strong>模型验证</strong>：</p><ul><li>使用测试集评估模型性能，绘制混淆矩阵、ROC曲线等可视化结果。</li><li>调整超参数以优化模型性能（如网格搜索、随机搜索等）。</li></ul></li><li><p><strong>结果输出</strong>：</p><ul><li>将预测的根长度和节点数量输出到Excel或CSV文件中，便于数据分析。</li><li>生成可视化图表，展示各样本的根长度和节点数量的分布情况。</li></ul></li></ol><h4 id="4-数据分析"><a href="#4-数据分析" class="headerlink" title="4. 数据分析"></a>4. 数据分析</h4><ul><li><p><strong>统计分析</strong>：</p><ul><li>分析根长度与节点数量之间的相关性，使用皮尔逊相关系数等。</li><li>比较不同植物种类的根系特征，探讨影响根系生长的环境因素。</li></ul></li><li><p><strong>机器学习模型的分析</strong>：</p><ul><li>评估模型的误差分布，分析误差较大的样本，寻找潜在原因。</li><li>通过SHAP值或LIME等方法分析特征对模型输出的贡献。</li></ul></li></ul><h4 id="5-预期结果"><a href="#5-预期结果" class="headerlink" title="5. 预期结果"></a>5. 预期结果</h4><ul><li>开发一个高效的机器学习模型，能够准确提取和统计植物根系特征。</li><li>提供根系健康状态的定量评估，为后续植物研究提供数据支持。</li></ul><h3 id="6-实验总结"><a href="#6-实验总结" class="headerlink" title="6. 实验总结"></a>6. 实验总结</h3><ul><li>总结模型的性能、实际应用效果及潜在的改进方向。</li><li>提出未来的研究方向，如扩大样本数量、改进数据标注精度、引入新的特征等。</li></ul><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a href="http://www.wseen.com/productdetail.aspx?id=57&classid=29">LA-S植物根系分析仪,根系分析系统,根系扫描仪,根系图像分析仪-杭州万深检测科技有限公司</a></p><h1 id="say-something"><a href="#say-something" class="headerlink" title="say something"></a>say something</h1><p>。。。做出来，然后卖给自己实验室！！！</p>]]></content>
       
       
       <categories>
@@ -113,6 +121,16 @@
       </categories>
       
       
+        <tags>
+            
+            <tag> 计算机科学与技术 </tag>
+            
+            <tag> 自考 </tag>
+            
+            <tag> 运筹学基础 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -131,6 +149,16 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> 计算机系统结构 </tag>
+            
+            <tag> 计算机科学与技术 </tag>
+            
+            <tag> 自考 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -151,6 +179,16 @@
       </categories>
       
       
+        <tags>
+            
+            <tag> 计算机系统结构 </tag>
+            
+            <tag> 计算机科学与技术 </tag>
+            
+            <tag> 自考 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -169,6 +207,16 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> 计算机系统结构 </tag>
+            
+            <tag> 计算机科学与技术 </tag>
+            
+            <tag> 自考 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -189,6 +237,16 @@
       </categories>
       
       
+        <tags>
+            
+            <tag> 计算机系统结构 </tag>
+            
+            <tag> 计算机科学与技术 </tag>
+            
+            <tag> 自考 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -207,6 +265,16 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> 计算机系统结构 </tag>
+            
+            <tag> 计算机科学与技术 </tag>
+            
+            <tag> 自考 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -270,6 +338,8 @@
             <tag> 计算机系统结构 </tag>
             
             <tag> 计算机科学与技术 </tag>
+            
+            <tag> 自考 </tag>
             
         </tags>
       
@@ -381,11 +451,11 @@
     
     
     <entry>
-      <title>计算机系统结构资源汇总</title>
-      <link href="/onion.github.io/2024/10/72c17e25381b.html"/>
-      <url>/onion.github.io/2024/10/72c17e25381b.html</url>
+      <title>计算机课程资源汇总</title>
+      <link href="/onion.github.io/2024/10/6547f42b3012.html"/>
+      <url>/onion.github.io/2024/10/6547f42b3012.html</url>
       
-        <content type="html"><![CDATA[<blockquote><p>英语、计算机、数学，无论将来做什么都是有用的。<br>——沃巴</p></blockquote><p>英语是学不会了，没有点这个天赋，但是计算机和数学可以学一点，为了督促自己学习计算机，报名了计算机网络技术的成人自考，以为会好好学，现在成了临阵磨枪，60分万岁了qwq</p><h1 id="课程"><a href="#课程" class="headerlink" title="课程"></a>课程</h1><h2 id="计算机系统结构"><a href="#计算机系统结构" class="headerlink" title="计算机系统结构"></a>计算机系统结构</h2><p><a href="https://blog.csdn.net/weixin_43605641/article/details/124428484">02325《计算机系统结构》自考复习重点目录_02325填空题简答题考点-CSDN博客</a><br><a href="https://blog.csdn.net/meiaoxue1234/article/details/136080117">计算机系统结构-考试知识点总结_自考计算机系统结构知识点!-CSDN博客</a><br>名词解释：<a href="https://abg.baidu.com/ndoffview/83b447272f60ddccda38a0ec">自考02325计算机系统结构–复习资料大全 - 百度爱伴功 (baidu.com)</a><br>章节:<a href="https://abg.baidu.com/view/5a655ae9998fcc22bcd10d4f">自考02325计算机系统结构考点笔记 - 百度爱伴功 (baidu.com)</a></p><h2 id="运筹学基础"><a href="#运筹学基础" class="headerlink" title="运筹学基础"></a>运筹学基础</h2>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>英语、计算机、数学，无论将来做什么都是有用的。<br>——沃巴</p></blockquote><p>英语是学不会了，没有点这个天赋，但是计算机和数学可以学一点，为了督促自己学习计算机，报名了计算机网络技术的成人自考，以为会好好学，现在成了临阵磨枪，60分万岁了qwq</p><h1 id="课程"><a href="#课程" class="headerlink" title="课程"></a>课程</h1><h2 id="计算机系统结构"><a href="#计算机系统结构" class="headerlink" title="计算机系统结构"></a>计算机系统结构</h2><p><a href="https://blog.csdn.net/weixin_43605641/article/details/124428484">02325《计算机系统结构》自考复习重点目录_02325填空题简答题考点-CSDN博客</a><br><a href="https://blog.csdn.net/meiaoxue1234/article/details/136080117">计算机系统结构-考试知识点总结_自考计算机系统结构知识点!-CSDN博客</a><br>名词解释：<a href="https://abg.baidu.com/ndoffview/83b447272f60ddccda38a0ec">自考02325计算机系统结构–复习资料大全 - 百度爱伴功 (baidu.com)</a><br>章节:<a href="https://abg.baidu.com/view/5a655ae9998fcc22bcd10d4f">自考02325计算机系统结构考点笔记 - 百度爱伴功 (baidu.com)</a></p><h2 id="运筹学基础"><a href="#运筹学基础" class="headerlink" title="运筹学基础"></a>运筹学基础</h2><p>知识点，没分章节：<a href="https://abg.baidu.com/view/4273004be45c3b3567ec8b1b?fr=search-income-top3page">运筹学基础自考 精心整理 - 百度爱伴功</a><br>章节知识点：<a href="https://abg.baidu.com/view/bc15e3d080eb6294dd886c0e?fr=search-income-top3page">自考运筹学基础学习笔记 修改版本 - 百度爱伴功</a></p>]]></content>
       
       
       <categories>
