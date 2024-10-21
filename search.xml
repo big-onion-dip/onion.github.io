@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>运筹学基础-第二章-预测</title>
+      <link href="/onion.github.io/2024/10/71cd07b5fcf4.html"/>
+      <url>/onion.github.io/2024/10/71cd07b5fcf4.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="第二章-预测"><a href="#第二章-预测" class="headerlink" title="第二章 预测"></a>第二章 预测</h1><h2 id="第一节-预测的概念和程序"><a href="#第一节-预测的概念和程序" class="headerlink" title="第一节 预测的概念和程序"></a>第一节 预测的概念和程序</h2><h3 id="1-1-预测的概念和作用"><a href="#1-1-预测的概念和作用" class="headerlink" title="1.1 预测的概念和作用"></a>1.1 预测的概念和作用</h3><p>预测是对未来不确定事件的估计或判断，是决策过程中的基础。有效的预测能够帮助组织更好地制定战略和计划，从而应对未来的挑战和机遇。</p><h3 id="1-2-预测的方法和分类"><a href="#1-2-预测的方法和分类" class="headerlink" title="1.2 预测的方法和分类"></a>1.2 预测的方法和分类</h3><p><strong>分类</strong>：</p><ol><li><strong>经济预测</strong>：分析经济趋势和市场变化。</li><li><strong>科技预测</strong>：评估科技发展及其潜在影响。</li><li><strong>社会预测</strong>：研究社会动态和变化趋势。</li><li><strong>军事预测</strong>：对军事形势进行评估。</li></ol><p><strong>方法</strong>：</p><ol><li><p><strong>定性预测</strong>：</p><ul><li>直观预测。</li><li>专家座谈会。</li><li>特尔斐法。</li></ul></li><li><p><strong>定量预测</strong>：</p><ul><li><strong>外推法</strong>：利用历史数据进行推算。</li><li><strong>时间序列分析法</strong>：分析历史数据中的时间序列模式。</li><li><strong>因果法</strong>：基于因果关系的预测，如回归分析、经济计量法、投入产出分析等。</li></ul></li></ol><p><strong>时间分类</strong>：</p><ul><li><strong>经济预测</strong>：<ul><li>长期预测：3-5年。</li><li>中期预测：1-3年。</li><li>短期预测：一年以内。</li></ul></li><li><strong>科技预测</strong>：<ul><li>长期预测：30-50年。</li><li>中期预测：10-30年。</li><li>短期预测：5-10年。</li></ul></li></ul><h3 id="1-3-预测的程序"><a href="#1-3-预测的程序" class="headerlink" title="1.3 预测的程序"></a>1.3 预测的程序</h3><ol><li>确定预测对象或目标。</li><li>选择预测周期，适合于特定产品的生命周期和市场变化。</li><li>选择预测方法。</li><li>收集相关资料。</li><li>进行预测。</li></ol><hr><h2 id="第二节-定性预测法：判断预测法"><a href="#第二节-定性预测法：判断预测法" class="headerlink" title="第二节 定性预测法：判断预测法"></a>第二节 定性预测法：判断预测法</h2><p><strong>应用情况</strong>：</p><ol><li>建立模型时缺乏数据，例如预测新产品价格。</li><li>社会或经济环境发生剧烈变化，历史数据不再具有代表性。</li></ol><h3 id="2-1-特尔斐法"><a href="#2-1-特尔斐法" class="headerlink" title="2.1 特尔斐法"></a>2.1 特尔斐法</h3><p>特尔斐法旨在通过“专家群”获得一致的预测结果。其特点包括：</p><ul><li>专家意见匿名。</li><li>多次信息反馈。</li><li>最终整理专家意见供决策参考。</li></ul><p><strong>步骤</strong>：</p><ol><li>确定课题。</li><li>选择专家。</li><li>设计咨询表。</li><li>逐轮咨询和反馈。</li><li>使用统计分析方法定量评价结果。</li></ol><p>该方法适合长期或中期预测，需合理安排时间并酌情报酬以确保专家认真参与。</p><h3 id="2-2-专家小组法"><a href="#2-2-专家小组法" class="headerlink" title="2.2 专家小组法"></a>2.2 专家小组法</h3><p>在小组内进行面对面的讨论和磋商，最终得出一致意见。优点是促进协商和补充，但需注意避免权威人士影响其他成员的创新见解。此方法适合短期预测。</p><hr><h2 id="第三节-时间序列预测法"><a href="#第三节-时间序列预测法" class="headerlink" title="第三节 时间序列预测法"></a>第三节 时间序列预测法</h2><p><strong>基本原理</strong>：</p><ol><li>承认事物发展的延续性，适用于短期预测。</li><li>考虑随机因素的影响和干扰。</li></ol><h3 id="3-1-滑动平均预测法"><a href="#3-1-滑动平均预测法" class="headerlink" title="3.1 滑动平均预测法"></a>3.1 滑动平均预测法</h3><ul><li><strong>简单平均预测法</strong>：<ul><li>横向比较法。</li><li>纵向比较法：简单滑动平均数法。</li></ul></li><li><strong>加权平均数预测法</strong>：<ul><li>横向比较法。</li><li>纵向比较法：加权移动平均数法（近期数据权重更大）。</li></ul></li></ul><hr><h2 id="第四节-回归模型预测法"><a href="#第四节-回归模型预测法" class="headerlink" title="第四节 回归模型预测法"></a>第四节 回归模型预测法</h2><p>回归分析是一种基于内部因素变化的因果关系进行的定量预测方法，主要用于研究变量之间的相互关系。最常见的一元线性回归模型表达为 Y&#x3D;ax+b，可通过最小二乘法进行参数估计。</p><hr><h2 id="第五节-季节性变动预测"><a href="#第五节-季节性变动预测" class="headerlink" title="第五节 季节性变动预测"></a>第五节 季节性变动预测</h2><p>对于季节性变动的预测，可以结合指数平滑法与一般性变动预测，以适应周期性波动和趋势变化的需求。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机相关课程 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>批量裁图小工具</title>
       <link href="/onion.github.io/2024/10/4842c428e348.html"/>
       <url>/onion.github.io/2024/10/4842c428e348.html</url>
@@ -111,7 +130,7 @@
       <link href="/onion.github.io/2024/10/255392bdf203.html"/>
       <url>/onion.github.io/2024/10/255392bdf203.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="第一章-导论"><a href="#第一章-导论" class="headerlink" title="第一章 导论"></a>第一章 导论</h1><h2 id="第一节-概述"><a href="#第一节-概述" class="headerlink" title="第一节 概述"></a>第一节 概述</h2><h3 id="1-1-运筹学与管理决策"><a href="#1-1-运筹学与管理决策" class="headerlink" title="1.1 运筹学与管理决策"></a>1.1 运筹学与管理决策</h3><ul><li><strong>定义</strong>：运筹学研究如何有效管理人机系统，利用计划方法将复杂关系表示为数学模型，通过定量分析支持决策。</li><li><strong>分析形式</strong>：<ul><li><strong>定性分析</strong>：依赖于决策者的经验和直觉，随着经验的累积而增强。</li><li><strong>定量分析</strong>：基于数学模型和量化数据。</li></ul></li></ul><h3 id="1-2-计算机与运筹学"><a href="#1-2-计算机与运筹学" class="headerlink" title="1.2 计算机与运筹学"></a>1.2 计算机与运筹学</h3><ul><li><strong>关系</strong>：计算机是运筹学的重要工具，运筹学与计算机方法是相辅相成、共同发展的。</li></ul><h3 id="1-3-决策方法的分类"><a href="#1-3-决策方法的分类" class="headerlink" title="1.3 决策方法的分类"></a>1.3 决策方法的分类</h3><ol><li><strong>定性决策</strong>：基于决策者的主观经验或知识。</li><li><strong>定量决策</strong>：依赖正式的计量方法。</li><li><strong>混合性决策</strong>：结合定量和定性方法，通常在以下情况下使用：<ul><li>问题复杂且变量众多。</li><li>可获取相关数据。</li><li>各项目标可量化。</li><li>可建立切实可行的模型。</li></ul></li></ol><h2 id="第二节-应用运筹学进行决策过程的几个步骤"><a href="#第二节-应用运筹学进行决策过程的几个步骤" class="headerlink" title="第二节 应用运筹学进行决策过程的几个步骤"></a>第二节 应用运筹学进行决策过程的几个步骤</h2><ol><li><strong>观察待决策问题的环境。</strong></li><li><strong>分析和定义待决策的问题。</strong></li><li><strong>拟定模型</strong>：使用符号或抽象模型。</li><li><strong>选择输出资料</strong>：通过记录、实验等方式收集。</li><li><strong>提出解并验证其合理性</strong>：进行敏感度实验，观察输入变化对输出的影响。</li><li><strong>实施最优解。</strong></li></ol>]]></content>
       
       
       <categories>
