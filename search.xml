@@ -4,93 +4,6 @@
   
     
     <entry>
-      <title>运筹学基础-第十章-盈亏分析模型</title>
-      <link href="/onion.github.io/2024/10/70914c157835.html"/>
-      <url>/onion.github.io/2024/10/70914c157835.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="第十章-盈亏分析模型"><a href="#第十章-盈亏分析模型" class="headerlink" title="第十章 盈亏分析模型"></a>第十章 盈亏分析模型</h1><h2 id="第一节-盈亏平衡问题概述"><a href="#第一节-盈亏平衡问题概述" class="headerlink" title="第一节 盈亏平衡问题概述"></a>第一节 盈亏平衡问题概述</h2><ol><li>盈亏平衡分析是一种管理决策工具，它用来说明在一定销售量水平上总销量与总成本因素之间的关系。</li><li>模型结构：$利润&#x3D;销售收入-总成本；S&#x3D;I-C$</li><li>盈亏平衡点：总成本&#x3D;总收入，此时利润为0。</li></ol><h2 id="第二节-盈亏分析模型的基本结构"><a href="#第二节-盈亏分析模型的基本结构" class="headerlink" title="第二节 盈亏分析模型的基本结构"></a>第二节 盈亏分析模型的基本结构</h2><h3 id="2-1-产品成本结构"><a href="#2-1-产品成本结构" class="headerlink" title="2.1 产品成本结构"></a>2.1 产品成本结构</h3><p>工业产品的成本费用一般可分为：<strong>原材料费、燃料动力费、工资及附加费、废品损失费、车间经费和企业管理费</strong>六项。</p><ol><li>固定成本和可变成本：固定成本F和可变成本V，即C&#x3D;F+V.上述六项费用中前四项属于可变成本，后两项为固定成本。</li><li>建立成本结构：“计划性能法”的第一步是把固定成本F再分为两大类：预付成本Fc和计划成本Fp，即F&#x3D;Fc+Fp。可变费用V跟生产数量挂钩：V&#x3D;Q，V’为单位可变成本，Q为生产数量。</li></ol><p><strong>成本模型为：</strong>$\mathbf{C&#x3D;F+V&#x3D;F_{c}+F_{p}+V’Q}$</p><h3 id="2-2-产品销售结构"><a href="#2-2-产品销售结构" class="headerlink" title="2.2 产品销售结构"></a>2.2 产品销售结构</h3><p>总销售收入&#x3D;产品销售价格*销售数量 即 $I&#x3D;MQ$。</p><h2 id="第三节-线性盈亏分析模型及其应用示例"><a href="#第三节-线性盈亏分析模型及其应用示例" class="headerlink" title="第三节 线性盈亏分析模型及其应用示例"></a>第三节 线性盈亏分析模型及其应用示例</h2><p>线性盈亏分析模型是指变动费用和销售收入随产量（或销售量）增加而成比例地增加这种线性变化。</p><ol><li><p>基本公式※：S &#x3D; I - C ; C &#x3D; F+V &#x3D; F+V’Q ; I&#x3D;MQ<br>PS:若不特殊指明，我们在计算过程中默认生产数量 &#x3D; 销售数量。<br>上面三大基本公式联立推导得：<br>Q &#x3D; （F+S）&#x2F;(M-V’)<br>盈亏平衡时,$Q_{0}&#x3D;\frac{F}{(M-V’)}$<br>此时I &#x3D; MQ &#x3D; MF&#x2F;(M-V’)</p></li><li><p>边际收益：又称为边际贡献，指产品价格减去单位可变成本后的净值</p></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> 计算机相关课程 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 计算机科学与技术 </tag>
-            
-            <tag> 自考 </tag>
-            
-            <tag> 运筹学基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>运筹学基础-第九章-马尔科夫分析</title>
-      <link href="/onion.github.io/2024/10/a36e275f2baf.html"/>
-      <url>/onion.github.io/2024/10/a36e275f2baf.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="第九章-马尔科夫分析"><a href="#第九章-马尔科夫分析" class="headerlink" title="第九章 马尔科夫分析"></a>第九章 马尔科夫分析</h1><h2 id="第一节-马尔科夫分析的数学原理"><a href="#第一节-马尔科夫分析的数学原理" class="headerlink" title="第一节 马尔科夫分析的数学原理"></a>第一节 马尔科夫分析的数学原理</h2><p>在20世纪初（1907年）俄国数学家马尔科夫发现：<strong>在某些事物的概率转换过程中，第N次试验的结果，常常由第N-1次的试验救国所决定。</strong></p><h3 id="1-1-概率向量和概率矩阵"><a href="#1-1-概率向量和概率矩阵" class="headerlink" title="1.1 概率向量和概率矩阵"></a>1.1 概率向量和概率矩阵</h3><ol><li><strong>概率向量※：任意一个向量u&#x3D;(u1,u2,…,un),如果它内部的各个元素为非负数，且总和等于1，则称此向量为概率向量。</strong></li><li><strong>概率矩阵※：一方阵每一行都是概率向量，称为概率矩阵</strong></li><li>平衡概率矩阵（或固定概率矩阵）<img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B9%9D%E7%AB%A0-%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E5%88%86%E6%9E%90/image-20241023154203946.jpg"></li></ol><h3 id="1-2-马尔科夫过程"><a href="#1-2-马尔科夫过程" class="headerlink" title="1.2 马尔科夫过程"></a>1.2 马尔科夫过程</h3><p>马尔科夫过程是指一种情况转变到另一种情况的过程，这个过程具有以下特征：</p><ul><li><strong>转换概率</strong>：状态之间的转移具有一定的概率。</li><li><strong>无记忆性</strong>：未来状态的概率只依赖于当前状态，而与过去状态无关。</li></ul><h4 id="马尔科夫链"><a href="#马尔科夫链" class="headerlink" title="马尔科夫链"></a>马尔科夫链</h4><p><strong>一系列此类转换过程的整体</strong>称为马尔科夫链。马尔科夫链的研究通常包括<strong>状态转移的矩阵</strong>表示和<strong>长期行为的分析</strong>。</p><h4 id="马尔科夫分析"><a href="#马尔科夫分析" class="headerlink" title="马尔科夫分析"></a>马尔科夫分析</h4><p>马尔科夫分析是对马尔科夫过程或马尔科夫链的演变进行观察和预测，旨在了解和预测该过程的趋势及其稳定性。</p><h4 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h4><ul><li><strong>定义1</strong>：任意一个向量，如果它内部的各个元素为非负数，且总和等于1，则此向量称为<strong>概率向量</strong>。</li><li><strong>定义2</strong>：如果一个矩阵的每一行都是概率向量，则该矩阵称为<strong>概率矩阵</strong>。</li></ul><h4 id="定理"><a href="#定理" class="headerlink" title="定理"></a>定理</h4><ul><li><strong>定理1</strong>：如果 A 和 B 都是概率矩阵，则它们的乘积 AB 也是概率矩阵；同理， A 的 N 次方 AN 也是概率矩阵。</li><li><strong>定理2</strong>：在马尔科夫链中，若存在状态转移概率矩阵 PPP，则经过 nnn 步转移后的状态概率分布可表示为$π(n)&#x3D;π(0)Pn$ ,$π(0)$为初始状态概率向量。</li><li><strong>定理3</strong>：如果马尔科夫链是不可约且有周期性的，则其存在平稳分布，使得随着时间的推移，状态分布趋向于平稳分布。</li></ul><h2 id="第二节-马尔科夫分析问题的要求"><a href="#第二节-马尔科夫分析问题的要求" class="headerlink" title="第二节 马尔科夫分析问题的要求"></a>第二节 马尔科夫分析问题的要求</h2><h2 id="马尔可夫分析补充内容"><a href="#马尔可夫分析补充内容" class="headerlink" title="马尔可夫分析补充内容"></a>马尔可夫分析补充内容</h2><h3 id="1-马尔可夫过程的阶"><a href="#1-马尔可夫过程的阶" class="headerlink" title="1. 马尔可夫过程的阶"></a>1. 马尔可夫过程的阶</h3><ul><li><strong>一阶马尔可夫过程</strong>：在确定事件周期的选择概率时，仅考虑前一个周期的选择情况。这意味着当前状态的概率分布只依赖于直接前一个状态。</li><li><strong>二阶马尔可夫过程</strong>：在确定事件周期的选择概率时，考虑前两个周期的选择情况。当前状态的概率分布依赖于前两个状态，这为状态的预测提供了更多的信息。</li></ul><h3 id="2-转移概率"><a href="#2-转移概率" class="headerlink" title="2. 转移概率"></a>2. 转移概率</h3><p>转移概率是指某一销售者保持、获得或失去消费者的概率。它量化了在不同状态之间的变化可能性，是马尔可夫过程中的核心概念。</p><h3 id="3-转移概率矩阵"><a href="#3-转移概率矩阵" class="headerlink" title="3. 转移概率矩阵"></a>3. 转移概率矩阵</h3><p>转移概率矩阵是将转移概率按行和列排列成的矩阵。矩阵的每一行代表当前状态，每一列代表下一个状态，矩阵中的元素则表示从一个状态转移到另一个状态的概率。该矩阵的每一行的元素总和为1，确保每种状态的概率分布。</p><h3 id="4-未来市场份额的确定"><a href="#4-未来市场份额的确定" class="headerlink" title="4. 未来市场份额的确定"></a>4. 未来市场份额的确定</h3><p>设第一周期的市场份额为 T1​，转移概率矩阵为 P，则第二周期的市场份额可通过以下公式确定： $T2&#x3D;T1×P$ 以此类推，可以得出任意周期的市场份额： $Tn&#x3D;Tn−1×P$ 这个公式表明，通过转移概率矩阵 P，可以递推得到未来周期的市场份额，从而帮助分析市场动态。</p><p><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B9%9D%E7%AB%A0-%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E5%88%86%E6%9E%90/image-20241023154533717.jpg"><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B9%9D%E7%AB%A0-%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E5%88%86%E6%9E%90/image-20241023154541367.jpg"></p><h3 id="5-最终（平衡）市场份额的确定※※"><a href="#5-最终（平衡）市场份额的确定※※" class="headerlink" title="5.最终（平衡）市场份额的确定※※"></a>5.最终（平衡）市场份额的确定※※</h3><p>不同销售者在销售过程中的市场份额每个周期都在改变，若消费者的选择概率不变，那麽市场份额在经过一个较长时期的转换后会一直不变，我们称为最终（平衡）的市场份额。<br><strong>计算方法</strong>:最终平衡时，可推导出公式T&#x3D;TP，利用该公式列出线性方程组，在加上概率向量T本身的特点即非负且之和为1，解出未知数来。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B9%9D%E7%AB%A0-%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E5%88%86%E6%9E%90/image-20241023155109999.jpg"><br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B9%9D%E7%AB%A0-%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E5%88%86%E6%9E%90/image-20241023155118390.jpg"><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B9%9D%E7%AB%A0-%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E5%88%86%E6%9E%90/image-20241023155128633.jpg"></p><h2 id="第三节-马尔科夫分析在管理工作中的应用"><a href="#第三节-马尔科夫分析在管理工作中的应用" class="headerlink" title="第三节 马尔科夫分析在管理工作中的应用"></a>第三节 马尔科夫分析在管理工作中的应用</h2><p>马尔可夫分析在管理工作中具有广泛的应用，特别是在预测系统状态变化和决策支持方面。以下是几种常见的应用场景：</p><h3 id="1-市场份额分析"><a href="#1-市场份额分析" class="headerlink" title="1. 市场份额分析"></a>1. <strong>市场份额分析</strong></h3><p>在市场竞争中，企业的市场份额往往会随着时间而变化。马尔可夫分析可以通过历史数据，预测未来某一时刻不同公司之间的市场份额分布。</p><ul><li><p><strong>应用方法</strong>：通过构建转移概率矩阵，企业可以分析消费者在不同公司之间转移的概率。假设消费者可能在各个时期内从一家公司转换到另一家公司，转移概率矩阵可以帮助确定这些转移的概率。</p></li><li><p><strong>应用场景</strong>：例如，在手机市场中，消费者可能在某个时期更换品牌。使用马尔可夫分析，可以预测未来某一段时间内不同品牌的市场份额情况。</p></li></ul><h3 id="2-客户忠诚度与流失分析"><a href="#2-客户忠诚度与流失分析" class="headerlink" title="2. 客户忠诚度与流失分析"></a>2. <strong>客户忠诚度与流失分析</strong></h3><p>企业通常会面临客户流失问题，尤其是在竞争激烈的行业中。马尔可夫分析可用于分析客户的流失与留存率，并帮助企业设计提高客户忠诚度的策略。</p><ul><li><p><strong>应用方法</strong>：通过历史交易数据，企业可以建立客户状态转移矩阵，预测客户在未来某段时间内的转移行为。通过分析客户的转换趋势，可以有效预测客户的流失风险。</p></li><li><p><strong>应用场景</strong>：电信行业经常使用马尔可夫分析来研究用户是否会更换运营商，并在预测客户流失的基础上实施相应的客户维系策略。</p></li></ul><h3 id="3-人员流动与人力资源管理"><a href="#3-人员流动与人力资源管理" class="headerlink" title="3. 人员流动与人力资源管理"></a>3. <strong>人员流动与人力资源管理</strong></h3><p>在组织的人员管理中，马尔可夫分析可以帮助预测员工的职位变化和离职情况，支持人力资源部门制定更合理的招聘与留才计划。</p><ul><li><p><strong>应用方法</strong>：通过对员工在不同职位之间的转换行为进行建模，构建转移概率矩阵，预测未来员工的流动方向。可以分析员工从某个职位晋升、转岗、或者离职的概率。</p></li><li><p><strong>应用场景</strong>：例如，在教育行业中，可以使用马尔可夫分析预测教师的职称晋升率、转岗率或离职率，进而帮助教育机构更好地规划师资力量。</p></li></ul><h3 id="4-库存管理与供应链优化"><a href="#4-库存管理与供应链优化" class="headerlink" title="4. 库存管理与供应链优化"></a>4. <strong>库存管理与供应链优化</strong></h3><p>企业的库存管理通常涉及多个状态之间的转换，例如从仓库中的库存品转移到销售、损耗、过期等状态。马尔可夫分析可以帮助预测库存状态的变化，并据此优化库存水平和补货策略。</p><ul><li><p><strong>应用方法</strong>：通过建立不同库存状态之间的转移概率矩阵，可以预测未来某一时间段内库存的变化情况，从而更好地调整采购计划或仓储管理方案。</p></li><li><p><strong>应用场景</strong>：在零售行业，马尔可夫分析可以预测产品的库存周转周期，并帮助企业减少库存积压或短缺的风险。</p></li></ul><h3 id="5-产品生命周期管理"><a href="#5-产品生命周期管理" class="headerlink" title="5. 产品生命周期管理"></a>5. <strong>产品生命周期管理</strong></h3><p>产品在市场中的生命周期通常分为引入期、成长期、成熟期和衰退期等不同阶段。通过马尔可夫分析，企业可以分析产品在各个阶段之间的转换概率，从而更准确地预测产品的未来发展趋势。</p><ul><li><p><strong>应用方法</strong>：通过构建产品生命周期各阶段的转移概率矩阵，企业能够预测产品进入下一个生命周期阶段的时间点，优化产品策略（如促销、定价、研发投入等）。</p></li><li><p><strong>应用场景</strong>：在汽车行业，马尔可夫分析可以帮助预测某一车型的市场生命周期，帮助企业制定新车推出或旧车停产的最佳时间。</p></li></ul><h3 id="6-项目管理与风险评估"><a href="#6-项目管理与风险评估" class="headerlink" title="6. 项目管理与风险评估"></a>6. <strong>项目管理与风险评估</strong></h3><p>在项目管理中，项目可能处于不同的状态，如规划、执行、监控和收尾等。通过马尔可夫分析，项目经理可以预测项目在未来某个阶段可能处于的状态，并评估项目的风险。</p><ul><li><p><strong>应用方法</strong>：通过记录项目不同状态的历史数据，建立状态转移概率矩阵，预测项目的进展情况和完成概率。此外，还可以通过马尔可夫分析识别潜在的项目风险。</p></li><li><p><strong>应用场景</strong>：在大型工程项目中，马尔可夫分析可以帮助预测项目延误的概率，提供提前制定风险应对计划的依据。</p></li></ul><h3 id="7-设备维护与可靠性分析"><a href="#7-设备维护与可靠性分析" class="headerlink" title="7. 设备维护与可靠性分析"></a>7. <strong>设备维护与可靠性分析</strong></h3><p>在设备维护与管理中，设备的状态可能在正常、故障、维修等状态之间转换。马尔可夫分析可以用来分析设备的使用寿命、预测故障率，并优化设备维护计划。</p><ul><li><p><strong>应用方法</strong>：通过历史数据建立设备的状态转移矩阵，预测设备未来可能出现的故障概率和运行状态。基于这些预测，企业可以优化维护策略，减少故障发生的概率。</p></li><li><p><strong>应用场景</strong>：制造业常用马尔可夫分析来预测设备的故障率，并据此制定预防性维护计划，降低意外停机的风险。</p></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 计算机相关课程 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 计算机科学与技术 </tag>
-            
-            <tag> 自考 </tag>
-            
-            <tag> 运筹学基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>运筹学基础-第八章-图论方法</title>
-      <link href="/onion.github.io/2024/10/1bbc2db63cc4.html"/>
-      <url>/onion.github.io/2024/10/1bbc2db63cc4.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="第八章-图论方法"><a href="#第八章-图论方法" class="headerlink" title="第八章 图论方法"></a>第八章 图论方法</h1><h2 id="第一节-图的基本概念"><a href="#第一节-图的基本概念" class="headerlink" title="第一节 图的基本概念"></a>第一节 图的基本概念</h2><ol><li>图的基本要素：结点、边。</li><li>有向图：所有边都带方向。</li><li>无向图：所有边都没有方向。</li><li>连通图：所有结点都连接起来，没有孤立点的图。</li><li>不连通图：有孤立点的图。</li><li>权：赋给结点或边的信息。</li><li>回路（圈）：从一点出发，还能回到原点的一条路。</li></ol><h2 id="第二节-树和树的逐步生成法"><a href="#第二节-树和树的逐步生成法" class="headerlink" title="第二节 树和树的逐步生成法"></a>第二节 树和树的逐步生成法</h2><ol><li>树：连通且不含圈（回路）的图称为树。</li><li>树的边&#x3D;节点数-1。</li><li>普通图的点数和边数谁多谁少不确定。</li></ol><h2 id="第三节-最小枝杈树问题"><a href="#第三节-最小枝杈树问题" class="headerlink" title="第三节 最小枝杈树问题"></a>第三节 最小枝杈树问题</h2><ol><li>最小枝杈树问题是关于在一个网络中，从一个七点出发到所有点，找出一条或几条路线，以使在这样一些线路中所采用的全部支线的总长度是最小的。</li><li>常用方法：普莱姆法或克鲁斯喀尔法。</li><li>最小枝杈树问题主要应用于管道、电话线、电线、网线等线路铺设中。</li></ol><h4 id="克鲁斯喀尔法（避圈法）"><a href="#克鲁斯喀尔法（避圈法）" class="headerlink" title="克鲁斯喀尔法（避圈法）"></a>克鲁斯喀尔法（避圈法）</h4><ol><li>每次选择剩余边中长度最小的。</li><li>后选的边与已经选好的边不能构成回路，若构成则舍弃。</li><li>重复1、2。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AB%E7%AB%A0-%E5%9B%BE%E8%AE%BA%E6%96%B9%E6%B3%95/image-20241023151135556.jpg">答案：<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AB%E7%AB%A0-%E5%9B%BE%E8%AE%BA%E6%96%B9%E6%B3%95/image-20241023151237221.jpg"></li></ol><h2 id="第四节-最短路线问题"><a href="#第四节-最短路线问题" class="headerlink" title="第四节 最短路线问题"></a>第四节 最短路线问题</h2><p>最短路线问题为当通过网络的各边所需要的时间、距离或费用已知时，寻求两点间的距离最短或费用最少的路性问题。<br>采用方法为逆向推算法。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AB%E7%AB%A0-%E5%9B%BE%E8%AE%BA%E6%96%B9%E6%B3%95/image-20241023151401689.jpg"><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AB%E7%AB%A0-%E5%9B%BE%E8%AE%BA%E6%96%B9%E6%B3%95/image-20241023151512815.jpg"><br>PS：方块中的数字代表该点到终点的最短距离；方块上的文字表示从该点到终点最短路线的走法。</p><h2 id="第五节-最大流量问题"><a href="#第五节-最大流量问题" class="headerlink" title="第五节 最大流量问题"></a>第五节 最大流量问题</h2><p>最大流量问题，就是在一定条件下，要求流过网络的流量为最大的问题。</p><p>想象一个城市的水管网络，水从一个水源（源点）流向一个水池（汇点）。我们希望知道在这个网络中，水最多能流多少。</p><h3 id="增广路径"><a href="#增广路径" class="headerlink" title="增广路径"></a>增广路径</h3><p>在这个水管网络中，水可以通过不同的路径流动。每条路径上的水管都有一个最大流量限制，比如有的管子粗，有的管子细。我们称这条路径为<strong>增广路径</strong>。</p><h3 id="最小容量"><a href="#最小容量" class="headerlink" title="最小容量"></a>最小容量</h3><p>当我们找出一条增广路径时，路径上的每条管道都有一个“水流量上限”。在这条路径中，最细的水管（容量最小的管道）决定了可以通过这条路径额外流动多少水。这个最小容量就是<strong>瓶颈容量</strong>。</p><p>例如，如果我们有以下的水管网络：</p><ul><li>水源到水管A的容量是10升</li><li>水管A到水管B的容量是5升</li><li>水管B到水池的容量是15升</li></ul><p>在这条路径上，水最多只能通过5升，因为水管A到B是最细的，所以<strong>5升</strong>就是这条路径的最小容量。</p><h3 id="最大流量"><a href="#最大流量" class="headerlink" title="最大流量"></a>最大流量</h3><p>我们可以不断找到新的增广路径，并把它们的瓶颈容量加到流量中。最终，经过多次迭代，我们得到的总流量就是<strong>从水源到水池的最大流量</strong>。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 计算机相关课程 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 计算机科学与技术 </tag>
-            
-            <tag> 自考 </tag>
-            
-            <tag> 运筹学基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>管理</title>
       <link href="/onion.github.io/2024/10/20483eeeaebd.html"/>
       <url>/onion.github.io/2024/10/20483eeeaebd.html</url>
@@ -104,35 +17,6 @@
           
       </categories>
       
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>运筹学基础-第七章-网络计划技术</title>
-      <link href="/onion.github.io/2024/10/c3c991a0c383.html"/>
-      <url>/onion.github.io/2024/10/c3c991a0c383.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="第七章-网络计划技术"><a href="#第七章-网络计划技术" class="headerlink" title="第七章 网络计划技术"></a>第七章 网络计划技术</h1><p>网络计划技术是一种组织生产和进行计划管理的科学方法：也称为统筹法，是综合运用计划评核技术的关键路线法的一种比较先进的管理方法：计划评核技术，是对计划项目进行核算，评价。然后选定最优计划方案的一种技术。<br>关键路线法是在计划项目的各项错综复杂的工作中，抓住其中的关键路线进行计划安排的一种方法。<br>网络计划技术特别适合于大型的复杂的生产项目或工程项目。</p><h2 id="第一节-网络图"><a href="#第一节-网络图" class="headerlink" title="第一节 网络图"></a>第一节 网络图</h2><p>这个讲的不错：<a href="https://wiki.mbalib.com/wiki/%E7%BD%91%E7%BB%9C%E5%9B%BE">网络图 - MBA智库百科</a><br>网络图又叫箭头图或统筹图，是计划项目的各个组成部分内在逻辑关系的综合反映，是进行计划和计算的基础，是网络计划技术的基础。</p><h3 id="1-1-网络图的分布"><a href="#1-1-网络图的分布" class="headerlink" title="1.1 网络图的分布"></a>1.1 网络图的分布</h3><p><strong>箭线式网络图</strong>：以箭线代表活动（作业），以结点代表活动的开始和完成，需要引入虚活动，但布图清晰明朗，使用十分广泛。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B8%83%E7%AB%A0-%E7%BD%91%E7%BB%9C%E8%AE%A1%E5%88%92%E6%8A%80%E6%9C%AF/image-20241023100414086.jpg"><strong>节点式网络图</strong>：以节点代表活动，以箭线代表各种活动之间的先后承接关系，虽然不引入虚活动，但在复杂的网络图中，线条纵横交错，很复杂，使用较少。</p><h2 id="1-2-箭线式网络图的组成"><a href="#1-2-箭线式网络图的组成" class="headerlink" title="1.2 箭线式网络图的组成"></a>1.2 箭线式网络图的组成</h2><p>箭线式网络图由活动，节点和路线三部分组成。</p><h4 id="活动"><a href="#活动" class="headerlink" title="活动"></a>活动</h4><p>指作业或工序，用箭线表示，按箭线的方向在左侧写上活动的名称，右侧写上活动占用的时间。<br><strong>虚活动</strong>：不消耗资源，不占用时间。</p><p>两种情况要引入虚活动：</p><ol><li>先后两节点之间的工作过程只能代表一项活动，当两个或以上的活动具有相同的始点和终点时。</li><li>为了正确表示各个活动之间的承接关系，需要引入虚活动。</li></ol><h4 id="结点"><a href="#结点" class="headerlink" title="结点"></a>结点</h4><p>指事项。两个活动之间的交接点。说明一个活动的开始或完成，不占用时间，不消耗资源。<br>一个网络应该<strong>只有一个起始点和终点</strong>。除起始点和终点，其他结点都具有两重性，即对面前是终点，对后面是起始点。<br><strong>结点编号的原则是：箭尾结点小于箭头结点，而且一般采用非连续编号。<br>编号方法是：去点去线编号法。</strong></p><h4 id="线路"><a href="#线路" class="headerlink" title="线路"></a>线路</h4><p>从网络的始点开始，顺着箭线方向，中间经过相互连接的始点和箭线，到终点的一条联线。</p><p><strong>总作业时间最长的线路就是关键线路，或称为主要矛盾线。</strong> 决定了整个网络计划的完工时间。</p><p><strong>线路的总长度叫路长</strong>。</p><p>关键线路在图上用双线或红线标出。</p><h3 id="1-3-箭线式网络图的规则"><a href="#1-3-箭线式网络图的规则" class="headerlink" title="1. 3 箭线式网络图的规则"></a>1. 3 箭线式网络图的规则</h3><h4 id="任务分解"><a href="#任务分解" class="headerlink" title="任务分解"></a>任务分解</h4><p>把一个计划项目的总任务分解为一定数量的分任务，并确定他们之间的先后承接关系。<br><strong>分解的原则：</strong> 分工要清晰，职责要明确，防止分工过细，网络图过于繁琐，又要防止分工不清，互相扯皮现象。 具体来说：</p><ol><li>工作性质不同或由不同单位执行的工作应该分开。</li><li>同一单位进行的工作，工作时间先后不衔接的要分开。</li><li>占用时间，不消耗资源，但影响工程完工日期的都应作为分任务，列入网络图。</li></ol><h4 id="画网络图规则"><a href="#画网络图规则" class="headerlink" title="画网络图规则"></a>画网络图规则</h4><ol><li>网络图中不能出现循环线路，否则永远不能完工。</li><li>进入一个结点的箭线可以有多条，但相邻的两个结点之间只能有一条箭线。当需要表示多活动之间的关系时，需要增加节点（Node）和虚拟作业表示。<img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B8%83%E7%AB%A0-%E7%BD%91%E7%BB%9C%E8%AE%A1%E5%88%92%E6%8A%80%E6%9C%AF/image-20241023101342528.jpg"></li><li>在网络图中，除网络结点、终点外，其他各结点的前后都有箭线连接，即图中不能有缺口，使自网络始点起经由任何箭线都可以达到网络终点。否则，将使某些作业失去与其紧后（或紧前）作业应有的联系。</li><li>箭线的首尾必须有事件，不允许从一条箭线的中间引出另一条箭线。</li><li>为表示工程的开始和结束，在网络图中只能有一个始点和终点。当工程开始时有几个工序平行作业，或在几个工序结束后完工，用一个网络始点，一个网络终点表示。若这些工序不能用一个始点或终点表示，可用虚工序将他们与始点或终点连接。</li><li>网络图绘制力求简单明了，箭线图是最好画成水平线或具有一段水平线的折线；箭线尽量避免交叉；尽可能将关键线路布置在中心位置。</li></ol><h3 id="1-4-网络图作业之间的逻辑关系"><a href="#1-4-网络图作业之间的逻辑关系" class="headerlink" title="1.4 网络图作业之间的逻辑关系"></a>1.4 网络图作业之间的逻辑关系</h3><p>紧前作业、紧后作业和交叉作业。</p><ol><li>紧前作业：紧接该作业前面的作业。紧前作业不结束，该作业不开始。</li><li>紧后作业：紧接该作业之后的作业。该作业不结束，紧后作业不开始。</li><li>平等作业：能与该作业同时开始的作业。</li><li>交叉作业：能与该作业交替进行的作业。下图FG是C的交叉作业。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B8%83%E7%AB%A0-%E7%BD%91%E7%BB%9C%E8%AE%A1%E5%88%92%E6%8A%80%E6%9C%AF/image-20241023104807539.jpg"></li></ol><h3 id="1-5-网络图的绘制"><a href="#1-5-网络图的绘制" class="headerlink" title="1.5 网络图的绘制"></a>1.5 网络图的绘制</h3><h4 id="网络图的元素"><a href="#网络图的元素" class="headerlink" title="网络图的元素"></a>网络图的元素</h4><p>任何一项任务和工作都是由一些基本活动或工作组成的，它们之间有一定的先后顺序和逻辑。</p><ol><li>用带箭头的线”$\longrightarrow$”表示工作。</li><li>用节点“$\bigcirc$”表示两项工作的分界线。</li></ol><p>按工作的先后顺序和逻辑关系画成的工作关系图就是一张网络图。每一个节点称为“事项”，它表示一项工作的结束和另一项工作的开始，除了一个总的开始事项和总结束事项。在节点中可标上数字，以便注明哪项工作的结束和哪一项工作的开始。<br>图一表示某一项工程由10项工作组成，共有10个结点，第$①$节点表示项目开始，第$⑩$节点表示结束。<img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B8%83%E7%AB%A0-%E7%BD%91%E7%BB%9C%E8%AE%A1%E5%88%92%E6%8A%80%E6%9C%AF/image-20241023110917381.jpg"></p><h2 id="第二节-网络时间的计算"><a href="#第二节-网络时间的计算" class="headerlink" title="第二节 网络时间的计算"></a>第二节 网络时间的计算</h2><p><strong>网络事件的计算有图上法，表格计算法，矩阵计算法。</strong> 后两者适用于计算机进行计算。</p><h3 id="2-1-作业时间"><a href="#2-1-作业时间" class="headerlink" title="2.1 作业时间"></a>2.1 作业时间</h3><ul><li><p><strong>单一时间估计法</strong>：</p><ul><li>该方法采用单一的时间估计值来表示每个任务的完成时间。通常基于历史数据或专家经验来确定。虽然方法简单，但在面对不确定性时可能不够准确，适用于任务时间相对稳定且可预测的情况。</li></ul></li><li><p><strong>三种时间估计法</strong>：</p><ul><li><p><strong>乐观时间（O）</strong>：在理想情况下完成任务所需的最短时间。</p></li><li><p><strong>悲观时间（P）</strong>：在最坏情况下完成任务所需的最长时间。</p></li><li><p><strong>最可能时间（M）</strong>：在正常情况下完成任务所需的时间。</p></li><li><p><strong>计算公式</strong>：</p><p>  期望时间: $\text{期望时间} (TE) &#x3D; \frac{O + 4M + P}{6}$</p></li><li><p>这种方法通过综合考虑乐观、悲观和最可能的时间估计，能够提供更为准确的任务时间评估，适合于不确定性较高的项目管理。</p></li></ul></li></ul><h3 id="2-2-结点时间"><a href="#2-2-结点时间" class="headerlink" title="2.2 结点时间"></a>2.2 结点时间</h3><ol><li>结点的最早开始（完成）时间：从起始点开始算，取相加的最大值。$最早开始时间(ES)&#x3D;max(前驱结点的最早完成时间+作业时间)$</li><li>结点的最迟完成时间：从终点开始算，取相减的最小值。$最迟完成时间(LF)&#x3D;min(后继结点的最迟开始时间−作业时间)$</li></ol><h2 id="第三节-时差和关键线路"><a href="#第三节-时差和关键线路" class="headerlink" title="第三节 时差和关键线路"></a>第三节 时差和关键线路</h2><p><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B8%83%E7%AB%A0-%E7%BD%91%E7%BB%9C%E8%AE%A1%E5%88%92%E6%8A%80%E6%9C%AF/image-20241023113334308.jpg"><br>ESi：结点的最早开始时间<br>EFi：结点的最早完成时间<br>LSi：结点的最迟开始时间<br>LFi：结点的最迟完成时间<br>ESij：活动的最早开始时间<br>EFij：活动的最早完成时间<br>LSij：活动的最迟开始时间<br>LFij：活动的最迟完成时间<br>Tij：作业时间</p><h3 id="3-1-结点时差"><a href="#3-1-结点时差" class="headerlink" title="3.1 结点时差"></a>3.1 结点时差</h3><p>$S_{i} &#x3D; LF_{i}-ES_{i}$<br>结点时差为0的结点叫做关键结点。</p><h3 id="3-2-结点时差"><a href="#3-2-结点时差" class="headerlink" title="3.2 结点时差"></a>3.2 结点时差</h3><p>总时差：$S_{ij总} &#x3D; LF_{ij}-T_{ij}-ES_{ij}$<br>专用时差：$S_{ij专} &#x3D; EF_{ij}-$</p><h2 id="第四节-最优方案的选择"><a href="#第四节-最优方案的选择" class="headerlink" title="第四节 最优方案的选择"></a>第四节 最优方案的选择</h2><p>优化：所谓优化，就是要制定除最优的计划方案，即计划方案能最合理地、最有效地利用人力、物力、财力，达到周期最短，成本最低的目的。<br>网络计划优化的内容主要有：</p><ol><li>时间优化：在人力物力财力等基本上有保证的条件下，寻求最短的工程周期。</li><li>时间与资源优化：合理利用资源的条件下，寻求最短的工程周期。</li><li>时间与成本优化：<ol><li>在保证工期最短的情况下，寻求成本较低的方案；</li><li>在成本较低的情况下，寻求合理的工程周期。<br> $直接费用增长率 &#x3D; （极限费用 - 正常费用）&#x2F;（正常时间-极限时间）$</li></ol></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> 计算机相关课程 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 计算机科学与技术 </tag>
-            
-            <tag> 自考 </tag>
-            
-            <tag> 运筹学基础 </tag>
-            
-        </tags>
       
     </entry>
     
@@ -260,9 +144,9 @@
             
             <tag> 计算机科学与技术 </tag>
             
-            <tag> 计算机系统结构 </tag>
-            
             <tag> 自考 </tag>
+            
+            <tag> 计算机系统结构 </tag>
             
         </tags>
       
@@ -289,9 +173,9 @@
             
             <tag> 计算机科学与技术 </tag>
             
-            <tag> 计算机系统结构 </tag>
-            
             <tag> 自考 </tag>
+            
+            <tag> 计算机系统结构 </tag>
             
         </tags>
       
@@ -318,9 +202,9 @@
             
             <tag> 计算机科学与技术 </tag>
             
-            <tag> 计算机系统结构 </tag>
-            
             <tag> 自考 </tag>
+            
+            <tag> 计算机系统结构 </tag>
             
         </tags>
       
@@ -347,9 +231,9 @@
             
             <tag> 计算机科学与技术 </tag>
             
-            <tag> 计算机系统结构 </tag>
-            
             <tag> 自考 </tag>
+            
+            <tag> 计算机系统结构 </tag>
             
         </tags>
       
@@ -376,9 +260,9 @@
             
             <tag> 计算机科学与技术 </tag>
             
-            <tag> 计算机系统结构 </tag>
-            
             <tag> 自考 </tag>
+            
+            <tag> 计算机系统结构 </tag>
             
         </tags>
       
@@ -405,9 +289,9 @@
             
             <tag> 计算机科学与技术 </tag>
             
-            <tag> 计算机系统结构 </tag>
-            
             <tag> 自考 </tag>
+            
+            <tag> 计算机系统结构 </tag>
             
         </tags>
       
@@ -454,38 +338,11 @@
     
     
     <entry>
-      <title>计算机系统结构笔记-第一章-概论</title>
-      <link href="/onion.github.io/2024/10/045e075346e7.html"/>
-      <url>/onion.github.io/2024/10/045e075346e7.html</url>
+      <title>计算机学习资源汇总</title>
+      <link href="/onion.github.io/2024/10/e9a6492c3564.html"/>
+      <url>/onion.github.io/2024/10/e9a6492c3564.html</url>
       
-        <content type="html"><![CDATA[<h1 id="第一章-概论"><a href="#第一章-概论" class="headerlink" title="第一章 概论"></a>第一章 概论</h1><h2 id="第一节-计算机系统的层次结构"><a href="#第一节-计算机系统的层次结构" class="headerlink" title="第一节 计算机系统的层次结构"></a>第一节 计算机系统的层次结构</h2><h3 id="1-1计算机系统组成"><a href="#1-1计算机系统组成" class="headerlink" title="1.1计算机系统组成"></a>1.1计算机系统组成</h3><p>计算机系统 &#x3D; <strong>硬件&#x2F;固件+软件</strong></p><h3 id="1-2计算机语言的发展"><a href="#1-2计算机语言的发展" class="headerlink" title="1.2计算机语言的发展"></a>1.2计算机语言的发展</h3><p>计算机语言从低级到高级发展，高级语言的语句相较于低级语言功能更强，使用更方便，但都以低级语言为基础(更快)，以实现更高的执行效率。</p><h3 id="1-3层次结构"><a href="#1-3层次结构" class="headerlink" title="1.3层次结构"></a>1.3层次结构</h3><p>计算机语言的层次结构由高到低依次为：</p><ul><li><strong>应用语言机器级 M5</strong>：python、R等</li><li><strong>高级语言机器级 M4</strong>：接近机器一点</li><li><strong>汇编语言机器级 M3</strong>：特定计算机架构使用</li><li><strong>OS 机器级 M2</strong>：操作系统</li><li><strong>传统语言机器级 M1</strong>：早期</li><li><strong>微程序语言机器级 M0</strong>：实现指令集架构</li></ul><h3 id="1-4虚拟机"><a href="#1-4虚拟机" class="headerlink" title="1.4虚拟机"></a>1.4虚拟机</h3><p>虚拟机是由<strong>软件</strong>实现的机器。</p><h3 id="1-5语言实现的技术"><a href="#1-5语言实现的技术" class="headerlink" title="1.5语言实现的技术"></a>1.5语言实现的技术</h3><p>语言实现主要有两种技术：</p><ol><li><strong>翻译</strong>：将 N+1 级语言全部转化为 N 级语言后再执行，执行过程中 N+1 级语言不再访问。</li><li><strong>解释</strong>：每当一条 N+1 级指令被译码后，直接执行等效的 N 级指令，然后继续下一条 N+1 级指令，重复执行过程。</li></ol><h2 id="第二节-计算机系统结构、计算机组成和计算机实现"><a href="#第二节-计算机系统结构、计算机组成和计算机实现" class="headerlink" title="第二节 计算机系统结构、计算机组成和计算机实现"></a>第二节 计算机系统结构、计算机组成和计算机实现</h2><h3 id="2-1计算机系统结构的定义与内涵"><a href="#2-1计算机系统结构的定义与内涵" class="headerlink" title="2.1计算机系统结构的定义与内涵"></a>2.1计算机系统结构的定义与内涵</h3><p>定义：计算机系统结构是<strong>软件和硬件&#x2F;固件的交界面</strong>，即机器语言程序员看到的机器物理系统的抽象（简化概念）。</p><p>实质：确定计算机系统中软、硬件的界面，界面之上是硬件和软件实现的功能，界面之下是与硬件和固件实现的功能。</p><p>透明性：在计算机技术中，把这种百年来存在的事物或属性从某个角度看不到，则称之为对它透明。</p><h3 id="2-2计算机组成与计算机实现的定义与内涵"><a href="#2-2计算机组成与计算机实现的定义与内涵" class="headerlink" title="2.2计算机组成与计算机实现的定义与内涵"></a>2.2计算机组成与计算机实现的定义与内涵</h3><ul><li><p><strong>计算机组成定义</strong>：<br>  指计算机系统结构的逻辑实现，包括：</p><ul><li>机器级内部的数据流和控制流的组成。</li><li>逻辑设计等方面。</li></ul></li><li><p><strong>计算机实现定义</strong>：<br>  指计算机组成的物理实现，包括：</p><ul><li>处理机、主存等部件的物理结构。</li><li>器件的继承度和速度。</li><li>器件、模块的划分与连接。</li><li>专用器件的设计。</li></ul></li></ul><h3 id="2-3计算机系统结构、组成和实现的相互关系和影响"><a href="#2-3计算机系统结构、组成和实现的相互关系和影响" class="headerlink" title="2.3计算机系统结构、组成和实现的相互关系和影响"></a>2.3计算机系统结构、组成和实现的相互关系和影响</h3><ol><li>相同系统结构，可以有不同的组成；</li><li>一个组成可以有多种不同的实现方法；</li><li>采用不同的系统结构会使可以采用的组成技术产生差异；</li><li>组成也会影响结构；</li></ol><h2 id="第三节-计算机系统的软、硬件取舍及定量设计原理"><a href="#第三节-计算机系统的软、硬件取舍及定量设计原理" class="headerlink" title="第三节 计算机系统的软、硬件取舍及定量设计原理"></a>第三节 计算机系统的软、硬件取舍及定量设计原理</h2><h3 id="3-1-软硬件取舍的基本原则"><a href="#3-1-软硬件取舍的基本原则" class="headerlink" title="3.1 软硬件取舍的基本原则"></a>3.1 软硬件取舍的基本原则</h3><ol><li><p><strong>性能与成本权衡</strong>：</p><ul><li>提高硬件功能比例可提升解题速度，减少程序所需存储空间，但会增加硬件成本，并降低硬件利用率和系统灵活性。</li><li>提高软件比例可降低硬件成本，增强系统灵活性和适应性，但可能导致解题速度下降，并增加软件设计复杂性和存储需求。</li></ul></li><li><p><strong>性价比优化</strong>：</p><ul><li>从实现费用、速度和其他性能要求综合考虑，确保获取高性价比的解决方案。</li></ul></li><li><p><strong>技术选择的灵活性</strong>：</p><ul><li>考虑到当前和未来可能采用的组成技术，避免过多或不合理的限制，以促进各种技术的灵活应用。</li></ul></li><li><p><strong>综合考虑软硬件支持</strong>：</p><ul><li>不仅要从硬件角度考虑如何便利应用组成技术，还应关注如何为编译器、操作系统及高级语言程序设计提供更好的硬件支持。</li></ul></li></ol><h3 id="3-2-计算机系统的定量设计原理"><a href="#3-2-计算机系统的定量设计原理" class="headerlink" title="3.2 计算机系统的定量设计原理"></a>3.2 计算机系统的定量设计原理</h3><ol><li><p><strong>Huffman原理</strong>：</p><ul><li>优先加速处理高频率事件的性能提升，效果显著，远胜于加速处理低概率事件。</li></ul></li><li><p><strong>Amdahl定律</strong>：</p><ul><li><strong>思想</strong>：加速某个部件的执行速度所能获得的系统性能提升，受限于该部件在总执行时间中所占的比例。</li><li><strong>加速比公式</strong>：Sp &#x3D; Told&#x2F;Tnew &#x3D; 1&#x2F;((1-Fnew) + 可改进比 Fnew&#x2F;部件加速比Rnew)</li><li><strong>原理</strong>：定义系统性能的加速比，确定对系统中性能瓶颈部件，计算改进某些部件所获得的性能提高。</li></ul></li><li><p>程序访问的局部性定律</p><ol><li>空间局部性：循环语句；变量，数据；</li><li>时间局部性：顺序语句：</li></ol></li></ol><h3 id="3-3-计算机系统设计的主要任务和方法"><a href="#3-3-计算机系统设计的主要任务和方法" class="headerlink" title="3.3 计算机系统设计的主要任务和方法"></a>3.3 计算机系统设计的主要任务和方法</h3><ol><li>计算机系统设计的主要方法</li><li>计算机系统的设计方法</li></ol><h2 id="第四节-软件、应用、器件的发展对系统结构的影响"><a href="#第四节-软件、应用、器件的发展对系统结构的影响" class="headerlink" title="第四节 软件、应用、器件的发展对系统结构的影响"></a>第四节 软件、应用、器件的发展对系统结构的影响</h2><h3 id="4-1-软件发展对系统结构的影响"><a href="#4-1-软件发展对系统结构的影响" class="headerlink" title="4.1 软件发展对系统结构的影响"></a>4.1 软件发展对系统结构的影响</h3><h4 id="软件的可移植性"><a href="#软件的可移植性" class="headerlink" title="软件的可移植性"></a>软件的可移植性</h4><ul><li><strong>定义</strong>：可移植性指一个软件能够在不同计算机上运行，而无需进行大量修改，允许同一软件在多种环境中应用。</li></ul><h4 id="实现软件移植的技术"><a href="#实现软件移植的技术" class="headerlink" title="实现软件移植的技术"></a>实现软件移植的技术</h4><ol><li><p><strong>统一高级语言</strong>：</p><ul><li>设计一种通用的高级语言，使程序员能够在不同计算机之间进行软件设计。这种技术适用于结构相同或完全不同的机器。</li></ul></li><li><p><strong>采用系列机</strong>：</p><ul><li>使用由同一厂家生产、具有相似系统结构的不同型号机器。这种技术仅适用于结构相似的机器之间的汇编程序移植。</li></ul></li><li><p><strong>模拟和仿真</strong>：</p><ul><li><strong>模拟</strong>：<ul><li><strong>概念</strong>：使用机器语言程序来实现软件移植。</li><li><strong>特点</strong>：运行速度较慢，性能较差。</li></ul></li><li><strong>仿真</strong>：<ul><li><strong>概念</strong>：用微程序直接解释另一种机器的指令系统。</li><li><strong>特点</strong>：除了仿真目标机器的指令系统，还需仿真其存储体系、I&#x2F;O系统和控制台操作。</li></ul></li></ul></li></ol><h4 id="模拟与仿真的区别"><a href="#模拟与仿真的区别" class="headerlink" title="模拟与仿真的区别"></a>模拟与仿真的区别</h4><ul><li><strong>解释语言</strong>：<ul><li><strong>仿真</strong>：使用微程序解释，解释程序存储在控制存储器中。</li><li><strong>模拟</strong>：使用机器语言解释，解释程序存储在主存中。</li></ul></li></ul><h4 id="模拟与仿真的选择"><a href="#模拟与仿真的选择" class="headerlink" title="模拟与仿真的选择"></a>模拟与仿真的选择</h4><ul><li>在不同系列间的软件移植中，通常需要同时使用仿真与模拟。</li><li><strong>仿真</strong>：适用于频繁使用的机器指令，以提高速度。</li><li><strong>模拟</strong>：适用于不常用或难以仿真的指令及I&#x2F;O操作。即使两种机器系统差别不大，通常也需要模拟来完成机器间的映像。</li></ul><h3 id="4-2-应用的发展对系统结构的影响"><a href="#4-2-应用的发展对系统结构的影响" class="headerlink" title="4.2 应用的发展对系统结构的影响"></a>4.2 应用的发展对系统结构的影响</h3><p>计算机应用可归纳为向上升级的四类：数据处理、信息处理、知识处理、智能处理。</p><ol><li>数据处理<br>定义：对原始数据进行收集、存储、整理和简单计算的过程。<br>例子：电子表格、数据库管理、基本的统计分析。</li><li>信息处理<br>定义：在数据处理的基础上，对数据进行分析和解释，以生成有意义的信息。<br>例子：报告生成、数据可视化、信息检索系统。</li><li>知识处理<br>定义：基于信息处理，将信息进行进一步分析、推理和决策，以生成知识。<br>例子：专家系统、决策支持系统、知识管理系统。</li><li>智能处理<br>定义：利用人工智能技术，使计算机能够进行自主学习、推理和决策，从而实现更复杂的任务。<br>例子：机器学习、自然语言处理、智能助手（如虚拟助手和聊天机器人）。</li></ol><h3 id="4-3-器件发展对系统结构的影响"><a href="#4-3-器件发展对系统结构的影响" class="headerlink" title="4.3 器件发展对系统结构的影响"></a>4.3 器件发展对系统结构的影响</h3><ol><li>改变了逻辑设计的传统方法；</li><li>随着时间呈指数地改进，使计算机的性价比有了显著提高；</li><li>加速了结构的”下移“；</li><li>促进了算法、语言和软件的发展。</li></ol><h2 id="第五节-系统结构中的并行性开发及计算机系统的分类"><a href="#第五节-系统结构中的并行性开发及计算机系统的分类" class="headerlink" title="第五节 系统结构中的并行性开发及计算机系统的分类"></a>第五节 系统结构中的并行性开发及计算机系统的分类</h2><h3 id="5-1-并行性的概念和开发"><a href="#5-1-并行性的概念和开发" class="headerlink" title="5.1 并行性的概念和开发"></a>5.1 并行性的概念和开发</h3><h4 id="并行性的含义与级别"><a href="#并行性的含义与级别" class="headerlink" title="并行性的含义与级别"></a>并行性的含义与级别</h4><ul><li><strong>定义</strong>：并行性是指可以同时进行运算或操作的特性，涵盖了同时性和并发性两种含义。<ul><li><strong>同时性</strong>：指两个或多个事件在同一时刻发生。</li><li><strong>并发性</strong>：指两个或多个事件在同一时间间隔内发生，但不一定同时。</li></ul></li></ul><h4 id="并行性的不同等级"><a href="#并行性的不同等级" class="headerlink" title="并行性的不同等级"></a>并行性的不同等级</h4><ol><li><p><strong>从计算机系统执行程序的角度</strong>：</p><ul><li><strong>指令内部</strong>：在一条指令中同时进行多个操作。</li><li><strong>指令之间</strong>：不同指令的并行执行。</li><li><strong>任务或进程之间</strong>：多个任务或进程可以同时进行。</li><li><strong>作用或程序之间</strong>：不同程序或模块的并行运行。</li></ul></li><li><p><strong>从计算机系统处理数据的角度</strong>：</p><ul><li><strong>位串字串</strong>：处理位串和字串的并行。</li><li><strong>位并字串</strong>：位与字串的并行处理。</li><li><strong>位片串字并</strong>：位片和字串的并行。</li><li><strong>全并行</strong>：所有数据操作同时进行的状态。</li></ul></li><li><p><strong>从计算机信息加工的各个步骤和阶段的角度</strong>：</p><ul><li><strong>存储器操作并行</strong>：存储器中的多个操作可以同时进行。</li><li><strong>处理器操作步骤并行</strong>：处理器执行不同步骤时的并行。</li><li><strong>处理器操作并行</strong>：处理器中多个操作的并行执行。</li><li><strong>指令、任务、作业并行</strong>：不同级别的指令、任务和作业可并行执行。</li></ul></li></ol><h4 id="并行性开发的途径"><a href="#并行性开发的途径" class="headerlink" title="并行性开发的途径"></a>并行性开发的途径</h4><ol><li><p><strong>时间重叠</strong>：<br> 让多个处理过程在时间上相互错开，轮流重叠地使用同一套硬件设备的各个部分，提升速度。例如，流水线技术。</p></li><li><p><strong>资源重复</strong>：<br> 通过重复设置硬件资源来提高可靠性或性能。例如，多CPU、多核和多内存的配置。</p></li><li><p><strong>资源共享</strong>：<br> 采用软件方法，让多个用户按一定时间顺序轮流使用同一套资源，从而提高资源利用率和系统性能。例如，分时调度。</p></li></ol><h4 id="计算机系统的并行性发展"><a href="#计算机系统的并行性发展" class="headerlink" title="计算机系统的并行性发展"></a>计算机系统的并行性发展</h4><ul><li><strong>多机系统的耦合度</strong>：<br>  耦合度反映多机系统中各机器之间物理连接的紧密程度和交叉作用能力的强弱。这是评估并行性和系统性能的重要指标。</li></ul><h3 id="5-2-计算机系统的分类"><a href="#5-2-计算机系统的分类" class="headerlink" title="5.2 计算机系统的分类"></a>5.2 计算机系统的分类</h3><p><strong>Flynn分类法：</strong><br>单指令流单数据流SISD；<br>单指令流多数据流SIMD；<br>多指令流单数据流MISD；<br>多指令流多数据流MIMD。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 计算机相关课程 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 计算机科学与技术 </tag>
-            
-            <tag> 计算机系统结构 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>计算机课程资源汇总</title>
-      <link href="/onion.github.io/2024/10/68da4b2181f9.html"/>
-      <url>/onion.github.io/2024/10/68da4b2181f9.html</url>
-      
-        <content type="html"><![CDATA[<blockquote><p>英语、计算机、数学，无论将来做什么都是有用的。<br>——沃巴</p></blockquote><p>英语是学不会了，没有点这个天赋，但是计算机和数学可以学一点，为了督促自己学习计算机，报名了计算机网络技术的成人自考，以为会好好学，现在成了临阵磨枪，60分万岁了qwq</p><h1 id="课程"><a href="#课程" class="headerlink" title="课程"></a>课程</h1><h2 id="计算机系统结构"><a href="#计算机系统结构" class="headerlink" title="计算机系统结构"></a>计算机系统结构</h2><p><a href="https://blog.csdn.net/weixin_43605641/article/details/124428484">02325《计算机系统结构》自考复习重点目录_02325填空题简答题考点-CSDN博客</a><br><a href="https://blog.csdn.net/meiaoxue1234/article/details/136080117">计算机系统结构-考试知识点总结_自考计算机系统结构知识点!-CSDN博客</a><br>名词解释：<a href="https://abg.baidu.com/ndoffview/83b447272f60ddccda38a0ec">自考02325计算机系统结构–复习资料大全 - 百度爱伴功 (baidu.com)</a><br>章节:<a href="https://abg.baidu.com/view/5a655ae9998fcc22bcd10d4f">自考02325计算机系统结构考点笔记 - 百度爱伴功 (baidu.com)</a></p><h2 id="运筹学基础"><a href="#运筹学基础" class="headerlink" title="运筹学基础"></a>运筹学基础</h2><p>知识点，没分章节：<a href="https://abg.baidu.com/view/4273004be45c3b3567ec8b1b?fr=search-income-top3page">运筹学基础自考 精心整理 - 百度爱伴功</a><br>章节知识点：<a href="https://abg.baidu.com/view/bc15e3d080eb6294dd886c0e?fr=search-income-top3page">自考运筹学基础学习笔记 修改版本 - 百度爱伴功</a><br>往年试题：<a href="https://github.com/Eished/self-study-exam_notes/blob/master/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80%2002375.md">self-study-exam_notes&#x2F;运筹学基础 02375.md at master · Eished&#x2F;self-study-exam_notes</a></p><h1 id="计算机其他相关资源"><a href="#计算机其他相关资源" class="headerlink" title="计算机其他相关资源"></a>计算机其他相关资源</h1><p><a href="http://www.heycode.com/">编程日记 (heycode.com)</a></p><h1 id="markdown笔记写作"><a href="#markdown笔记写作" class="headerlink" title="markdown笔记写作"></a>markdown笔记写作</h1><p><a href="https://www.latexlive.com/help">在线LaTeX公式编辑器-帮助文档</a></p>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>英语、计算机、数学，无论将来做什么都是有用的。<br>——沃巴</p></blockquote><p>英语是学不会了，没有点这个天赋，但是计算机和数学可以学一点，为了督促自己学习计算机，报名了计算机网络技术的成人自考，以为会好好学，现在成了临阵磨枪，60分万岁了qwq</p><h1 id="课程"><a href="#课程" class="headerlink" title="课程"></a>课程</h1><h2 id="计算机系统结构"><a href="#计算机系统结构" class="headerlink" title="计算机系统结构"></a>计算机系统结构</h2><p>github_book※※※※※:<a href="https://foxsen.github.io/archbase/%E6%80%BB%E7%BB%93.html">总结 | 计算机体系结构基础</a><br>好书啊，好书！！！怎么不早看到！！！</p><p><a href="https://blog.csdn.net/weixin_43605641/article/details/124428484">02325《计算机系统结构》自考复习重点目录_02325填空题简答题考点-CSDN博客</a><br><a href="https://blog.csdn.net/meiaoxue1234/article/details/136080117">计算机系统结构-考试知识点总结_自考计算机系统结构知识点!-CSDN博客</a><br>名词解释：<a href="https://abg.baidu.com/ndoffview/83b447272f60ddccda38a0ec">自考02325计算机系统结构–复习资料大全 - 百度爱伴功 (baidu.com)</a><br>章节:<a href="https://abg.baidu.com/view/5a655ae9998fcc22bcd10d4f">自考02325计算机系统结构考点笔记 - 百度爱伴功 (baidu.com)</a></p><h2 id="运筹学基础"><a href="#运筹学基础" class="headerlink" title="运筹学基础"></a>运筹学基础</h2><p>知识点，没分章节：<a href="https://abg.baidu.com/view/4273004be45c3b3567ec8b1b?fr=search-income-top3page">运筹学基础自考 精心整理 - 百度爱伴功</a><br>章节知识点：<a href="https://abg.baidu.com/view/bc15e3d080eb6294dd886c0e?fr=search-income-top3page">自考运筹学基础学习笔记 修改版本 - 百度爱伴功</a><br>往年试题：<a href="https://github.com/Eished/self-study-exam_notes/blob/master/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80%2002375.md">self-study-exam_notes&#x2F;运筹学基础 02375.md at master · Eished&#x2F;self-study-exam_notes</a></p><h1 id="计算机其他相关资源"><a href="#计算机其他相关资源" class="headerlink" title="计算机其他相关资源"></a>计算机其他相关资源</h1><p><a href="http://www.heycode.com/">编程日记 (heycode.com)</a></p><h1 id="markdown笔记写作"><a href="#markdown笔记写作" class="headerlink" title="markdown笔记写作"></a>markdown笔记写作</h1><p><a href="https://www.latexlive.com/help">在线LaTeX公式编辑器-帮助文档</a></p>]]></content>
       
       
       <categories>
@@ -655,6 +512,35 @@
     
     
     <entry>
+      <title>计算机系统结构笔记-第一章-概论</title>
+      <link href="/onion.github.io/2024/10/35132f9d9e3b.html"/>
+      <url>/onion.github.io/2024/10/35132f9d9e3b.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="第一章-概论"><a href="#第一章-概论" class="headerlink" title="第一章 概论"></a>第一章 概论</h1><h2 id="第一节-计算机系统的层次结构"><a href="#第一节-计算机系统的层次结构" class="headerlink" title="第一节 计算机系统的层次结构"></a>第一节 计算机系统的层次结构</h2><h3 id="1-1计算机系统组成"><a href="#1-1计算机系统组成" class="headerlink" title="1.1计算机系统组成"></a>1.1计算机系统组成</h3><p>计算机系统 &#x3D; <strong>硬件&#x2F;固件+软件</strong></p><h3 id="1-2计算机语言的发展"><a href="#1-2计算机语言的发展" class="headerlink" title="1.2计算机语言的发展"></a>1.2计算机语言的发展</h3><p>计算机语言从低级到高级发展，高级语言的语句相较于低级语言功能更强，使用更方便，但都以低级语言为基础(更快)，以实现更高的执行效率。</p><h3 id="1-3层次结构"><a href="#1-3层次结构" class="headerlink" title="1.3层次结构"></a>1.3层次结构</h3><p>计算机语言的层次结构由高到低依次为：</p><ul><li><strong>应用语言机器级 M5</strong>：python、R等</li><li><strong>高级语言机器级 M4</strong>：接近机器一点</li><li><strong>汇编语言机器级 M3</strong>：特定计算机架构使用</li><li><strong>OS 机器级 M2</strong>：操作系统</li><li><strong>传统语言机器级 M1</strong>：早期</li><li><strong>微程序语言机器级 M0</strong>：实现指令集架构</li></ul><h3 id="1-4虚拟机"><a href="#1-4虚拟机" class="headerlink" title="1.4虚拟机"></a>1.4虚拟机</h3><p>虚拟机是由<strong>软件</strong>实现的机器。</p><h3 id="1-5语言实现的技术"><a href="#1-5语言实现的技术" class="headerlink" title="1.5语言实现的技术"></a>1.5语言实现的技术</h3><p>语言实现主要有两种技术：</p><ol><li><strong>翻译</strong>：将 N+1 级语言全部转化为 N 级语言后再执行，执行过程中 N+1 级语言不再访问。</li><li><strong>解释</strong>：每当一条 N+1 级指令被译码后，直接执行等效的 N 级指令，然后继续下一条 N+1 级指令，重复执行过程。</li></ol><h2 id="第二节-计算机系统结构、计算机组成和计算机实现"><a href="#第二节-计算机系统结构、计算机组成和计算机实现" class="headerlink" title="第二节 计算机系统结构、计算机组成和计算机实现"></a>第二节 计算机系统结构、计算机组成和计算机实现</h2><h3 id="2-1计算机系统结构的定义与内涵"><a href="#2-1计算机系统结构的定义与内涵" class="headerlink" title="2.1计算机系统结构的定义与内涵"></a>2.1计算机系统结构的定义与内涵</h3><p>定义：计算机系统结构是<strong>软件和硬件&#x2F;固件的交界面</strong>，即机器语言程序员看到的机器物理系统的抽象（简化概念）。</p><p>实质：确定计算机系统中软、硬件的界面，界面之上是硬件和软件实现的功能，界面之下是与硬件和固件实现的功能。</p><p>透明性：在计算机技术中，把这种百年来存在的事物或属性从某个角度看不到，则称之为对它透明。</p><h3 id="2-2计算机组成与计算机实现的定义与内涵"><a href="#2-2计算机组成与计算机实现的定义与内涵" class="headerlink" title="2.2计算机组成与计算机实现的定义与内涵"></a>2.2计算机组成与计算机实现的定义与内涵</h3><ul><li><p><strong>计算机组成定义</strong>：<br>  指计算机系统结构的逻辑实现，包括：</p><ul><li>机器级内部的数据流和控制流的组成。</li><li>逻辑设计等方面。</li></ul></li><li><p><strong>计算机实现定义</strong>：<br>  指计算机组成的物理实现，包括：</p><ul><li>处理机、主存等部件的物理结构。</li><li>器件的继承度和速度。</li><li>器件、模块的划分与连接。</li><li>专用器件的设计。</li></ul></li></ul><h3 id="2-3计算机系统结构、组成和实现的相互关系和影响"><a href="#2-3计算机系统结构、组成和实现的相互关系和影响" class="headerlink" title="2.3计算机系统结构、组成和实现的相互关系和影响"></a>2.3计算机系统结构、组成和实现的相互关系和影响</h3><ol><li>相同系统结构，可以有不同的组成；</li><li>一个组成可以有多种不同的实现方法；</li><li>采用不同的系统结构会使可以采用的组成技术产生差异；</li><li>组成也会影响结构；</li></ol><h2 id="第三节-计算机系统的软、硬件取舍及定量设计原理"><a href="#第三节-计算机系统的软、硬件取舍及定量设计原理" class="headerlink" title="第三节 计算机系统的软、硬件取舍及定量设计原理"></a>第三节 计算机系统的软、硬件取舍及定量设计原理</h2><h3 id="3-1-软硬件取舍的基本原则"><a href="#3-1-软硬件取舍的基本原则" class="headerlink" title="3.1 软硬件取舍的基本原则"></a>3.1 软硬件取舍的基本原则</h3><ol><li><p><strong>性能与成本权衡</strong>：</p><ul><li>提高硬件功能比例可提升解题速度，减少程序所需存储空间，但会增加硬件成本，并降低硬件利用率和系统灵活性。</li><li>提高软件比例可降低硬件成本，增强系统灵活性和适应性，但可能导致解题速度下降，并增加软件设计复杂性和存储需求。</li></ul></li><li><p><strong>性价比优化</strong>：</p><ul><li>从实现费用、速度和其他性能要求综合考虑，确保获取高性价比的解决方案。</li></ul></li><li><p><strong>技术选择的灵活性</strong>：</p><ul><li>考虑到当前和未来可能采用的组成技术，避免过多或不合理的限制，以促进各种技术的灵活应用。</li></ul></li><li><p><strong>综合考虑软硬件支持</strong>：</p><ul><li>不仅要从硬件角度考虑如何便利应用组成技术，还应关注如何为编译器、操作系统及高级语言程序设计提供更好的硬件支持。</li></ul></li></ol><h3 id="3-2-计算机系统的定量设计原理"><a href="#3-2-计算机系统的定量设计原理" class="headerlink" title="3.2 计算机系统的定量设计原理"></a>3.2 计算机系统的定量设计原理</h3><ol><li><p><strong>Huffman原理</strong>：</p><ul><li>优先加速处理高频率事件的性能提升，效果显著，远胜于加速处理低概率事件。</li></ul></li><li><p><strong>Amdahl定律</strong>：</p><ul><li><strong>思想</strong>：加速某个部件的执行速度所能获得的系统性能提升，受限于该部件在总执行时间中所占的比例。</li><li><strong>加速比公式</strong>：Sp &#x3D; Told&#x2F;Tnew &#x3D; 1&#x2F;((1-Fnew) + 可改进比 Fnew&#x2F;部件加速比Rnew)</li><li><strong>原理</strong>：定义系统性能的加速比，确定对系统中性能瓶颈部件，计算改进某些部件所获得的性能提高。</li></ul></li><li><p>程序访问的局部性定律</p><ol><li>空间局部性：循环语句；变量，数据；</li><li>时间局部性：顺序语句：</li></ol></li></ol><h3 id="3-3-计算机系统设计的主要任务和方法"><a href="#3-3-计算机系统设计的主要任务和方法" class="headerlink" title="3.3 计算机系统设计的主要任务和方法"></a>3.3 计算机系统设计的主要任务和方法</h3><ol><li>计算机系统设计的主要方法</li><li>计算机系统的设计方法</li></ol><h2 id="第四节-软件、应用、器件的发展对系统结构的影响"><a href="#第四节-软件、应用、器件的发展对系统结构的影响" class="headerlink" title="第四节 软件、应用、器件的发展对系统结构的影响"></a>第四节 软件、应用、器件的发展对系统结构的影响</h2><h3 id="4-1-软件发展对系统结构的影响"><a href="#4-1-软件发展对系统结构的影响" class="headerlink" title="4.1 软件发展对系统结构的影响"></a>4.1 软件发展对系统结构的影响</h3><h4 id="软件的可移植性"><a href="#软件的可移植性" class="headerlink" title="软件的可移植性"></a>软件的可移植性</h4><ul><li><strong>定义</strong>：可移植性指一个软件能够在不同计算机上运行，而无需进行大量修改，允许同一软件在多种环境中应用。</li></ul><h4 id="实现软件移植的技术"><a href="#实现软件移植的技术" class="headerlink" title="实现软件移植的技术"></a>实现软件移植的技术</h4><ol><li><p><strong>统一高级语言</strong>：</p><ul><li>设计一种通用的高级语言，使程序员能够在不同计算机之间进行软件设计。这种技术适用于结构相同或完全不同的机器。</li></ul></li><li><p><strong>采用系列机</strong>：</p><ul><li>使用由同一厂家生产、具有相似系统结构的不同型号机器。这种技术仅适用于结构相似的机器之间的汇编程序移植。</li></ul></li><li><p><strong>模拟和仿真</strong>：</p><ul><li><strong>模拟</strong>：<ul><li><strong>概念</strong>：使用机器语言程序来实现软件移植。</li><li><strong>特点</strong>：运行速度较慢，性能较差。</li></ul></li><li><strong>仿真</strong>：<ul><li><strong>概念</strong>：用微程序直接解释另一种机器的指令系统。</li><li><strong>特点</strong>：除了仿真目标机器的指令系统，还需仿真其存储体系、I&#x2F;O系统和控制台操作。</li></ul></li></ul></li></ol><h4 id="模拟与仿真的区别"><a href="#模拟与仿真的区别" class="headerlink" title="模拟与仿真的区别"></a>模拟与仿真的区别</h4><ul><li><strong>解释语言</strong>：<ul><li><strong>仿真</strong>：使用微程序解释，解释程序存储在控制存储器中。</li><li><strong>模拟</strong>：使用机器语言解释，解释程序存储在主存中。</li></ul></li></ul><h4 id="模拟与仿真的选择"><a href="#模拟与仿真的选择" class="headerlink" title="模拟与仿真的选择"></a>模拟与仿真的选择</h4><ul><li>在不同系列间的软件移植中，通常需要同时使用仿真与模拟。</li><li><strong>仿真</strong>：适用于频繁使用的机器指令，以提高速度。</li><li><strong>模拟</strong>：适用于不常用或难以仿真的指令及I&#x2F;O操作。即使两种机器系统差别不大，通常也需要模拟来完成机器间的映像。</li></ul><h3 id="4-2-应用的发展对系统结构的影响"><a href="#4-2-应用的发展对系统结构的影响" class="headerlink" title="4.2 应用的发展对系统结构的影响"></a>4.2 应用的发展对系统结构的影响</h3><p>计算机应用可归纳为向上升级的四类：数据处理、信息处理、知识处理、智能处理。</p><ol><li>数据处理<br>定义：对原始数据进行收集、存储、整理和简单计算的过程。<br>例子：电子表格、数据库管理、基本的统计分析。</li><li>信息处理<br>定义：在数据处理的基础上，对数据进行分析和解释，以生成有意义的信息。<br>例子：报告生成、数据可视化、信息检索系统。</li><li>知识处理<br>定义：基于信息处理，将信息进行进一步分析、推理和决策，以生成知识。<br>例子：专家系统、决策支持系统、知识管理系统。</li><li>智能处理<br>定义：利用人工智能技术，使计算机能够进行自主学习、推理和决策，从而实现更复杂的任务。<br>例子：机器学习、自然语言处理、智能助手（如虚拟助手和聊天机器人）。</li></ol><h3 id="4-3-器件发展对系统结构的影响"><a href="#4-3-器件发展对系统结构的影响" class="headerlink" title="4.3 器件发展对系统结构的影响"></a>4.3 器件发展对系统结构的影响</h3><ol><li>改变了逻辑设计的传统方法；</li><li>随着时间呈指数地改进，使计算机的性价比有了显著提高；</li><li>加速了结构的”下移“；</li><li>促进了算法、语言和软件的发展。</li></ol><h2 id="第五节-系统结构中的并行性开发及计算机系统的分类"><a href="#第五节-系统结构中的并行性开发及计算机系统的分类" class="headerlink" title="第五节 系统结构中的并行性开发及计算机系统的分类"></a>第五节 系统结构中的并行性开发及计算机系统的分类</h2><h3 id="5-1-并行性的概念和开发"><a href="#5-1-并行性的概念和开发" class="headerlink" title="5.1 并行性的概念和开发"></a>5.1 并行性的概念和开发</h3><h4 id="并行性的含义与级别"><a href="#并行性的含义与级别" class="headerlink" title="并行性的含义与级别"></a>并行性的含义与级别</h4><ul><li><strong>定义</strong>：并行性是指可以同时进行运算或操作的特性，涵盖了同时性和并发性两种含义。<ul><li><strong>同时性</strong>：指两个或多个事件在同一时刻发生。</li><li><strong>并发性</strong>：指两个或多个事件在同一时间间隔内发生，但不一定同时。</li></ul></li></ul><h4 id="并行性的不同等级"><a href="#并行性的不同等级" class="headerlink" title="并行性的不同等级"></a>并行性的不同等级</h4><ol><li><p><strong>从计算机系统执行程序的角度</strong>：</p><ul><li><strong>指令内部</strong>：在一条指令中同时进行多个操作。</li><li><strong>指令之间</strong>：不同指令的并行执行。</li><li><strong>任务或进程之间</strong>：多个任务或进程可以同时进行。</li><li><strong>作用或程序之间</strong>：不同程序或模块的并行运行。</li></ul></li><li><p><strong>从计算机系统处理数据的角度</strong>：</p><ul><li><strong>位串字串</strong>：处理位串和字串的并行。</li><li><strong>位并字串</strong>：位与字串的并行处理。</li><li><strong>位片串字并</strong>：位片和字串的并行。</li><li><strong>全并行</strong>：所有数据操作同时进行的状态。</li></ul></li><li><p><strong>从计算机信息加工的各个步骤和阶段的角度</strong>：</p><ul><li><strong>存储器操作并行</strong>：存储器中的多个操作可以同时进行。</li><li><strong>处理器操作步骤并行</strong>：处理器执行不同步骤时的并行。</li><li><strong>处理器操作并行</strong>：处理器中多个操作的并行执行。</li><li><strong>指令、任务、作业并行</strong>：不同级别的指令、任务和作业可并行执行。</li></ul></li></ol><h4 id="并行性开发的途径"><a href="#并行性开发的途径" class="headerlink" title="并行性开发的途径"></a>并行性开发的途径</h4><ol><li><p><strong>时间重叠</strong>：<br> 让多个处理过程在时间上相互错开，轮流重叠地使用同一套硬件设备的各个部分，提升速度。例如，流水线技术。</p></li><li><p><strong>资源重复</strong>：<br> 通过重复设置硬件资源来提高可靠性或性能。例如，多CPU、多核和多内存的配置。</p></li><li><p><strong>资源共享</strong>：<br> 采用软件方法，让多个用户按一定时间顺序轮流使用同一套资源，从而提高资源利用率和系统性能。例如，分时调度。</p></li></ol><h4 id="计算机系统的并行性发展"><a href="#计算机系统的并行性发展" class="headerlink" title="计算机系统的并行性发展"></a>计算机系统的并行性发展</h4><ul><li><strong>多机系统的耦合度</strong>：<br>  耦合度反映多机系统中各机器之间物理连接的紧密程度和交叉作用能力的强弱。这是评估并行性和系统性能的重要指标。</li></ul><h3 id="5-2-计算机系统的分类"><a href="#5-2-计算机系统的分类" class="headerlink" title="5.2 计算机系统的分类"></a>5.2 计算机系统的分类</h3><p><strong>Flynn分类法：</strong><br>单指令流单数据流SISD；<br>单指令流多数据流SIMD；<br>多指令流单数据流MISD；<br>多指令流多数据流MIMD。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机相关课程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机科学与技术 </tag>
+            
+            <tag> 自考 </tag>
+            
+            <tag> 计算机系统结构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>大数据算法课程笔记（一）</title>
       <link href="/onion.github.io/2024/10/bcba7f9ec12d.html"/>
       <url>/onion.github.io/2024/10/bcba7f9ec12d.html</url>
@@ -682,6 +568,151 @@
     
     
     <entry>
+      <title>运筹学基础-第十一章-模拟的基本概念</title>
+      <link href="/onion.github.io/2024/10/424ed1984cb1.html"/>
+      <url>/onion.github.io/2024/10/424ed1984cb1.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="第十一章-模拟的基本概念"><a href="#第十一章-模拟的基本概念" class="headerlink" title="第十一章 模拟的基本概念"></a>第十一章 模拟的基本概念</h1><h2 id="第一节-概述"><a href="#第一节-概述" class="headerlink" title="第一节 概述"></a>第一节 概述</h2><p>模拟，又称为仿真，先为过程设计一个模型，然后再组织一系列的反复试验。<br>蒙特卡洛方法：是一种基于随机抽样的统计模拟技术。</p><h3 id="1-1-使用模拟的原因"><a href="#1-1-使用模拟的原因" class="headerlink" title="1.1 使用模拟的原因"></a>1.1 使用模拟的原因</h3><ol><li>难以观察到实际环境，模拟是唯一可以利用的方法。</li><li>不可能求出一个数学解。</li><li>实际观察一个系统可能太费钱。</li><li>不可能有足够的时间来广泛的操作该系统。</li><li>一个系统的实际运用和观察可能破坏性很大。</li></ol><h3 id="1-2-系统模拟的过程"><a href="#1-2-系统模拟的过程" class="headerlink" title="1.2 系统模拟的过程"></a>1.2 系统模拟的过程</h3><p>系统模拟的过程是建立模型并通过模型的运行对模型进行检验和修正，使模型不断趋于完善的过程。</p><h3 id="1-3-模拟的不足"><a href="#1-3-模拟的不足" class="headerlink" title="1.3 模拟的不足"></a>1.3 模拟的不足</h3><ol><li>模拟是不精确的，既不是一个最优化过程，也得不到一个答案。</li><li>一个良好的模拟模型可能是非常昂贵的。</li><li>并非所有的方法都可以用模拟的方法来估算，只有包含不确定因素的环境才能适用。</li><li>模拟能产生一种估算答案的方法，但不能得出答案本身。</li></ol><h2 id="第二节-概率分布及其在模拟中的应用"><a href="#第二节-概率分布及其在模拟中的应用" class="headerlink" title="第二节 概率分布及其在模拟中的应用"></a>第二节 概率分布及其在模拟中的应用</h2><h3 id="2-1-概率分布"><a href="#2-1-概率分布" class="headerlink" title="2.1 概率分布"></a>2.1 概率分布</h3><p>我们把概率分布分成离散和连续的两个类型。</p><ol><li>离散的概率分布中允许变量只取有限个体的数值。</li><li>连续的概率分布中允许变量在某个范围内取任何数值。</li></ol><h3 id="2-2-随机变量、随机数、随机数分布"><a href="#2-2-随机变量、随机数、随机数分布" class="headerlink" title="2.2 随机变量、随机数、随机数分布"></a>2.2 随机变量、随机数、随机数分布</h3><p><strong>随机变量</strong>：随机变量是具有各种不同数值的一个变量，这些不同数值是在一次随机试验中，作为各种结果之一而出现的。随机变量可能是离散型的，也可能是连续型。</p><p><strong>随机数</strong>：每一个随机变量和相关的某个范围内累计概率序列数相应，我们称这个累计频数为随机数。</p><p><strong>累计概率&#x3D;前面相对频率之和</strong>。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0-%E6%A8%A1%E6%8B%9F%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/image-20241024205945589.jpg"><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0-%E6%A8%A1%E6%8B%9F%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/image-20241024210048475.jpg"></p><h2 id="第三节-模拟应用示例"><a href="#第三节-模拟应用示例" class="headerlink" title="第三节 模拟应用示例"></a>第三节 模拟应用示例</h2><p>模拟在生活中应用非常广泛，主要应用于：各种排队问题、制造业中维修规模的确定、使企业库存系统的总库存费用最小等方面。</p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>本章内容选择、填空和名词解释都会涉及（模拟的概念、原因及 不足、概率分布、随机数的概念等）；计算题考察主要有两个知识点： </p><p>1、计算累计概率和随机数分布（填表）；<br>2、模拟一个过程（很少出现）</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机相关课程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机科学与技术 </tag>
+            
+            <tag> 运筹学基础 </tag>
+            
+            <tag> 自考 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>运筹学基础-第十章-盈亏分析模型</title>
+      <link href="/onion.github.io/2024/10/e87b62d1ebc6.html"/>
+      <url>/onion.github.io/2024/10/e87b62d1ebc6.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="第十章-盈亏分析模型"><a href="#第十章-盈亏分析模型" class="headerlink" title="第十章 盈亏分析模型"></a>第十章 盈亏分析模型</h1><h2 id="第一节-盈亏平衡问题概述"><a href="#第一节-盈亏平衡问题概述" class="headerlink" title="第一节 盈亏平衡问题概述"></a>第一节 盈亏平衡问题概述</h2><ol><li>盈亏平衡分析是一种管理决策工具，它用来说明在一定销售量水平上总销量与总成本因素之间的关系。</li><li>模型结构：$利润&#x3D;销售收入-总成本；S&#x3D;I-C$</li><li>盈亏平衡点：$总成本&#x3D;总收入$，此时利润为0。</li></ol><h2 id="第二节-盈亏分析模型的基本结构"><a href="#第二节-盈亏分析模型的基本结构" class="headerlink" title="第二节 盈亏分析模型的基本结构"></a>第二节 盈亏分析模型的基本结构</h2><h3 id="2-1-产品成本结构"><a href="#2-1-产品成本结构" class="headerlink" title="2.1 产品成本结构"></a>2.1 产品成本结构</h3><p>工业产品的成本费用一般可分为：<strong>原材料费、燃料动力费、工资及附加费、废品损失费、车间经费和企业管理费</strong>六项。</p><ol><li>固定成本和可变成本：固定成本F和可变成本V，即C&#x3D;F+V.上述六项费用中前四项属于可变成本，后两项为固定成本。</li><li>建立成本结构：“计划性能法”的第一步是把固定成本F再分为两大类：预付成本Fc和计划成本Fp，即F&#x3D;Fc+Fp。可变费用V跟生产数量挂钩：V&#x3D;Q，V’为单位可变成本，Q为生产数量。</li></ol><p><strong>成本模型为：</strong>$\mathbf{C&#x3D;F+V&#x3D;F_{c}+F_{p}+V’Q}$</p><h3 id="2-2-产品销售结构"><a href="#2-2-产品销售结构" class="headerlink" title="2.2 产品销售结构"></a>2.2 产品销售结构</h3><p>总销售收入&#x3D;产品销售价格*销售数量 即 $I&#x3D;MQ$。</p><h2 id="第三节-线性盈亏分析模型及其应用示例"><a href="#第三节-线性盈亏分析模型及其应用示例" class="headerlink" title="第三节 线性盈亏分析模型及其应用示例"></a>第三节 线性盈亏分析模型及其应用示例</h2><p>线性盈亏分析模型是指变动费用和销售收入随产量（或销售量）增加而成比例地增加这种线性变化。</p><ol><li><p>基本公式※：$S &#x3D; I - C ; C &#x3D; F+V &#x3D; F+V’Q ; I&#x3D;MQ$<br>PS:若不特殊指明，我们在计算过程中默认生产数量 &#x3D; 销售数量。<br>上面三大基本公式联立推导得：<br>Q &#x3D; （F+S）&#x2F;(M-V’)<br>盈亏平衡时，$Q_{0}&#x3D;\frac{F}{(M-V’)}$<br>此时I &#x3D; MQ &#x3D; MF&#x2F;(M-V’)</p></li><li><p>边际收益：又称为边际贡献，指产品价格减去单位可变成本后的净值</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机相关课程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机科学与技术 </tag>
+            
+            <tag> 运筹学基础 </tag>
+            
+            <tag> 自考 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>运筹学基础-第九章-马尔科夫分析</title>
+      <link href="/onion.github.io/2024/10/fa72658e4e3c.html"/>
+      <url>/onion.github.io/2024/10/fa72658e4e3c.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="第九章-马尔科夫分析"><a href="#第九章-马尔科夫分析" class="headerlink" title="第九章 马尔科夫分析"></a>第九章 马尔科夫分析</h1><h2 id="第一节-马尔科夫分析的数学原理"><a href="#第一节-马尔科夫分析的数学原理" class="headerlink" title="第一节 马尔科夫分析的数学原理"></a>第一节 马尔科夫分析的数学原理</h2><p>在20世纪初（1907年）俄国数学家马尔科夫发现：<strong>在某些事物的概率转换过程中，第N次试验的结果，常常由第N-1次的试验救国所决定。</strong></p><h3 id="1-1-概率向量和概率矩阵"><a href="#1-1-概率向量和概率矩阵" class="headerlink" title="1.1 概率向量和概率矩阵"></a>1.1 概率向量和概率矩阵</h3><ol><li><strong>概率向量※：任意一个向量u&#x3D;(u1,u2,…,un),如果它内部的各个元素为非负数，且总和等于1，则称此向量为概率向量。</strong></li><li><strong>概率矩阵※：一方阵每一行都是概率向量，称为概率矩阵</strong></li><li>平衡概率矩阵（或固定概率矩阵）<img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B9%9D%E7%AB%A0-%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E5%88%86%E6%9E%90/image-20241023154203946.jpg"></li></ol><h3 id="1-2-马尔科夫过程"><a href="#1-2-马尔科夫过程" class="headerlink" title="1.2 马尔科夫过程"></a>1.2 马尔科夫过程</h3><p>马尔科夫过程是指一种情况转变到另一种情况的过程，这个过程具有以下特征：</p><ul><li><strong>转换概率</strong>：状态之间的转移具有一定的概率。</li><li><strong>无记忆性</strong>：未来状态的概率只依赖于当前状态，而与过去状态无关。</li></ul><h4 id="马尔科夫链"><a href="#马尔科夫链" class="headerlink" title="马尔科夫链"></a>马尔科夫链</h4><p><strong>一系列此类转换过程的整体</strong>称为马尔科夫链。马尔科夫链的研究通常包括<strong>状态转移的矩阵</strong>表示和<strong>长期行为的分析</strong>。</p><h4 id="马尔科夫分析"><a href="#马尔科夫分析" class="headerlink" title="马尔科夫分析"></a>马尔科夫分析</h4><p>马尔科夫分析是对马尔科夫过程或马尔科夫链的演变进行观察和预测，旨在了解和预测该过程的趋势及其稳定性。</p><h4 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h4><ul><li><strong>定义1</strong>：任意一个向量，如果它内部的各个元素为非负数，且总和等于1，则此向量称为<strong>概率向量</strong>。</li><li><strong>定义2</strong>：如果一个矩阵的每一行都是概率向量，则该矩阵称为<strong>概率矩阵</strong>。</li></ul><h4 id="定理"><a href="#定理" class="headerlink" title="定理"></a>定理</h4><ul><li><strong>定理1</strong>：如果 A 和 B 都是概率矩阵，则它们的乘积 AB 也是概率矩阵；同理， A 的 N 次方 AN 也是概率矩阵。</li><li><strong>定理2</strong>：在马尔科夫链中，若存在状态转移概率矩阵 PPP，则经过 nnn 步转移后的状态概率分布可表示为$π(n)&#x3D;π(0)Pn$ ,$π(0)$为初始状态概率向量。</li><li><strong>定理3</strong>：如果马尔科夫链是不可约且有周期性的，则其存在平稳分布，使得随着时间的推移，状态分布趋向于平稳分布。</li></ul><h2 id="第二节-马尔科夫分析问题的要求"><a href="#第二节-马尔科夫分析问题的要求" class="headerlink" title="第二节 马尔科夫分析问题的要求"></a>第二节 马尔科夫分析问题的要求</h2><h2 id="马尔可夫分析补充内容"><a href="#马尔可夫分析补充内容" class="headerlink" title="马尔可夫分析补充内容"></a>马尔可夫分析补充内容</h2><h3 id="1-马尔可夫过程的阶"><a href="#1-马尔可夫过程的阶" class="headerlink" title="1. 马尔可夫过程的阶"></a>1. 马尔可夫过程的阶</h3><ul><li><strong>一阶马尔可夫过程</strong>：在确定事件周期的选择概率时，仅考虑前一个周期的选择情况。这意味着当前状态的概率分布只依赖于直接前一个状态。</li><li><strong>二阶马尔可夫过程</strong>：在确定事件周期的选择概率时，考虑前两个周期的选择情况。当前状态的概率分布依赖于前两个状态，这为状态的预测提供了更多的信息。</li></ul><h3 id="2-转移概率"><a href="#2-转移概率" class="headerlink" title="2. 转移概率"></a>2. 转移概率</h3><p>转移概率是指某一销售者保持、获得或失去消费者的概率。它量化了在不同状态之间的变化可能性，是马尔可夫过程中的核心概念。</p><h3 id="3-转移概率矩阵"><a href="#3-转移概率矩阵" class="headerlink" title="3. 转移概率矩阵"></a>3. 转移概率矩阵</h3><p>转移概率矩阵是将转移概率按行和列排列成的矩阵。矩阵的每一行代表当前状态，每一列代表下一个状态，矩阵中的元素则表示从一个状态转移到另一个状态的概率。该矩阵的每一行的元素总和为1，确保每种状态的概率分布。</p><h3 id="4-未来市场份额的确定"><a href="#4-未来市场份额的确定" class="headerlink" title="4. 未来市场份额的确定"></a>4. 未来市场份额的确定</h3><p>设第一周期的市场份额为 T1​，转移概率矩阵为 P，则第二周期的市场份额可通过以下公式确定： $T2&#x3D;T1×P$ 以此类推，可以得出任意周期的市场份额： $Tn&#x3D;Tn−1×P$ 这个公式表明，通过转移概率矩阵 P，可以递推得到未来周期的市场份额，从而帮助分析市场动态。</p><p><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B9%9D%E7%AB%A0-%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E5%88%86%E6%9E%90/image-20241023154533717.jpg"><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B9%9D%E7%AB%A0-%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E5%88%86%E6%9E%90/image-20241023154541367.jpg"></p><h3 id="5-最终（平衡）市场份额的确定※※"><a href="#5-最终（平衡）市场份额的确定※※" class="headerlink" title="5.最终（平衡）市场份额的确定※※"></a>5.最终（平衡）市场份额的确定※※</h3><p>不同销售者在销售过程中的市场份额每个周期都在改变，若消费者的选择概率不变，那麽市场份额在经过一个较长时期的转换后会一直不变，我们称为最终（平衡）的市场份额。<br><strong>计算方法</strong>:最终平衡时，可推导出公式T&#x3D;TP，利用该公式列出线性方程组，在加上概率向量T本身的特点即非负且之和为1，解出未知数来。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B9%9D%E7%AB%A0-%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E5%88%86%E6%9E%90/image-20241023155109999.jpg"><br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B9%9D%E7%AB%A0-%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E5%88%86%E6%9E%90/image-20241023155118390.jpg"><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B9%9D%E7%AB%A0-%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E5%88%86%E6%9E%90/image-20241023155128633.jpg"></p><h2 id="第三节-马尔科夫分析在管理工作中的应用"><a href="#第三节-马尔科夫分析在管理工作中的应用" class="headerlink" title="第三节 马尔科夫分析在管理工作中的应用"></a>第三节 马尔科夫分析在管理工作中的应用</h2><p>马尔可夫分析在管理工作中具有广泛的应用，特别是在预测系统状态变化和决策支持方面。以下是几种常见的应用场景：</p><h3 id="1-市场份额分析"><a href="#1-市场份额分析" class="headerlink" title="1. 市场份额分析"></a>1. <strong>市场份额分析</strong></h3><p>在市场竞争中，企业的市场份额往往会随着时间而变化。马尔可夫分析可以通过历史数据，预测未来某一时刻不同公司之间的市场份额分布。</p><ul><li><p><strong>应用方法</strong>：通过构建转移概率矩阵，企业可以分析消费者在不同公司之间转移的概率。假设消费者可能在各个时期内从一家公司转换到另一家公司，转移概率矩阵可以帮助确定这些转移的概率。</p></li><li><p><strong>应用场景</strong>：例如，在手机市场中，消费者可能在某个时期更换品牌。使用马尔可夫分析，可以预测未来某一段时间内不同品牌的市场份额情况。</p></li></ul><h3 id="2-客户忠诚度与流失分析"><a href="#2-客户忠诚度与流失分析" class="headerlink" title="2. 客户忠诚度与流失分析"></a>2. <strong>客户忠诚度与流失分析</strong></h3><p>企业通常会面临客户流失问题，尤其是在竞争激烈的行业中。马尔可夫分析可用于分析客户的流失与留存率，并帮助企业设计提高客户忠诚度的策略。</p><ul><li><p><strong>应用方法</strong>：通过历史交易数据，企业可以建立客户状态转移矩阵，预测客户在未来某段时间内的转移行为。通过分析客户的转换趋势，可以有效预测客户的流失风险。</p></li><li><p><strong>应用场景</strong>：电信行业经常使用马尔可夫分析来研究用户是否会更换运营商，并在预测客户流失的基础上实施相应的客户维系策略。</p></li></ul><h3 id="3-人员流动与人力资源管理"><a href="#3-人员流动与人力资源管理" class="headerlink" title="3. 人员流动与人力资源管理"></a>3. <strong>人员流动与人力资源管理</strong></h3><p>在组织的人员管理中，马尔可夫分析可以帮助预测员工的职位变化和离职情况，支持人力资源部门制定更合理的招聘与留才计划。</p><ul><li><p><strong>应用方法</strong>：通过对员工在不同职位之间的转换行为进行建模，构建转移概率矩阵，预测未来员工的流动方向。可以分析员工从某个职位晋升、转岗、或者离职的概率。</p></li><li><p><strong>应用场景</strong>：例如，在教育行业中，可以使用马尔可夫分析预测教师的职称晋升率、转岗率或离职率，进而帮助教育机构更好地规划师资力量。</p></li></ul><h3 id="4-库存管理与供应链优化"><a href="#4-库存管理与供应链优化" class="headerlink" title="4. 库存管理与供应链优化"></a>4. <strong>库存管理与供应链优化</strong></h3><p>企业的库存管理通常涉及多个状态之间的转换，例如从仓库中的库存品转移到销售、损耗、过期等状态。马尔可夫分析可以帮助预测库存状态的变化，并据此优化库存水平和补货策略。</p><ul><li><p><strong>应用方法</strong>：通过建立不同库存状态之间的转移概率矩阵，可以预测未来某一时间段内库存的变化情况，从而更好地调整采购计划或仓储管理方案。</p></li><li><p><strong>应用场景</strong>：在零售行业，马尔可夫分析可以预测产品的库存周转周期，并帮助企业减少库存积压或短缺的风险。</p></li></ul><h3 id="5-产品生命周期管理"><a href="#5-产品生命周期管理" class="headerlink" title="5. 产品生命周期管理"></a>5. <strong>产品生命周期管理</strong></h3><p>产品在市场中的生命周期通常分为引入期、成长期、成熟期和衰退期等不同阶段。通过马尔可夫分析，企业可以分析产品在各个阶段之间的转换概率，从而更准确地预测产品的未来发展趋势。</p><ul><li><p><strong>应用方法</strong>：通过构建产品生命周期各阶段的转移概率矩阵，企业能够预测产品进入下一个生命周期阶段的时间点，优化产品策略（如促销、定价、研发投入等）。</p></li><li><p><strong>应用场景</strong>：在汽车行业，马尔可夫分析可以帮助预测某一车型的市场生命周期，帮助企业制定新车推出或旧车停产的最佳时间。</p></li></ul><h3 id="6-项目管理与风险评估"><a href="#6-项目管理与风险评估" class="headerlink" title="6. 项目管理与风险评估"></a>6. <strong>项目管理与风险评估</strong></h3><p>在项目管理中，项目可能处于不同的状态，如规划、执行、监控和收尾等。通过马尔可夫分析，项目经理可以预测项目在未来某个阶段可能处于的状态，并评估项目的风险。</p><ul><li><p><strong>应用方法</strong>：通过记录项目不同状态的历史数据，建立状态转移概率矩阵，预测项目的进展情况和完成概率。此外，还可以通过马尔可夫分析识别潜在的项目风险。</p></li><li><p><strong>应用场景</strong>：在大型工程项目中，马尔可夫分析可以帮助预测项目延误的概率，提供提前制定风险应对计划的依据。</p></li></ul><h3 id="7-设备维护与可靠性分析"><a href="#7-设备维护与可靠性分析" class="headerlink" title="7. 设备维护与可靠性分析"></a>7. <strong>设备维护与可靠性分析</strong></h3><p>在设备维护与管理中，设备的状态可能在正常、故障、维修等状态之间转换。马尔可夫分析可以用来分析设备的使用寿命、预测故障率，并优化设备维护计划。</p><ul><li><p><strong>应用方法</strong>：通过历史数据建立设备的状态转移矩阵，预测设备未来可能出现的故障概率和运行状态。基于这些预测，企业可以优化维护策略，减少故障发生的概率。</p></li><li><p><strong>应用场景</strong>：制造业常用马尔可夫分析来预测设备的故障率，并据此制定预防性维护计划，降低意外停机的风险。</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机相关课程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机科学与技术 </tag>
+            
+            <tag> 运筹学基础 </tag>
+            
+            <tag> 自考 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>运筹学基础-第八章-图论方法</title>
+      <link href="/onion.github.io/2024/10/5f4f52d144a6.html"/>
+      <url>/onion.github.io/2024/10/5f4f52d144a6.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="第八章-图论方法"><a href="#第八章-图论方法" class="headerlink" title="第八章 图论方法"></a>第八章 图论方法</h1><h2 id="第一节-图的基本概念"><a href="#第一节-图的基本概念" class="headerlink" title="第一节 图的基本概念"></a>第一节 图的基本概念</h2><ol><li>图的基本要素：结点、边。</li><li>有向图：所有边都带方向。</li><li>无向图：所有边都没有方向。</li><li>连通图：所有结点都连接起来，没有孤立点的图。</li><li>不连通图：有孤立点的图。</li><li>权：赋给结点或边的信息。</li><li>回路（圈）：从一点出发，还能回到原点的一条路。</li></ol><h2 id="第二节-树和树的逐步生成法"><a href="#第二节-树和树的逐步生成法" class="headerlink" title="第二节 树和树的逐步生成法"></a>第二节 树和树的逐步生成法</h2><ol><li>树：连通且不含圈（回路）的图称为树。</li><li>树的边&#x3D;节点数-1。</li><li>普通图的点数和边数谁多谁少不确定。</li></ol><h2 id="第三节-最小枝杈树问题"><a href="#第三节-最小枝杈树问题" class="headerlink" title="第三节 最小枝杈树问题"></a>第三节 最小枝杈树问题</h2><ol><li>最小枝杈树问题是关于在一个网络中，从一个七点出发到所有点，找出一条或几条路线，以使在这样一些线路中所采用的全部支线的总长度是最小的。</li><li>常用方法：普莱姆法或克鲁斯喀尔法。</li><li>最小枝杈树问题主要应用于管道、电话线、电线、网线等线路铺设中。</li></ol><h4 id="克鲁斯喀尔法（避圈法）"><a href="#克鲁斯喀尔法（避圈法）" class="headerlink" title="克鲁斯喀尔法（避圈法）"></a>克鲁斯喀尔法（避圈法）</h4><ol><li>每次选择剩余边中长度最小的。</li><li>后选的边与已经选好的边不能构成回路，若构成则舍弃。</li><li>重复1、2。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AB%E7%AB%A0-%E5%9B%BE%E8%AE%BA%E6%96%B9%E6%B3%95/image-20241023151135556.jpg">答案：<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AB%E7%AB%A0-%E5%9B%BE%E8%AE%BA%E6%96%B9%E6%B3%95/image-20241023151237221.jpg"></li></ol><h2 id="第四节-最短路线问题"><a href="#第四节-最短路线问题" class="headerlink" title="第四节 最短路线问题"></a>第四节 最短路线问题</h2><p>最短路线问题为当通过网络的各边所需要的时间、距离或费用已知时，寻求两点间的距离最短或费用最少的路性问题。<br>采用方法为逆向推算法。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AB%E7%AB%A0-%E5%9B%BE%E8%AE%BA%E6%96%B9%E6%B3%95/image-20241023151401689.jpg"><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AB%E7%AB%A0-%E5%9B%BE%E8%AE%BA%E6%96%B9%E6%B3%95/image-20241023151512815.jpg"><br>PS：方块中的数字代表该点到终点的最短距离；方块上的文字表示从该点到终点最短路线的走法。</p><h2 id="第五节-最大流量问题"><a href="#第五节-最大流量问题" class="headerlink" title="第五节 最大流量问题"></a>第五节 最大流量问题</h2><p>最大流量问题，就是在一定条件下，要求流过网络的流量为最大的问题。</p><p>想象一个城市的水管网络，水从一个水源（源点）流向一个水池（汇点）。我们希望知道在这个网络中，水最多能流多少。</p><h3 id="增广路径"><a href="#增广路径" class="headerlink" title="增广路径"></a>增广路径</h3><p>在这个水管网络中，水可以通过不同的路径流动。每条路径上的水管都有一个最大流量限制，比如有的管子粗，有的管子细。我们称这条路径为<strong>增广路径</strong>。</p><h3 id="最小容量"><a href="#最小容量" class="headerlink" title="最小容量"></a>最小容量</h3><p>当我们找出一条增广路径时，路径上的每条管道都有一个“水流量上限”。在这条路径中，最细的水管（容量最小的管道）决定了可以通过这条路径额外流动多少水。这个最小容量就是<strong>瓶颈容量</strong>。</p><p>例如，如果我们有以下的水管网络：</p><ul><li>水源到水管A的容量是10升</li><li>水管A到水管B的容量是5升</li><li>水管B到水池的容量是15升</li></ul><p>在这条路径上，水最多只能通过5升，因为水管A到B是最细的，所以<strong>5升</strong>就是这条路径的最小容量。</p><h3 id="最大流量"><a href="#最大流量" class="headerlink" title="最大流量"></a>最大流量</h3><p>我们可以不断找到新的增广路径，并把它们的瓶颈容量加到流量中。最终，经过多次迭代，我们得到的总流量就是<strong>从水源到水池的最大流量</strong>。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机相关课程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机科学与技术 </tag>
+            
+            <tag> 运筹学基础 </tag>
+            
+            <tag> 自考 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>运筹学基础-第七章-网络计划技术</title>
+      <link href="/onion.github.io/2024/10/801371afc339.html"/>
+      <url>/onion.github.io/2024/10/801371afc339.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="第七章-网络计划技术"><a href="#第七章-网络计划技术" class="headerlink" title="第七章 网络计划技术"></a>第七章 网络计划技术</h1><p>网络计划技术是一种科学的组织生产和计划管理的方法，也被称为统筹法。它综合运用计划评核技术中的关键路线法，是一种相对先进的管理工具。</p><h4 id="关键要素"><a href="#关键要素" class="headerlink" title="关键要素"></a>关键要素</h4><ol><li><p><strong>计划评核技术</strong>：</p><ul><li>该技术用于对计划项目进行核算和评价，帮助选定最优的计划方案。</li></ul></li><li><p><strong>关键路线法</strong>：</p><ul><li>在复杂的计划项目中，关键路线法关注于识别和安排关键路线，以优化项目的整体进度和资源配置。</li></ul></li></ol><h4 id="适用范围"><a href="#适用范围" class="headerlink" title="适用范围"></a>适用范围</h4><p>网络计划技术特别适合大型复杂的生产项目或工程项目，通过有效的计划管理，提高项目的效率和成功率。</p><h2 id="第一节-网络图"><a href="#第一节-网络图" class="headerlink" title="第一节 网络图"></a>第一节 网络图</h2><p>计划评核术：简称PERT，是对计划项目进行核算、评价，然后选定最优计划方案的一种技术。<br>关键路线法：简称CPM，是在错综复杂的工作中，抓住其中的关键线路进行计划安排的一种方法。</p><p>这个讲的不错：<a href="https://wiki.mbalib.com/wiki/%E7%BD%91%E7%BB%9C%E5%9B%BE">网络图 - MBA智库百科</a></p><h3 id="1-1-网络图的分类（箭线式、结点式）"><a href="#1-1-网络图的分类（箭线式、结点式）" class="headerlink" title="1.1 网络图的分类（箭线式、结点式）"></a>1.1 网络图的分类（箭线式、结点式）</h3><p><strong>箭线式网络图</strong>：以箭线代表活动（作业），以结点代表活动的开始和完成，需要引入虚活动，但布图清晰明朗，使用十分广泛。<img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B8%83%E7%AB%A0-%E7%BD%91%E7%BB%9C%E8%AE%A1%E5%88%92%E6%8A%80%E6%9C%AF/image-20241023100414086.jpg"></p><p><strong>结点式网络图</strong>：以结点代表活动，以箭线代表各种活动之间的先后承接关系，虽然不引入虚活动，但在复杂的网络图中，线条纵横交错，很复杂，使用较少。</p><h2 id="1-2-箭线式网络图的组成"><a href="#1-2-箭线式网络图的组成" class="headerlink" title="1.2 箭线式网络图的组成"></a>1.2 箭线式网络图的组成</h2><p>箭线式网络图由<strong>活动，结点和路线</strong>三部分组成。</p><h4 id="1-活动：作业工序"><a href="#1-活动：作业工序" class="headerlink" title="1 活动：作业工序"></a>1 活动：作业工序</h4><p>指作业或工序，用箭线表示，按箭线的方向在左侧写上活动的名称，右侧写上活动占用的时间。<br><strong>虚活动</strong>：不消耗资源，不占用时间。</p><p>两种情况要引入虚活动：</p><ol><li>先后两结点之间的工作过程只能代表一项活动，当两个或以上的活动具有相同的始点和终点时。</li><li>为了正确表示各个活动之间的承接关系，需要引入虚活动。</li></ol><h4 id="2-结点：事项"><a href="#2-结点：事项" class="headerlink" title="2 结点：事项"></a>2 结点：事项</h4><p>指事项。两个活动之间的交接点。说明一个活动的开始或完成，不占用时间，不消耗资源。<br>一个网络应该<strong>只有一个起始点和终点</strong>。除起始点和终点，其他结点都具有两重性，即对面前是终点，对后面是起始点。<br><strong>结点编号的原则是：箭尾结点小于箭头结点，而且一般采用非连续编号。<br>编号方法是：去点去线编号法。</strong></p><h4 id="3-线路：起点到终点连线"><a href="#3-线路：起点到终点连线" class="headerlink" title="3 线路：起点到终点连线"></a>3 线路：起点到终点连线</h4><p>从网络的始点开始，顺着箭线方向，中间经过相互连接的始点和箭线，到终点的一条连线。</p><p><strong>总作业时间最长的线路就是关键线路，或称为主要矛盾线。</strong> 决定了整个网络计划的完工时间。</p><p><strong>线路的总长度叫路长</strong>。</p><p>关键线路在图上用双线或红线标出。</p><h3 id="1-3-箭线式网络图的规则"><a href="#1-3-箭线式网络图的规则" class="headerlink" title="1. 3 箭线式网络图的规则"></a>1. 3 箭线式网络图的规则</h3><h4 id="任务分解"><a href="#任务分解" class="headerlink" title="任务分解"></a>任务分解</h4><p>把一个计划项目的总任务分解为一定数量的分任务，并确定他们之间的先后承接关系。<br><strong>分解的原则：</strong> 分工要清晰，职责要明确，防止分工过细，网络图过于繁琐，又要防止分工不清，互相扯皮现象。 具体来说：</p><ol><li>工作性质不同或由不同单位执行的工作应该分开。</li><li>同一单位进行的工作，工作时间先后不衔接的要分开。</li><li>占用时间，不消耗资源，但影响工程完工日期的都应作为分任务，列入网络图。</li></ol><h4 id="画网络图规则"><a href="#画网络图规则" class="headerlink" title="画网络图规则"></a>画网络图规则</h4><ol><li>网络图中不能出现循环线路，否则永远不能完工。</li><li>进入一个结点的箭线可以有多条，但相邻的两个结点之间只能有一条箭线。当需要表示多活动之间的关系时，需要增加结点（Node）和虚拟作业表示。<img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B8%83%E7%AB%A0-%E7%BD%91%E7%BB%9C%E8%AE%A1%E5%88%92%E6%8A%80%E6%9C%AF/image-20241023101342528.jpg"></li><li>在网络图中，除网络结点、终点外，其他各结点的前后都有箭线连接，即图中不能有缺口，使自网络始点起经由任何箭线都可以达到网络终点。否则，将使某些作业失去与其紧后（或紧前）作业应有的联系。</li><li>箭线的首尾必须有事件，不允许从一条箭线的中间引出另一条箭线。</li><li>为表示工程的开始和结束，在网络图中只能有一个始点和终点。当工程开始时有几个工序平行作业，或在几个工序结束后完工，用一个网络始点，一个网络终点表示。若这些工序不能用一个始点或终点表示，可用虚工序将他们与始点或终点连接。</li><li>网络图绘制力求简单明了，箭线图是最好画成水平线或具有一段水平线的折线；箭线尽量避免交叉；尽可能将关键线路布置在中心位置。</li></ol><h3 id="1-4-网络图作业之间的逻辑关系"><a href="#1-4-网络图作业之间的逻辑关系" class="headerlink" title="1.4 网络图作业之间的逻辑关系"></a>1.4 网络图作业之间的逻辑关系</h3><p>紧前作业、紧后作业和交叉作业。</p><ol><li><strong>紧前作业</strong>：紧接该作业前面的作业。紧前作业不结束，该作业不开始。</li><li><strong>紧后作业</strong>：紧接该作业之后的作业。该作业不结束，紧后作业不开始。</li><li><strong>平等作业</strong>：能与该作业同时开始的作业。</li><li><strong>交叉作业</strong>：能与该作业交替进行的作业。下图FG是C的交叉作业。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B8%83%E7%AB%A0-%E7%BD%91%E7%BB%9C%E8%AE%A1%E5%88%92%E6%8A%80%E6%9C%AF/image-20241023104807539.jpg"></li></ol><h3 id="1-5-网络图的绘制"><a href="#1-5-网络图的绘制" class="headerlink" title="1.5 网络图的绘制"></a>1.5 网络图的绘制</h3><h4 id="网络图的元素"><a href="#网络图的元素" class="headerlink" title="网络图的元素"></a>网络图的元素</h4><p>任何一项任务和工作都是由一些基本活动或工作组成的，它们之间有一定的先后顺序和逻辑。</p><ol><li>用带箭头的线”$\longrightarrow$”表示工作。</li><li>用结点“$\bigcirc$”表示两项工作的分界线。</li></ol><p>按工作的先后顺序和逻辑关系画成的工作关系图就是一张网络图。每一个结点称为“事项”，它表示一项工作的结束和另一项工作的开始，除了一个总的开始事项和总结束事项。在结点中可标上数字，以便注明哪项工作的结束和哪一项工作的开始。<br>图一表示某一项工程由10项工作组成，共有10个结点，第$①$结点表示项目开始，第$⑩$结点表示结束。<img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B8%83%E7%AB%A0-%E7%BD%91%E7%BB%9C%E8%AE%A1%E5%88%92%E6%8A%80%E6%9C%AF/image-20241023110917381.jpg"></p><h2 id="第二节-网络时间的计算"><a href="#第二节-网络时间的计算" class="headerlink" title="第二节 网络时间的计算"></a>第二节 网络时间的计算</h2><p><strong>网络事件的计算有图上法，表格计算法，矩阵计算法。</strong> 后两者适用于计算机进行计算。</p><h3 id="2-1-作业时间"><a href="#2-1-作业时间" class="headerlink" title="2.1 作业时间"></a>2.1 作业时间</h3><ul><li><p><strong>单一时间估计法</strong>：</p><ul><li>该方法采用单一的时间估计值来表示每个任务的完成时间。通常基于历史数据或专家经验来确定。虽然方法简单，但在面对不确定性时可能不够准确，适用于任务时间相对稳定且可预测的情况。</li></ul></li><li><p><strong>三种时间估计法</strong>：</p><ul><li><p><strong>乐观时间（O）</strong>：在<strong>理想</strong>情况下完成任务所需的最短时间。</p></li><li><p><strong>悲观时间（P）</strong>：在<strong>最坏</strong>情况下完成任务所需的最长时间。</p></li><li><p><strong>最可能时间（M）</strong>：在<strong>正常情况</strong>下完成任务所需的时间。</p></li><li><p><strong>计算公式</strong>：</p><p>  期望时间: $\text{期望时间} (TE) &#x3D; \frac{O + 4M + P}{6}$</p></li><li><p>这种方法通过综合考虑乐观、悲观和最可能的时间估计，能够提供更为准确的任务时间评估，适合于不确定性较高的项目管理。</p></li></ul></li></ul><h3 id="2-2-结点时间"><a href="#2-2-结点时间" class="headerlink" title="2.2 结点时间"></a>2.2 结点时间</h3><ol><li>结点的最早开始（完成）时间：从起始点开始算，取相加的最大值。$最早开始时间(ES)&#x3D;max(前驱结点的最早完成时间+作业时间)$</li><li>结点的最迟完成时间：从终点开始算，取相减的最小值。$最迟完成时间(LF)&#x3D;min(后继结点的最迟开始时间−作业时间)$</li></ol><h2 id="第三节-时差和关键线路"><a href="#第三节-时差和关键线路" class="headerlink" title="第三节 时差和关键线路"></a>第三节 时差和关键线路</h2><p><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B8%83%E7%AB%A0-%E7%BD%91%E7%BB%9C%E8%AE%A1%E5%88%92%E6%8A%80%E6%9C%AF/image-20241023113334308.jpg"><br>ESi：结点的最早开始时间<br>EFi：结点的最早完成时间<br>LSi：结点的最迟开始时间<br>LFi：结点的最迟完成时间<br>ESij：活动的最早开始时间<br>EFij：活动的最早完成时间<br>LSij：活动的最迟开始时间<br>LFij：活动的最迟完成时间<br>Tij：作业时间</p><h3 id="3-2-结点时间"><a href="#3-2-结点时间" class="headerlink" title="3.2 结点时间"></a>3.2 结点时间</h3><p><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B8%83%E7%AB%A0-%E7%BD%91%E7%BB%9C%E8%AE%A1%E5%88%92%E6%8A%80%E6%9C%AF/image-20241024194336801.jpg"><br>节点时间：<br>$ES_{j} &#x3D; max(ES_{i}+T_{ij})$<br>$LF_{i}&#x3D;min(LF_{j}-T_{ij})$</p><p>活动时间：<br>$ES_{ij}&#x3D;ES_{i}$<br>$LF_{ij}&#x3D;LF_{i}$<br>$EF_{ij}&#x3D;ES_{ij}+T_{ij}$<br>$LS_{ij}&#x3D;LF_{ij}-T_{ij}$<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B8%83%E7%AB%A0-%E7%BD%91%E7%BB%9C%E8%AE%A1%E5%88%92%E6%8A%80%E6%9C%AF/image-20241024194954641.jpg"><br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B8%83%E7%AB%A0-%E7%BD%91%E7%BB%9C%E8%AE%A1%E5%88%92%E6%8A%80%E6%9C%AF/image-20241024195006093.jpg"></p><h3 id="3-2-时差"><a href="#3-2-时差" class="headerlink" title="3.2 时差"></a>3.2 时差</h3><h4 id="1-节点时差"><a href="#1-节点时差" class="headerlink" title="1 节点时差"></a>1 节点时差</h4><p>$S_{i} &#x3D; LF_{i}-ES_{i}$<br>结点时差为0的结点叫做关键结点。</p><h4 id="2-活动时差"><a href="#2-活动时差" class="headerlink" title="2 活动时差"></a>2 活动时差</h4><p>总时差：总时差是指在不影响项目整体工期的前提下，某个活动可以延迟的最大时间。<br>$S_{ij总} &#x3D; LF_{ij}-T_{ij}-ES_{ij}$<br>专用时差：专用时差是指某个活动可以延迟的时间，而不影响后续活动的开始时间。<br>$S_{ij专} &#x3D; EF_{ij}-T_{ij}-LS_{ij}$<br>局部时差1：指某个活动的完成时间可以延迟而不影响后续活动的最早开始时间。<br>$S_{ij局部}&#x3D;EF_{ij}-T_{ij}-ES_{ij}$<br>局部时差2：指某个活动的完成时间可以延迟而不影响其他活动的最迟开始时间。<br>$S_{ij局部}&#x3D;LF_{ij}-T_{ij}-LS_{ij}$</p><h4 id="3-线段时差"><a href="#3-线段时差" class="headerlink" title="3 线段时差"></a>3 线段时差</h4><p><strong>线段：</strong> 两个关键结点之间的一个活动或几个活动连续相接的连线称为线段。<br>注意：两个关键结点的之间没有第三个关键结点算一个线段，两个关键结点之间还有第三各结点，为两个线段。<br>线段时差等于线段中各个活动的总时差的最长者。</p><h4 id="4-线路时差"><a href="#4-线路时差" class="headerlink" title="4 线路时差"></a>4 线路时差</h4><p>线路：从始点出发，经过连续相接的活动，指导终点的一条连线。线路时差等于个线段时差之和。<br>关键线路的线路是擦汗等于0。</p><h2 id="第四节-最优方案的选择"><a href="#第四节-最优方案的选择" class="headerlink" title="第四节 最优方案的选择"></a>第四节 最优方案的选择</h2><p>优化：所谓优化，就是要制定除最优的计划方案，即计划方案能最合理地、最有效地利用人力、物力、财力，达到周期最短，成本最低的目的。<br>网络计划优化的内容主要有：</p><ol><li>时间优化：在人力物力财力等基本上有保证的条件下，寻求最短的工程周期。</li><li>时间与资源优化：合理利用资源的条件下，寻求最短的工程周期。</li><li>时间与成本优化：<ol><li>在保证工期最短的情况下，寻求成本较低的方案；</li><li>在成本较低的情况下，寻求合理的工程周期。<br> $直接费用增长率 &#x3D; （极限费用 - 正常费用）&#x2F;（正常时间-极限时间）$</li></ol></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机相关课程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机科学与技术 </tag>
+            
+            <tag> 运筹学基础 </tag>
+            
+            <tag> 自考 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>运筹学基础-第六章-运输问题</title>
       <link href="/onion.github.io/2024/10/b497c31494c3.html"/>
       <url>/onion.github.io/2024/10/b497c31494c3.html</url>
@@ -700,9 +731,9 @@
             
             <tag> 计算机科学与技术 </tag>
             
-            <tag> 自考 </tag>
-            
             <tag> 运筹学基础 </tag>
+            
+            <tag> 自考 </tag>
             
         </tags>
       
@@ -729,9 +760,9 @@
             
             <tag> 计算机科学与技术 </tag>
             
-            <tag> 自考 </tag>
-            
             <tag> 运筹学基础 </tag>
+            
+            <tag> 自考 </tag>
             
         </tags>
       
@@ -758,9 +789,9 @@
             
             <tag> 计算机科学与技术 </tag>
             
-            <tag> 自考 </tag>
-            
             <tag> 运筹学基础 </tag>
+            
+            <tag> 自考 </tag>
             
         </tags>
       
@@ -787,9 +818,9 @@
             
             <tag> 计算机科学与技术 </tag>
             
-            <tag> 自考 </tag>
-            
             <tag> 运筹学基础 </tag>
+            
+            <tag> 自考 </tag>
             
         </tags>
       
@@ -816,9 +847,9 @@
             
             <tag> 计算机科学与技术 </tag>
             
-            <tag> 自考 </tag>
-            
             <tag> 运筹学基础 </tag>
+            
+            <tag> 自考 </tag>
             
         </tags>
       
@@ -845,9 +876,9 @@
             
             <tag> 计算机科学与技术 </tag>
             
-            <tag> 自考 </tag>
-            
             <tag> 运筹学基础 </tag>
+            
+            <tag> 自考 </tag>
             
         </tags>
       
