@@ -18,6 +18,16 @@
       </categories>
       
       
+        <tags>
+            
+            <tag> 计算机科学与技术 </tag>
+            
+            <tag> 自考 </tag>
+            
+            <tag> 运筹学基础 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -37,6 +47,16 @@
       </categories>
       
       
+        <tags>
+            
+            <tag> 计算机科学与技术 </tag>
+            
+            <tag> 自考 </tag>
+            
+            <tag> 运筹学基础 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -55,6 +75,16 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> 计算机科学与技术 </tag>
+            
+            <tag> 自考 </tag>
+            
+            <tag> 运筹学基础 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -94,6 +124,16 @@
       </categories>
       
       
+        <tags>
+            
+            <tag> 计算机科学与技术 </tag>
+            
+            <tag> 自考 </tag>
+            
+            <tag> 运筹学基础 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -109,101 +149,6 @@
       <categories>
           
           <category> 调酒（生活） </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>运筹学基础-第六章-运输问题</title>
-      <link href="/onion.github.io/2024/10/68db2ce9b014.html"/>
-      <url>/onion.github.io/2024/10/68db2ce9b014.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="第一节-运输问题及其特殊结构"><a href="#第一节-运输问题及其特殊结构" class="headerlink" title="第一节 运输问题及其特殊结构"></a>第一节 运输问题及其特殊结构</h2><p>运输问题涉及多个供应点和需求点，目标是确定最佳的运输方案，以实现<strong>总运输费用最低</strong>或<strong>利润最大化</strong>。为此，基于单纯形法，发展出了一种专门解决运输问题的简便方法，称为<strong>表上作业</strong>。<br>不同运输数量不确定为Xij，代表从第i个产地运往第j个销售地点的运输数量，对于不同的运输数量，产生不同的运费。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241022152826998.jpg"><br>运输问题的解：使得总运费最低的具体运输数量。</p><h2 id="第二节-解决运输问题的步骤"><a href="#第二节-解决运输问题的步骤" class="headerlink" title="第二节 解决运输问题的步骤"></a>第二节 解决运输问题的步骤</h2><h3 id="2-1-建立运输图"><a href="#2-1-建立运输图" class="headerlink" title="2.1 建立运输图"></a>2.1 建立运输图</h3><p>首先，我们画一个图，图的节点代表供应点和需求点，连接这些节点的边表示运输路线。在每条边上，我们会写上运输费用、供应量和需求量。</p><p><strong>产销平衡表和单位运价表是一一对应的，我们可以把这两个表合为一个表称 为平衡表。</strong><br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241022152627370.jpg"></p><h3 id="2-2-找到初始运输方案-西北角法"><a href="#2-2-找到初始运输方案-西北角法" class="headerlink" title="2.2 找到初始运输方案-西北角法"></a>2.2 找到初始运输方案-西北角法</h3><p>我们使用<strong>西北角法</strong>来找一个初步的运输方案：</p><ul><li>从图的<strong>左上角（西北角）开始</strong>，尽量满足每个供应点的供给和每个需求点的需求。</li><li>逐步填写运输量，直到所有的需求和供应都被满足。<ul><li>即先满足A段需求量，再满足B段最后满足C段。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241022152638438.jpg"><br>数字格数为$（m+n-1）$为5个，总格数为$mn$;<br>剩余的空格为 $mn - (m+n-1)$</li></ul></li></ul><h3 id="2-3-改进运输方案"><a href="#2-3-改进运输方案" class="headerlink" title="2.3 改进运输方案"></a>2.3 改进运输方案</h3><p>接下来，我们要看看是否能进一步降低运输费用：</p><ul><li>闭回路法（推荐）</li><li>修正分配法<br>根据找到的改进路径，我们调整运输方案，直到不能再降低费用为止。</li></ul><h2 id="第三节-改进方法：闭回路法、修正分配法"><a href="#第三节-改进方法：闭回路法、修正分配法" class="headerlink" title="第三节 改进方法：闭回路法、修正分配法"></a>第三节 改进方法：闭回路法、修正分配法</h2><h3 id="3-1-闭合回路法"><a href="#3-1-闭合回路法" class="headerlink" title="3.1 闭合回路法"></a>3.1 闭合回路法</h3><p>在给出的调运方案的计算表上，从每个空格出发找一条闭回路。<br>以某空格为起点，用水平或垂直线向前划，<strong>当碰到数字格时，可以旋转90度（也可以越过)后</strong>，继续前进，知道回到起始空格为止。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241022155434986.jpg"><br>因m+n-1个数字格（基变量）对应的系数向量是一个基。则任一空格（非基变量）对应的系数向量均可由这个基线性表示。<br>$$\displaylines{P_{ij} &amp;&#x3D; e_{i}+e_{m+j} \ &amp; &#x3D; P_{ik}-P_{lk}+P_{ls}-P{us}+P_{uj}}$$</p><p><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241022163249014.jpg"></p><h3 id="3-1-修正分配法"><a href="#3-1-修正分配法" class="headerlink" title="3.1 修正分配法"></a>3.1 修正分配法</h3><p>可用具体看这个qwq：<a href="https://blog.csdn.net/weixin_40493805/article/details/124392716">运输问题的位势法-CSDN博客</a><br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241023085337495.jpg"></p><h4 id="1-位势的定义"><a href="#1-位势的定义" class="headerlink" title="1. 位势的定义"></a>1. 位势的定义</h4><ul><li><strong>理论位势</strong>：在理想情况下，运输的最佳费用。</li><li><strong>实际位势</strong>：在当前运输方案中实际产生的费用。</li><li><strong>位势差</strong>：理论位势与实际位势之间的差值。</li></ul><p>公式如下：</p><ul><li><strong>位势差</strong> &#x3D; 实际位势 - 理论位势</li><li>这里，理论位势 &#x3D; K（常数），实际位势 &#x3D; 运费 - R（给定值）</li></ul><p>通过这种方式，我们可以判断是否可以通过调整运输量来降低费用。</p><h1 id="第三节-需求量不等于供应量的运输问题"><a href="#第三节-需求量不等于供应量的运输问题" class="headerlink" title="第三节 需求量不等于供应量的运输问题"></a>第三节 需求量不等于供应量的运输问题</h1><h3 id="3-1-思路"><a href="#3-1-思路" class="headerlink" title="3.1 思路"></a>3.1 思路</h3><p>虚设站点把不平衡的改为平衡的在做。</p><h4 id="需求量小于供应量"><a href="#需求量小于供应量" class="headerlink" title="需求量小于供应量"></a>需求量小于供应量</h4><ol><li>虚设一个需求点；</li><li>虚设的需求点的需求量 &#x3D; 总供应量 - 总需求量；</li><li>虚设点的单位运费为0<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241023090923211.jpg"></li></ol><h4 id="需求量大于供应量"><a href="#需求量大于供应量" class="headerlink" title="需求量大于供应量"></a>需求量大于供应量</h4><ol><li>虚设一个供应点；</li><li>虚设的供应点的供应量 &#x3D; 总需求量 - 总供应量；</li><li>虚设点的单位运费为0；<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241023090936736.jpg">总结起来就是谁少补谁。</li></ol><h3 id="3-2-退化现象"><a href="#3-2-退化现象" class="headerlink" title="3.2 退化现象"></a>3.2 退化现象</h3><p><strong>退化一</strong><br>迭代过程中，若某一格填数时需同时划去一行和一列，此时出现退化。为保证m+n-1个非空格，需在上述的行或列中填入数字0。<br><strong>退化二</strong><br>闭回路上出现两个或两个以上的具有（-）标记的相等的最小值。只能选一个作为调入格，经过调整后，得退化解。则在另一数字格上填入0.</p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>本章内容选择、填空和名词解释都会涉及，计算题考察主要有三个知识点:<br>1、西北角法建立初始方案<br>2、闭合回路法或修正分配法，检验解是否最优。<br>3、闭回路法改进方案</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 计算机相关课程 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>运筹学基础-第五章-线性规划</title>
-      <link href="/onion.github.io/2024/10/9da52c4ba07b.html"/>
-      <url>/onion.github.io/2024/10/9da52c4ba07b.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="第五章-线性规划"><a href="#第五章-线性规划" class="headerlink" title="第五章 线性规划"></a>第五章 线性规划</h1><h2 id="第一节-概述"><a href="#第一节-概述" class="headerlink" title="第一节 概述"></a>第一节 概述</h2><p>线性规划是一种合理利用资源，合理调配资源的应用数学方法。<br>任务：</p><ol><li>计划任务确定，用最少的资源来实现任务。</li><li>资源数量确定，合理利用，使完成的任务最大。<br>综合来说，是研究投入产出的极值问题，就是使用最少的劳力和物力消耗，获得更多更好的社会需求产品。</li></ol><h2 id="第二节-线性规划的模型结构"><a href="#第二节-线性规划的模型结构" class="headerlink" title="第二节 线性规划的模型结构"></a>第二节 线性规划的模型结构</h2><p>线性规划的定义：线性规划是一组变量的值，在满足一组约束条件下，求得目标函数的最优解，使决策目标达到最优。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/image-20241022100521095.jpg" alt="200"><br>矩阵形式：<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/image-20241022101320519.jpg" alt="200"><br>标准型：<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/image-20241022103159860.jpg" alt="200"></p><h3 id="2-1-线性规划的模型结构"><a href="#2-1-线性规划的模型结构" class="headerlink" title="2.1 线性规划的模型结构"></a>2.1 线性规划的模型结构</h3><ol><li>变量</li><li>目标函数</li><li>约束条件</li><li>线性规划的变量应该为政治</li></ol><h3 id="2-2-线性规划建模步骤"><a href="#2-2-线性规划建模步骤" class="headerlink" title="2.2 线性规划建模步骤"></a>2.2 线性规划建模步骤</h3><ol><li>明确问题，确定目标，列出约束因素</li><li>收集资料，建立模型</li><li>模型求解与检验</li><li>优化后分析</li></ol><h2 id="第三节-线性规划的图解法"><a href="#第三节-线性规划的图解法" class="headerlink" title="第三节 线性规划的图解法"></a>第三节 线性规划的图解法</h2><p><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/image-20241022094541168.jpg"></p><h2 id="第四节-线性规划的单纯形法"><a href="#第四节-线性规划的单纯形法" class="headerlink" title="第四节 线性规划的单纯形法"></a>第四节 线性规划的单纯形法</h2><h3 id="4-1-作用"><a href="#4-1-作用" class="headerlink" title="4.1 作用"></a>4.1 作用</h3><p>在一组线性约束条件下，求解目标函数最优解的问题。</p><h3 id="4-2-线性规划的可行域"><a href="#4-2-线性规划的可行域" class="headerlink" title="4.2 线性规划的可行域"></a>4.2 线性规划的可行域</h3><p>满足线性规划问题约束条件的所有点组成的集合就是线性规划的可行域。若可行域游街，线性规划问题的目标函数最优解必然在可行域的顶点上达到最优。</p><h3 id="4-3-单纯形法步骤"><a href="#4-3-单纯形法步骤" class="headerlink" title="4.3 单纯形法步骤"></a>4.3 单纯形法步骤</h3><p>单纯形法就是通过设置不同的基向量，经过矩阵的线性变换，求得基可行解（可行域顶点），并判断该解是否为最优，否则继续设置另一组基向量，重复以上步骤，知道找到最优解。<br>单纯形法的求解过程是一个循环迭代的过程。</p><h4 id="标准形要求"><a href="#标准形要求" class="headerlink" title="标准形要求"></a>标准形要求</h4><ol><li>目标函数要求max</li><li>约束条件均为等式</li><li>决策变量为非负约束</li></ol><h4 id="普通线性规划转化为标准形步骤"><a href="#普通线性规划转化为标准形步骤" class="headerlink" title="普通线性规划转化为标准形步骤"></a>普通线性规划转化为标准形步骤</h4><ol><li>若目标函数为最小化，可以通过取负，求最大化；</li><li>约束不等式为小于等于不等式，可以在左端加入非负松弛变量，转化为等式。同理为大于等于不等式，可以在左端减去一个非负松弛变量，变为等式。<img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/image-20241022103113616.jpg"></li><li>若存在取值无约束的变量，可以转化为两个非负变量的差。 <img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/image-20241022103125565.jpg"></li></ol><h3 id="4-4-几何意义"><a href="#4-4-几何意义" class="headerlink" title="4.4 几何意义"></a>4.4 几何意义</h3><p>标准型：<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/image-20241022103159860.jpg" alt="200"><br>在标准形中，有m个约束条件（不包括非负约束），n个决策变量，且（n&gt;&#x3D;m）。首先，选取m个基变量，基变量对应约束系数矩阵的列向量线性无关。通过矩阵的线性变换，基变量可由非基变量表示：<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/image-20241022103618891.jpg" alt="400"><br>如果令非基变量等于0，可求得基变量的值：<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/image-20241022103703912.jpg"><br>如果为可行解的话，Ci大于0。</p><p>如果选择x2、x3为基变量，那么令x1、x4等于0，可以去求解基变量x2、x3的值。对系数矩阵做行变换，如下：x2 &#x3D; 9&#x2F;2 , x3 &#x3D; 15&#x2F;2.<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/image-20241022145357128.jpg"><br>X1&#x3D;0表示可行解在x轴上；X4&#x3D;0表示可行解在x1+2x2&#x3D;9的直线上。那么，求得的可行解即表示这两条直线的交点，也是可行域的顶点，如图所示：<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/image-20241022145447350.jpg" alt="400"></p><h3 id="4-5-如何判断最优"><a href="#4-5-如何判断最优" class="headerlink" title="4.5 如何判断最优"></a>4.5 如何判断最优</h3><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a href="https://blog.csdn.net/qq_36558948/article/details/80640768">线性规划之单纯形法【超详解+图解】-CSDN博客</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 计算机相关课程 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>运筹学基础-第四章-库存管理</title>
-      <link href="/onion.github.io/2024/10/b0aeced1931a.html"/>
-      <url>/onion.github.io/2024/10/b0aeced1931a.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="第四章-库存管理"><a href="#第四章-库存管理" class="headerlink" title="第四章 库存管理"></a>第四章 库存管理</h1><p>工业企业的库存包括：</p><ol><li>没有经过企业加工的原材料；</li><li>已经经过企业加工，但尚未加工完毕的在制品；</li><li>企业已经加工完毕，待销售的成品和备件。<br>整理并补充后的内容如下：</li></ol><h2 id="第一节-库存管理的作用和意义"><a href="#第一节-库存管理的作用和意义" class="headerlink" title="第一节 库存管理的作用和意义"></a>第一节 库存管理的作用和意义</h2><h3 id="1-1-库存管理的作用"><a href="#1-1-库存管理的作用" class="headerlink" title="1.1 库存管理的作用"></a>1.1 库存管理的作用</h3><p>库存管理的核心目的是保障企业生产的持续性和稳定性，具体表现在：</p><ol><li>适应原材料供应的季节性（如农产品等）；</li><li>平衡产品销售的季节性波动；</li><li>提高运输的合理性与经济性，减少频繁运输成本；</li><li>促进生产计划的合理安排；</li><li>依据批量采购优化整体库存管理。</li></ol><h3 id="1-2-库存管理的意义"><a href="#1-2-库存管理的意义" class="headerlink" title="1.2 库存管理的意义"></a>1.2 库存管理的意义</h3><p>库存管理具有如下重要意义：</p><ol><li>确保企业按科学计划实施均衡生产，避免因缺乏原材料而停工；</li><li>实现库存管理总成本最低化，提升企业经济效益。</li></ol><h2 id="第二节-库存管理的存货台套法与ABC分类管理"><a href="#第二节-库存管理的存货台套法与ABC分类管理" class="headerlink" title="第二节 库存管理的存货台套法与ABC分类管理"></a>第二节 库存管理的存货台套法与ABC分类管理</h2><h3 id="2-1-存货台套法"><a href="#2-1-存货台套法" class="headerlink" title="2.1 存货台套法"></a>2.1 存货台套法</h3><p>存货台套法是以台套为单位进行管理，一个存货台套可以包含多种相关的单项存货。这种方法便于企业管理存货组合，优化库存管理流程。</p><h3 id="2-2-ABC分类管理法"><a href="#2-2-ABC分类管理法" class="headerlink" title="2.2 ABC分类管理法"></a>2.2 ABC分类管理法</h3><p>ABC分类管理法根据存货台套的年度需用价值进行分类：</p><ul><li><strong>A类</strong>：占存货台套的10%，但需用价值占70%。此类存货数量不多，但价值高，对企业影响大，因此需加强管理，投资回报高；</li><li><strong>B类</strong>：占存货台套的30%，需用价值占20%。该类存货管理可适度精简；</li><li><strong>C类</strong>：占存货台套的60%，需用价值占10%。此类存货价值低、数量大，管理可相对粗略，定期按季度或半年订货，主要确保不缺货且不产生重大损失。</li></ul><h2 id="第三节-库存费用分析与平均库存"><a href="#第三节-库存费用分析与平均库存" class="headerlink" title="第三节 库存费用分析与平均库存"></a>第三节 库存费用分析与平均库存</h2><h3 id="3-1-库存费用分析"><a href="#3-1-库存费用分析" class="headerlink" title="3.1 库存费用分析"></a>3.1 库存费用分析</h3><p>库存费用主要由订货费、工装调整费及保管费组成：</p><ol><li><strong>订货费</strong>：年需求量&#x2F;订货量 × 一次订货费用；</li><li><strong>工装调整费</strong>：年计划产量&#x2F;生产批量 × 一次工装调整费；</li><li><strong>保管费</strong>：平均库存量 × 库存物资单价 × 保管费率。</li></ol><p>保管费率可以通过以下公式计算：</p><ul><li><strong>保管费率</strong> &#x3D; 全年企业保管费用总额 &#x2F; 全年企业平均存货总额。</li></ul><h3 id="3-2-平均库存"><a href="#3-2-平均库存" class="headerlink" title="3.2 平均库存"></a>3.2 平均库存</h3><p>平均库存的概念反映了库存量的动态变化，通常计算公式为：</p><ul><li><strong>平均库存量</strong> &#x3D; (期初库存量 + 期末库存量) &#x2F; 2；</li><li><strong>平均库存额</strong> &#x3D; 平均库存量 × 单位物资价格。</li></ul><h2 id="第四节-经济订货量（EOQ）的计算方法"><a href="#第四节-经济订货量（EOQ）的计算方法" class="headerlink" title="第四节 经济订货量（EOQ）的计算方法"></a>第四节 经济订货量（EOQ）的计算方法</h2><p>经济订货量（EOQ）是使库存管理总费用最低的订货批量。常见的计算方法有：</p><h3 id="4-1-表格法（列表法）"><a href="#4-1-表格法（列表法）" class="headerlink" title="4.1 表格法（列表法）"></a>4.1 表格法（列表法）</h3><p>步骤：</p><ol><li>选择多个可能的订货量方案；</li><li>计算每种方案的总费用；</li><li>选择总费用最小的订货量。</li></ol><h3 id="4-2-图解法"><a href="#4-2-图解法" class="headerlink" title="4.2 图解法"></a>4.2 图解法</h3><p>图解法通过绘制总费用与订货量的曲线，找到保管费用与订货费用相等处，总费用最低的订货量。</p><h3 id="4-3-数学法"><a href="#4-3-数学法" class="headerlink" title="4.3 数学法"></a>4.3 数学法</h3><p>利用代数推导或导数求解公式，计算最佳订货量。EOQ的基本公式为：</p><ul><li><strong>EOQ</strong> &#x3D; √(2 × 年需求量 × 订货费用 &#x2F; 保管费用)。</li></ul><h2 id="第五节-订货时间的确定"><a href="#第五节-订货时间的确定" class="headerlink" title="第五节 订货时间的确定"></a>第五节 订货时间的确定</h2><p>在确定性库存模型中，订货时间的确定是基于使用量和提前期的恒定性。为确保生产不中断，同时避免库存过多，应考虑以下因素：</p><ol><li><strong>再订货点</strong>：决定何时重新订货，或在存货水平达到某一标准时触发订货；</li><li><strong>前置时间</strong>：从发出订货信息到物品入库所需的时间；</li><li><strong>前置时间内的需求量</strong>：即订货前的物资消耗量；</li><li><strong>缺货管理</strong>：对需求量变化或前置时间延长的应对措施，包括调整安全库存量；</li><li><strong>安全库存量</strong>：为应对需求波动或前置时间延长而设定的额外库存，以降低缺货风险。</li></ol><h2 id="第六节-大批量采购与数量折扣"><a href="#第六节-大批量采购与数量折扣" class="headerlink" title="第六节 大批量采购与数量折扣"></a>第六节 大批量采购与数量折扣</h2><h3 id="6-1-大批量采购的优缺点"><a href="#6-1-大批量采购的优缺点" class="headerlink" title="6.1 大批量采购的优缺点"></a>6.1 大批量采购的优缺点</h3><p><strong>优点</strong>：</p><ol><li>获得较低的采购单价；</li><li>减少订货次数，降低订货费用；</li><li>批量运输降低运费；</li><li>减少缺货风险。</li></ol><p><strong>缺点</strong>：</p><ol><li>增加保管费用；</li><li>占用更多资金；</li><li>库存贬值或陈旧的风险加大；</li><li>降低对市场变化的灵活应对能力，尤其在快速变化的行业（如时尚、电子产品等）中。</li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> 计算机相关课程 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>运筹学基础-第三章-决策</title>
-      <link href="/onion.github.io/2024/10/75a2172d700d.html"/>
-      <url>/onion.github.io/2024/10/75a2172d700d.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="第三章-决策"><a href="#第三章-决策" class="headerlink" title="第三章 决策"></a>第三章 决策</h1><h2 id="第一节-决策的概念和程序"><a href="#第一节-决策的概念和程序" class="headerlink" title="第一节 决策的概念和程序"></a>第一节 决策的概念和程序</h2><h3 id="1-1-决策的概念"><a href="#1-1-决策的概念" class="headerlink" title="1.1 决策的概念"></a>1.1 决策的概念</h3><ul><li><strong>狭义</strong>：决策是对多个可供选择的方案进行选择。</li><li><strong>广义</strong>：决策不仅包括选择方案，还涉及明确项目目的、寻求可行方案，并对实施结果进行总结和评价。</li></ul><h3 id="1-2-决策的分类"><a href="#1-2-决策的分类" class="headerlink" title="1.2 决策的分类"></a>1.2 决策的分类</h3><ul><li><p><strong>按决策方法</strong>：</p><ul><li><strong>常规性决策</strong>：基于经验和固定程序的决策。</li><li><strong>特殊性决策</strong>：针对特定情况的灵活决策。</li></ul></li><li><p><strong>按计划和控制的关系</strong>：</p><ul><li><strong>计划性决策</strong>：在计划阶段做出的决策，通常属于特殊性决策。</li><li><strong>控制性决策</strong>：执行阶段的决策，可以是特殊或常规的。</li></ul></li></ul><blockquote><p>计划性决策多数属于特殊性，而控制性决策则有的特殊，有的常规。</p></blockquote><h3 id="1-3-决策的程序"><a href="#1-3-决策的程序" class="headerlink" title="1.3 决策的程序"></a>1.3 决策的程序</h3><ol><li><strong>确定目标</strong>：明确你希望实现的目标。</li><li><strong>拟定多个可行方案</strong>：寻找和制定多个可能的解决方案。</li><li><strong>预测自然状态</strong>：评估可能发生的自然状态，并计算不同方案在这些状态下的收益（或损失），编制决策收益表（或损失表），即决策矩阵。</li><li><strong>决策分析</strong>：基于收益表，运用不同的标准进行分析，选择最优方案。</li></ol><h2 id="第二节-在不同环境下的决策"><a href="#第二节-在不同环境下的决策" class="headerlink" title="第二节 在不同环境下的决策"></a>第二节 在不同环境下的决策</h2><h3 id="2-1-确定条件下的决策"><a href="#2-1-确定条件下的决策" class="headerlink" title="2.1 确定条件下的决策"></a>2.1 确定条件下的决策</h3><ul><li>只有一种自然状态存在。自然状态是指那些决策者无法控制的未来情况。</li></ul><h3 id="2-2-不同条件下的决策"><a href="#2-2-不同条件下的决策" class="headerlink" title="2.2 不同条件下的决策"></a>2.2 不同条件下的决策</h3><ul><li>存在多个自然状态，但决策者对这些状态的了解有限，可能无法准确分配概率。</li></ul><h2 id="第三节-不确定条件下的决策"><a href="#第三节-不确定条件下的决策" class="headerlink" title="第三节 不确定条件下的决策"></a>第三节 不确定条件下的决策</h2><p>特征：</p><ol><li><strong>明确的决策目标</strong>：需要有一个清晰的目标。</li><li><strong>多个可行方案</strong>：能够设计出两个以上的方案进行比较。</li><li><strong>多种自然状态</strong>：存在不止一种自然状态。</li><li><strong>收益损失预测</strong>：能够估计不同方案在不同状态下的收益和损失。</li></ol><h4 id="决策标准"><a href="#决策标准" class="headerlink" title="决策标准"></a>决策标准</h4><ul><li><strong>最大最大决策标准</strong>：从每个方案中选择最大收益，再选择其中的最大值（乐观主义）。</li><li><strong>最大最小决策标准</strong>：选择每个方案的最小收益，再从中选择最大收益的方案（悲观主义）。</li><li><strong>最小最大遗憾值决策标准</strong>：计算每种状态下的最大收益与其他方案的差值，选择最小的遗憾值。</li><li><strong>现实主义决策标准</strong>：折中考虑不同方案的优缺点。</li></ul><h2 id="第四节-风险条件下的决策"><a href="#第四节-风险条件下的决策" class="headerlink" title="第四节 风险条件下的决策"></a>第四节 风险条件下的决策</h2><ul><li>风险决策又称统计型决策或随机型决策，依据不同自然状态发生的概率进行决策。</li></ul><p>特征：</p><ol><li><strong>明确的决策目标</strong>：有清晰的目标指向。</li><li><strong>多个可行方案</strong>：可以选择的方案数量多于一个。</li><li><strong>多个自然状态</strong>：存在多个状态，每个状态的概率可估算。</li><li><strong>收益损失的定量计算</strong>：不同方案在不同状态下的收益和损失能够被量化。</li></ol><h3 id="风险决策标准"><a href="#风险决策标准" class="headerlink" title="风险决策标准"></a>风险决策标准</h3><ul><li><strong>最大期望收益值标准</strong>：选择期望收益最大的方案。</li><li><strong>最小期望损失值标准</strong>：选择期望损失最小的方案，包括报废损失和机会损失。</li></ul><h2 id="第五节-决策树"><a href="#第五节-决策树" class="headerlink" title="第五节 决策树"></a>第五节 决策树</h2><p>决策树是一种有效的工具，用于解决单阶段和多阶段的决策问题。</p><ul><li><strong>方块结点</strong>：表示决策点，连接的树枝表示不同方案。</li><li><strong>圆圈结点</strong>：表示状态点，连接的树枝表示不同状态的结果。</li></ul><h3 id="决策树的优点"><a href="#决策树的优点" class="headerlink" title="决策树的优点"></a>决策树的优点</h3><ol><li><strong>有条理</strong>：使决策过程更加清晰和系统。</li><li><strong>全面检验</strong>：确保考虑所有可能的结果。</li><li><strong>易于理解</strong>：以简洁的方式传达决策过程。</li><li><strong>聚焦细节</strong>：集中分析每个财务数字、概率和假设。</li><li><strong>计算机辅助</strong>：可以与计算机结合，模拟多种假设和方案组合。</li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> 计算机相关课程 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>运筹学基础-第二章-预测</title>
-      <link href="/onion.github.io/2024/10/71cd07b5fcf4.html"/>
-      <url>/onion.github.io/2024/10/71cd07b5fcf4.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="第二章-预测"><a href="#第二章-预测" class="headerlink" title="第二章 预测"></a>第二章 预测</h1><h2 id="第一节-预测的概念和程序"><a href="#第一节-预测的概念和程序" class="headerlink" title="第一节 预测的概念和程序"></a>第一节 预测的概念和程序</h2><h3 id="1-1-预测的概念和作用"><a href="#1-1-预测的概念和作用" class="headerlink" title="1.1 预测的概念和作用"></a>1.1 预测的概念和作用</h3><p>预测是对未来不确定事件的估计或判断，是决策过程中的基础。有效的预测能够帮助组织更好地制定战略和计划，从而应对未来的挑战和机遇。</p><h3 id="1-2-预测的方法和分类"><a href="#1-2-预测的方法和分类" class="headerlink" title="1.2 预测的方法和分类"></a>1.2 预测的方法和分类</h3><p><strong>分类</strong>：</p><ol><li><strong>经济预测</strong>：分析经济趋势和市场变化。</li><li><strong>科技预测</strong>：评估科技发展及其潜在影响。</li><li><strong>社会预测</strong>：研究社会动态和变化趋势。</li><li><strong>军事预测</strong>：对军事形势进行评估。</li></ol><p><strong>方法</strong>：</p><ol><li><p><strong>定性预测</strong>：</p><ul><li>直观预测。</li><li>专家座谈会。</li><li>特尔斐法。</li></ul></li><li><p><strong>定量预测</strong>：</p><ul><li><strong>外推法</strong>：利用历史数据进行推算。</li><li><strong>时间序列分析法</strong>：分析历史数据中的时间序列模式。</li><li><strong>因果法</strong>：基于因果关系的预测，如回归分析、经济计量法、投入产出分析等。</li></ul></li></ol><p><strong>时间分类</strong>：</p><ul><li><strong>经济预测</strong>：<ul><li>长期预测：3-5年。</li><li>中期预测：1-3年。</li><li>短期预测：一年以内。</li></ul></li><li><strong>科技预测</strong>：<ul><li>长期预测：30-50年。</li><li>中期预测：10-30年。</li><li>短期预测：5-10年。</li></ul></li></ul><h3 id="1-3-预测的程序"><a href="#1-3-预测的程序" class="headerlink" title="1.3 预测的程序"></a>1.3 预测的程序</h3><ol><li>确定预测对象或目标。</li><li>选择预测周期，适合于特定产品的生命周期和市场变化。</li><li>选择预测方法。</li><li>收集相关资料。</li><li>进行预测。</li></ol><hr><h2 id="第二节-定性预测法：判断预测法"><a href="#第二节-定性预测法：判断预测法" class="headerlink" title="第二节 定性预测法：判断预测法"></a>第二节 定性预测法：判断预测法</h2><p><strong>应用情况</strong>：</p><ol><li>建立模型时缺乏数据，例如预测新产品价格。</li><li>社会或经济环境发生剧烈变化，历史数据不再具有代表性。</li></ol><h3 id="2-1-特尔斐法"><a href="#2-1-特尔斐法" class="headerlink" title="2.1 特尔斐法"></a>2.1 特尔斐法</h3><p>特尔斐法旨在通过“专家群”获得一致的预测结果。其特点包括：</p><ul><li>专家意见匿名。</li><li>多次信息反馈。</li><li>最终整理专家意见供决策参考。</li></ul><p><strong>步骤</strong>：</p><ol><li>确定课题。</li><li>选择专家。</li><li>设计咨询表。</li><li>逐轮咨询和反馈。</li><li>使用统计分析方法定量评价结果。</li></ol><p>该方法适合长期或中期预测，需合理安排时间并酌情报酬以确保专家认真参与。</p><h3 id="2-2-专家小组法"><a href="#2-2-专家小组法" class="headerlink" title="2.2 专家小组法"></a>2.2 专家小组法</h3><p>在小组内进行面对面的讨论和磋商，最终得出一致意见。优点是促进协商和补充，但需注意避免权威人士影响其他成员的创新见解。此方法适合短期预测。</p><hr><h2 id="第三节-时间序列预测法"><a href="#第三节-时间序列预测法" class="headerlink" title="第三节 时间序列预测法"></a>第三节 时间序列预测法</h2><p><strong>基本原理</strong>：</p><ol><li>承认事物发展的延续性，适用于短期预测。</li><li>考虑随机因素的影响和干扰。</li></ol><h3 id="3-1-滑动平均预测法"><a href="#3-1-滑动平均预测法" class="headerlink" title="3.1 滑动平均预测法"></a>3.1 滑动平均预测法</h3><ul><li><strong>简单平均预测法</strong>：<ul><li>横向比较法。</li><li>纵向比较法：简单滑动平均数法。</li></ul></li><li><strong>加权平均数预测法</strong>：<ul><li>横向比较法。</li><li>纵向比较法：加权移动平均数法（近期数据权重更大）。</li></ul></li></ul><hr><h2 id="第四节-回归模型预测法"><a href="#第四节-回归模型预测法" class="headerlink" title="第四节 回归模型预测法"></a>第四节 回归模型预测法</h2><p>回归分析是一种基于内部因素变化的因果关系进行的定量预测方法，主要用于研究变量之间的相互关系。最常见的一元线性回归模型表达为 Y&#x3D;ax+b，可通过最小二乘法进行参数估计。</p><hr><h2 id="第五节-季节性变动预测"><a href="#第五节-季节性变动预测" class="headerlink" title="第五节 季节性变动预测"></a>第五节 季节性变动预测</h2><p>对于季节性变动的预测，可以结合指数平滑法与一般性变动预测，以适应周期性波动和趋势变化的需求。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 计算机相关课程 </category>
           
       </categories>
       
@@ -297,35 +242,6 @@
     
     
     <entry>
-      <title>运筹学基础-第一章-导论</title>
-      <link href="/onion.github.io/2024/10/255392bdf203.html"/>
-      <url>/onion.github.io/2024/10/255392bdf203.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="第一章-导论"><a href="#第一章-导论" class="headerlink" title="第一章 导论"></a>第一章 导论</h1><h2 id="第一节-概述"><a href="#第一节-概述" class="headerlink" title="第一节 概述"></a>第一节 概述</h2><h3 id="1-1-运筹学与管理决策"><a href="#1-1-运筹学与管理决策" class="headerlink" title="1.1 运筹学与管理决策"></a>1.1 运筹学与管理决策</h3><ul><li><strong>定义</strong>：运筹学研究如何有效管理人机系统，利用计划方法将复杂关系表示为数学模型，通过定量分析支持决策。</li><li><strong>分析形式</strong>：<ul><li><strong>定性分析</strong>：依赖于决策者的经验和直觉，随着经验的累积而增强。</li><li><strong>定量分析</strong>：基于数学模型和量化数据。</li></ul></li></ul><h3 id="1-2-计算机与运筹学"><a href="#1-2-计算机与运筹学" class="headerlink" title="1.2 计算机与运筹学"></a>1.2 计算机与运筹学</h3><ul><li><strong>关系</strong>：计算机是运筹学的重要工具，运筹学与计算机方法是相辅相成、共同发展的。</li></ul><h3 id="1-3-决策方法的分类"><a href="#1-3-决策方法的分类" class="headerlink" title="1.3 决策方法的分类"></a>1.3 决策方法的分类</h3><ol><li><strong>定性决策</strong>：基于决策者的主观经验或知识。</li><li><strong>定量决策</strong>：依赖正式的计量方法。</li><li><strong>混合性决策</strong>：结合定量和定性方法，通常在以下情况下使用：<ul><li>问题复杂且变量众多。</li><li>可获取相关数据。</li><li>各项目标可量化。</li><li>可建立切实可行的模型。</li></ul></li></ol><h2 id="第二节-应用运筹学进行决策过程的几个步骤"><a href="#第二节-应用运筹学进行决策过程的几个步骤" class="headerlink" title="第二节 应用运筹学进行决策过程的几个步骤"></a>第二节 应用运筹学进行决策过程的几个步骤</h2><ol><li><strong>观察待决策问题的环境。</strong></li><li><strong>分析和定义待决策的问题。</strong></li><li><strong>拟定模型</strong>：使用符号或抽象模型。</li><li><strong>选择输出资料</strong>：通过记录、实验等方式收集。</li><li><strong>提出解并验证其合理性</strong>：进行敏感度实验，观察输入变化对输出的影响。</li><li><strong>实施最优解。</strong></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> 计算机相关课程 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 计算机科学与技术 </tag>
-            
-            <tag> 运筹学基础 </tag>
-            
-            <tag> 自考 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>计算机系统结构笔记-第七章-多处理机</title>
       <link href="/onion.github.io/2024/10/378b3498acbe.html"/>
       <url>/onion.github.io/2024/10/378b3498acbe.html</url>
@@ -344,9 +260,9 @@
             
             <tag> 计算机科学与技术 </tag>
             
-            <tag> 自考 </tag>
-            
             <tag> 计算机系统结构 </tag>
+            
+            <tag> 自考 </tag>
             
         </tags>
       
@@ -373,9 +289,9 @@
             
             <tag> 计算机科学与技术 </tag>
             
-            <tag> 自考 </tag>
-            
             <tag> 计算机系统结构 </tag>
+            
+            <tag> 自考 </tag>
             
         </tags>
       
@@ -402,9 +318,9 @@
             
             <tag> 计算机科学与技术 </tag>
             
-            <tag> 自考 </tag>
-            
             <tag> 计算机系统结构 </tag>
+            
+            <tag> 自考 </tag>
             
         </tags>
       
@@ -431,9 +347,9 @@
             
             <tag> 计算机科学与技术 </tag>
             
-            <tag> 自考 </tag>
-            
             <tag> 计算机系统结构 </tag>
+            
+            <tag> 自考 </tag>
             
         </tags>
       
@@ -460,9 +376,9 @@
             
             <tag> 计算机科学与技术 </tag>
             
-            <tag> 自考 </tag>
-            
             <tag> 计算机系统结构 </tag>
+            
+            <tag> 自考 </tag>
             
         </tags>
       
@@ -489,9 +405,9 @@
             
             <tag> 计算机科学与技术 </tag>
             
-            <tag> 自考 </tag>
-            
             <tag> 计算机系统结构 </tag>
+            
+            <tag> 自考 </tag>
             
         </tags>
       
@@ -529,25 +445,6 @@
       <categories>
           
           <category> 博客网站创建及使用 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>运筹学基础资源-思维导图</title>
-      <link href="/onion.github.io/2024/10/96a512c37990.html"/>
-      <url>/onion.github.io/2024/10/96a512c37990.html</url>
-      
-        <content type="html"><![CDATA[<p><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80%E8%B5%84%E6%BA%90-%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/image-20241018112917433.jpg"></p><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a href="https://www.scmor.com/view/6135">运筹学知识体系思维导图 - 思谋网 (scmor.com)</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 计算机相关课程 </category>
           
       </categories>
       
@@ -779,6 +676,199 @@
             <tag> 学习日志 </tag>
             
         </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>运筹学基础-第六章-运输问题</title>
+      <link href="/onion.github.io/2024/10/b497c31494c3.html"/>
+      <url>/onion.github.io/2024/10/b497c31494c3.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="第一节-运输问题及其特殊结构"><a href="#第一节-运输问题及其特殊结构" class="headerlink" title="第一节 运输问题及其特殊结构"></a>第一节 运输问题及其特殊结构</h2><p>运输问题涉及多个供应点和需求点，目标是确定最佳的运输方案，以实现<strong>总运输费用最低</strong>或<strong>利润最大化</strong>。为此，基于单纯形法，发展出了一种专门解决运输问题的简便方法，称为<strong>表上作业</strong>。<br>不同运输数量不确定为Xij，代表从第i个产地运往第j个销售地点的运输数量，对于不同的运输数量，产生不同的运费。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241022152826998.jpg"><br>运输问题的解：使得总运费最低的具体运输数量。</p><h2 id="第二节-解决运输问题的步骤"><a href="#第二节-解决运输问题的步骤" class="headerlink" title="第二节 解决运输问题的步骤"></a>第二节 解决运输问题的步骤</h2><h3 id="2-1-建立运输图"><a href="#2-1-建立运输图" class="headerlink" title="2.1 建立运输图"></a>2.1 建立运输图</h3><p>首先，我们画一个图，图的节点代表供应点和需求点，连接这些节点的边表示运输路线。在每条边上，我们会写上运输费用、供应量和需求量。</p><p><strong>产销平衡表和单位运价表是一一对应的，我们可以把这两个表合为一个表称 为平衡表。</strong><br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241022152627370.jpg"></p><h3 id="2-2-找到初始运输方案-西北角法"><a href="#2-2-找到初始运输方案-西北角法" class="headerlink" title="2.2 找到初始运输方案-西北角法"></a>2.2 找到初始运输方案-西北角法</h3><p>我们使用<strong>西北角法</strong>来找一个初步的运输方案：</p><ul><li>从图的<strong>左上角（西北角）开始</strong>，尽量满足每个供应点的供给和每个需求点的需求。</li><li>逐步填写运输量，直到所有的需求和供应都被满足。<ul><li>即先满足A段需求量，再满足B段最后满足C段。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241022152638438.jpg"><br>数字格数为$（m+n-1）$为5个，总格数为$mn$;<br>剩余的空格为 $mn - (m+n-1)$</li></ul></li></ul><h3 id="2-3-改进运输方案"><a href="#2-3-改进运输方案" class="headerlink" title="2.3 改进运输方案"></a>2.3 改进运输方案</h3><p>接下来，我们要看看是否能进一步降低运输费用：</p><ul><li>闭回路法（推荐）</li><li>修正分配法<br>根据找到的改进路径，我们调整运输方案，直到不能再降低费用为止。</li></ul><h2 id="第三节-改进方法：闭回路法、修正分配法"><a href="#第三节-改进方法：闭回路法、修正分配法" class="headerlink" title="第三节 改进方法：闭回路法、修正分配法"></a>第三节 改进方法：闭回路法、修正分配法</h2><h3 id="3-1-闭合回路法"><a href="#3-1-闭合回路法" class="headerlink" title="3.1 闭合回路法"></a>3.1 闭合回路法</h3><p>在给出的调运方案的计算表上，从每个空格出发找一条闭回路。<br>以某空格为起点，用水平或垂直线向前划，<strong>当碰到数字格时，可以旋转90度（也可以越过)后</strong>，继续前进，知道回到起始空格为止。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241022155434986.jpg"><br>因m+n-1个数字格（基变量）对应的系数向量是一个基。则任一空格（非基变量）对应的系数向量均可由这个基线性表示。<br>$$\displaylines{P_{ij} &amp;&#x3D; e_{i}+e_{m+j} \ &amp; &#x3D; P_{ik}-P_{lk}+P_{ls}-P{us}+P_{uj}}$$</p><p><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241022163249014.jpg"></p><h3 id="3-1-修正分配法"><a href="#3-1-修正分配法" class="headerlink" title="3.1 修正分配法"></a>3.1 修正分配法</h3><p>可用具体看这个qwq：<a href="https://blog.csdn.net/weixin_40493805/article/details/124392716">运输问题的位势法-CSDN博客</a><br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241023085337495.jpg"></p><h4 id="1-位势的定义"><a href="#1-位势的定义" class="headerlink" title="1. 位势的定义"></a>1. 位势的定义</h4><ul><li><strong>理论位势</strong>：在理想情况下，运输的最佳费用。</li><li><strong>实际位势</strong>：在当前运输方案中实际产生的费用。</li><li><strong>位势差</strong>：理论位势与实际位势之间的差值。</li></ul><p>公式如下：</p><ul><li><strong>位势差</strong> &#x3D; 实际位势 - 理论位势</li><li>这里，理论位势 &#x3D; K（常数），实际位势 &#x3D; 运费 - R（给定值）</li></ul><p>通过这种方式，我们可以判断是否可以通过调整运输量来降低费用。</p><h1 id="第三节-需求量不等于供应量的运输问题"><a href="#第三节-需求量不等于供应量的运输问题" class="headerlink" title="第三节 需求量不等于供应量的运输问题"></a>第三节 需求量不等于供应量的运输问题</h1><h3 id="3-1-思路"><a href="#3-1-思路" class="headerlink" title="3.1 思路"></a>3.1 思路</h3><p>虚设站点把不平衡的改为平衡的在做。</p><h4 id="需求量小于供应量"><a href="#需求量小于供应量" class="headerlink" title="需求量小于供应量"></a>需求量小于供应量</h4><ol><li>虚设一个需求点；</li><li>虚设的需求点的需求量 &#x3D; 总供应量 - 总需求量；</li><li>虚设点的单位运费为0<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241023090923211.jpg"></li></ol><h4 id="需求量大于供应量"><a href="#需求量大于供应量" class="headerlink" title="需求量大于供应量"></a>需求量大于供应量</h4><ol><li>虚设一个供应点；</li><li>虚设的供应点的供应量 &#x3D; 总需求量 - 总供应量；</li><li>虚设点的单位运费为0；<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241023090936736.jpg">总结起来就是谁少补谁。</li></ol><h3 id="3-2-退化现象"><a href="#3-2-退化现象" class="headerlink" title="3.2 退化现象"></a>3.2 退化现象</h3><p><strong>退化一</strong><br>迭代过程中，若某一格填数时需同时划去一行和一列，此时出现退化。为保证m+n-1个非空格，需在上述的行或列中填入数字0。<br><strong>退化二</strong><br>闭回路上出现两个或两个以上的具有（-）标记的相等的最小值。只能选一个作为调入格，经过调整后，得退化解。则在另一数字格上填入0.</p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>本章内容选择、填空和名词解释都会涉及，计算题考察主要有三个知识点:<br>1、西北角法建立初始方案<br>2、闭合回路法或修正分配法，检验解是否最优。<br>3、闭回路法改进方案</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机相关课程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机科学与技术 </tag>
+            
+            <tag> 自考 </tag>
+            
+            <tag> 运筹学基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>运筹学基础-第五章-线性规划</title>
+      <link href="/onion.github.io/2024/10/22d7e3e8770b.html"/>
+      <url>/onion.github.io/2024/10/22d7e3e8770b.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="第五章-线性规划"><a href="#第五章-线性规划" class="headerlink" title="第五章 线性规划"></a>第五章 线性规划</h1><h2 id="第一节-概述"><a href="#第一节-概述" class="headerlink" title="第一节 概述"></a>第一节 概述</h2><p>线性规划是一种<strong>合理利用资源，合理调配资源</strong>的应用数学方法。<br>任务：</p><ol><li>计划任务确定，用最少的资源来实现任务。</li><li>资源数量确定，合理利用，使完成的任务最大。</li></ol><p>综合来说，是研究<strong>投入产出的极值问题</strong>，就是使用最少的劳力和物力消耗，获得更多更好的社会需求产品。</p><h2 id="第二节-线性规划的模型结构"><a href="#第二节-线性规划的模型结构" class="headerlink" title="第二节 线性规划的模型结构"></a>第二节 线性规划的模型结构</h2><p>线性规划的定义：线性规划是一组变量的值，在满足一组约束条件下，求得目标函数的最优解，使决策目标达到最优。</p><p><strong>基本特点：模型中的线性函数</strong><br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/image-20241022100521095.jpg" alt="200"><br>矩阵形式：<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/image-20241022101320519.jpg" alt="200"><br>标准型：<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/image-20241022103159860.jpg" alt="200"></p><h3 id="2-1-线性规划的模型结构"><a href="#2-1-线性规划的模型结构" class="headerlink" title="2.1 线性规划的模型结构"></a>2.1 线性规划的模型结构</h3><ol><li><strong>变量</strong>：根据需求自己设出变量；</li><li><strong>目标函数</strong>：把想要实现的目标公式化；</li><li><strong>约束条件</strong>：实现目标的限制因素；</li><li><strong>变量非负</strong>：变量的取值大于等于0。</li></ol><h3 id="2-2-线性规划建模步骤"><a href="#2-2-线性规划建模步骤" class="headerlink" title="2.2 线性规划建模步骤"></a>2.2 线性规划建模步骤</h3><ol><li>明确问题，确定目标，列出约束因素</li><li>收集资料，建立模型</li><li>模型求解与检验</li><li>优化后分析</li></ol><h2 id="第三节-线性规划的图解法"><a href="#第三节-线性规划的图解法" class="headerlink" title="第三节 线性规划的图解法"></a>第三节 线性规划的图解法</h2><p>又叫几何解法，适用于2-3个变量线性规划问题。</p><ol><li>可行解：满足约束条件的解。</li><li>可行解区：全部可行解所分布发区域。</li><li>等值线：过可行解区的凸焦点并平行于目标函数的直线，分为等成本线和等利润线。<ol><li>通过各极点作与<strong>目标函数直线斜率相同</strong>的平行线为<strong>等利润线</strong>。</li></ol></li></ol><p><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/image-20241024111250386.jpg"><br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/image-20241024111312654.jpg"></p><h2 id="第四节-线性规划的单纯形法"><a href="#第四节-线性规划的单纯形法" class="headerlink" title="第四节 线性规划的单纯形法"></a>第四节 线性规划的单纯形法</h2><h3 id="4-1-作用"><a href="#4-1-作用" class="headerlink" title="4.1 作用"></a>4.1 作用</h3><p>在一组线性约束条件下，求解目标函数最优解的问题。</p><h3 id="4-2-线性规划的可行域"><a href="#4-2-线性规划的可行域" class="headerlink" title="4.2 线性规划的可行域"></a>4.2 线性规划的可行域</h3><p>满足线性规划问题约束条件的所有点组成的集合就是线性规划的可行域。若可行域游街，线性规划问题的目标函数最优解必然在可行域的顶点上达到最优。</p><h3 id="4-3-单纯形法步骤"><a href="#4-3-单纯形法步骤" class="headerlink" title="4.3 单纯形法步骤"></a>4.3 单纯形法步骤</h3><h4 id="1-引入剩余变量或松弛变量"><a href="#1-引入剩余变量或松弛变量" class="headerlink" title="1. 引入剩余变量或松弛变量"></a>1. 引入剩余变量或松弛变量</h4><p><strong>剩余变量</strong>：当约束是“≤”形式时，引入一个剩余变量，使得不等式变为等式。<br><strong>松弛变量</strong>：当约束是“≥”形式时，引入一个松弛变量，使得不等式变为等式。</p><p><strong>单纯形法求解时引入剩余变量和松弛变量再目标函数中系数为0</strong></p><h4 id="2-观察基变量"><a href="#2-观察基变量" class="headerlink" title="2. 观察基变量"></a>2. 观察基变量</h4><ul><li><p><strong>基变量</strong>：基变量是当前解中所使用的变量（<strong>基变量数量&#x3D;方程个数</strong>）。若当前解中已有基变量，则可以直接继续进行下一步的单纯形法求解。</p></li><li><p><strong>引入人工虚拟变量</strong>：如果当前解中没有基变量，即没有可行解，可以引入人工变量来构造初始基可行解。<strong>这些人工变量在目标函数中的系数通常设置为一个很大的正数 M</strong>（一个非常大的常数），以确保在求解过程中<strong>优先消去这些人工变量</strong>。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/image-20241024111423467.jpg"></p></li></ul><h4 id="3-列出单纯形表进行迭代"><a href="#3-列出单纯形表进行迭代" class="headerlink" title="3 列出单纯形表进行迭代"></a>3 列出单纯形表进行迭代</h4><ol><li><strong>判定是否最优</strong>：表中的最后一行为判别指数行，求最大值时，数值都小于等于0时最优，最小值时相反；若最优则停止，不是最优继续下一步。</li><li><strong>确定入基变量和出基变量</strong>：最后一行数值正数中最大的（或负数中最小的）所对应的列变量作为最大值问题（或最小值问题）的入基变量；最后一列数值与入基变量多对应系数比值最小的数值对应的行变量作为出基变量；</li><li><strong>迭代</strong>：入基变量取代出基变量进行系数转换。</li><li><strong>重复123</strong>.</li></ol><h4 id="单纯形法求最大值"><a href="#单纯形法求最大值" class="headerlink" title="单纯形法求最大值"></a>单纯形法求最大值</h4><p><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/image-20241024113744422.jpg"><br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/image-20241024113754898.jpg"><br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/image-20241024113808855.jpg"></p><h4 id="单纯形法求最大值-1"><a href="#单纯形法求最大值-1" class="headerlink" title="单纯形法求最大值"></a>单纯形法求最大值</h4><p><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/image-20241024113826854.jpg"><br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/image-20241024113839307.jpg"></p><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a href="https://blog.csdn.net/qq_36558948/article/details/80640768">线性规划之单纯形法【超详解+图解】-CSDN博客</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机相关课程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机科学与技术 </tag>
+            
+            <tag> 自考 </tag>
+            
+            <tag> 运筹学基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>运筹学基础-第四章-库存管理</title>
+      <link href="/onion.github.io/2024/10/5fa1b1e04fa1.html"/>
+      <url>/onion.github.io/2024/10/5fa1b1e04fa1.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="第四章-库存管理"><a href="#第四章-库存管理" class="headerlink" title="第四章 库存管理"></a>第四章 库存管理</h1><p>工业企业的库存包括：</p><ol><li>没有经过企业加工的<strong>原材料</strong>；</li><li>已经经过企业加工，但尚未加工完毕的<strong>在制品</strong>；</li><li>企业已经加工完毕，待销售的<strong>成品和备件</strong>。</li></ol><h2 id="第一节-库存管理的作用和意义"><a href="#第一节-库存管理的作用和意义" class="headerlink" title="第一节 库存管理的作用和意义"></a>第一节 库存管理的作用和意义</h2><h3 id="1-1-库存管理的作用"><a href="#1-1-库存管理的作用" class="headerlink" title="1.1 库存管理的作用"></a>1.1 库存管理的作用</h3><p>库存管理的核心目的是保障企业生产的<strong>持续性和稳定性</strong>，具体表现在：</p><ol><li><strong>适应</strong>原材料供应的<strong>季节性</strong>（如农产品等）；</li><li><strong>平衡</strong>产品销售的<strong>季节性波动</strong>；</li><li>提高<strong>运输的合理性与经济性</strong>，减少频繁运输成本；</li><li>促进<strong>生产计划的合理安排</strong>；</li><li>依据<strong>批量采购</strong>优化整体库存管理。</li></ol><h3 id="1-2-库存管理的意义"><a href="#1-2-库存管理的意义" class="headerlink" title="1.2 库存管理的意义"></a>1.2 库存管理的意义</h3><p>库存管理具有如下重要意义：</p><ol><li>确保企业按科学计划实施均衡生产，避免因缺乏原材料而停工；</li><li>实现库存管理总成本最低化，提升企业经济效益。</li></ol><h2 id="第二节-库存管理的存货台套法与ABC分类管理"><a href="#第二节-库存管理的存货台套法与ABC分类管理" class="headerlink" title="第二节 库存管理的存货台套法与ABC分类管理"></a>第二节 库存管理的存货台套法与ABC分类管理</h2><h3 id="2-1-存货台套法"><a href="#2-1-存货台套法" class="headerlink" title="2.1 存货台套法"></a>2.1 存货台套法</h3><p>存货台套法是以台套为单位进行管理，一个存货台套可以包含多种相关的单项存货。这种方法便于企业管理存货组合，优化库存管理流程。</p><h3 id="2-2-ABC分类管理法"><a href="#2-2-ABC分类管理法" class="headerlink" title="2.2 ABC分类管理法"></a>2.2 ABC分类管理法</h3><p>ABC分类管理法根据存货台套的年度需用价值进行分类：</p><ul><li><strong>A类</strong>：占存货台套的**10%<strong>，但需用价值占</strong>70%**。此类存货数量不多，但价值高，对企业影响大，因此需加强管理，投资回报高；</li><li><strong>B类</strong>：占存货台套的**30%<strong>，需用价值占</strong>20%**。该类存货管理可适度精简；</li><li><strong>C类</strong>：占存货台套的**60%<strong>，需用价值占</strong>10%**。此类存货价值低、数量大，管理可相对粗略，定期按季度或半年订货，主要确保不缺货且不产生重大损失。</li></ul><p>PS:占比136，价值721.</p><h2 id="第三节-库存费用分析与平均库存"><a href="#第三节-库存费用分析与平均库存" class="headerlink" title="第三节 库存费用分析与平均库存"></a>第三节 库存费用分析与平均库存</h2><h3 id="3-1-库存费用分析"><a href="#3-1-库存费用分析" class="headerlink" title="3.1 库存费用分析"></a>3.1 库存费用分析</h3><p>库存费用主要由<strong>订货费、工装调整费及保管费</strong>组成：</p><ol><li><strong>订货费</strong>：订货次数×一次订货费：$\frac{年需求量}{订货量} × 一次订货费用$；</li><li><strong>工装调整费</strong>：调整次数×调整费：$工装调整费&#x3D;\frac{生产批量年}{计划产量​}×一次工装调整费$</li><li><strong>保管费</strong>：平均库存量 × 库存物资单价 × <strong>保管费率</strong>。</li></ol><p>保管费率可以通过以下公式计算：</p><ul><li><strong>保管费率</strong> &#x3D; <strong>全年企业保管费用总额 &#x2F; 全年企业平均存货总额。</strong></li></ul><h3 id="3-2-平均库存"><a href="#3-2-平均库存" class="headerlink" title="3.2 平均库存"></a>3.2 平均库存</h3><p>平均库存的概念反映了库存量的动态变化，通常计算公式为：</p><ul><li><strong>平均库存量</strong> &#x3D; (期初库存量 + 期末库存量) &#x2F; 2；</li><li><strong>平均库存额</strong> &#x3D; 平均库存量 × 单位物资价格。</li></ul><h2 id="第四节-经济订货量（EOQ）的计算方法"><a href="#第四节-经济订货量（EOQ）的计算方法" class="headerlink" title="第四节 经济订货量（EOQ）的计算方法"></a>第四节 经济订货量（EOQ）的计算方法</h2><p>经济订货量（EOQ）是使库存管理总费用最低的订货批量。常见的计算方法有：</p><h3 id="4-1-表格法（列表法）"><a href="#4-1-表格法（列表法）" class="headerlink" title="4.1 表格法（列表法）"></a>4.1 表格法（列表法）</h3><p>步骤：</p><ol><li>选择多个可能的订货量方案；</li><li>计算每种方案的总费用；</li><li>选择<strong>总费用最小</strong>的订货量。</li></ol><h3 id="4-2-图解法"><a href="#4-2-图解法" class="headerlink" title="4.2 图解法"></a>4.2 图解法</h3><p>图解法通过绘制总费用与订货量的曲线，找到保管费用与订货费用相等处，总费用最低的订货量。</p><h3 id="4-3-数学法"><a href="#4-3-数学法" class="headerlink" title="4.3 数学法"></a>4.3 数学法</h3><p>利用代数推导或导数求解公式，计算最佳订货量。EOQ的基本公式为：<br>最佳订货量（EOQ，Economic Order Quantity）的基本公式可以通过代数推导得出。EOQ模型的目标是最小化总库存成本，包括订货成本和持有成本。</p><h3 id="EOQ的基本公式"><a href="#EOQ的基本公式" class="headerlink" title="EOQ的基本公式"></a>EOQ的基本公式</h3><p>最佳订货量（EOQ）的公式为：<br>$$EOQ &#x3D; \sqrt{\frac{2DS}{H}}$$</p><h3 id="变量说明"><a href="#变量说明" class="headerlink" title="变量说明"></a>变量说明</h3><ul><li>(D) &#x3D; 年需求量（单位&#x2F;年）</li><li>(S) &#x3D; 每次订货费用（单位货币）</li><li>(H) &#x3D; 每单位库存的持有成本（单位货币&#x2F;年）</li></ul><h3 id="推导过程"><a href="#推导过程" class="headerlink" title="推导过程"></a>推导过程</h3><ol><li><strong>总成本函数</strong>：<br>总成本 (TC) 包括订货成本和持有成本，可以表示为：<br>$$TC &#x3D; \text{订货成本} + \text{持有成本}$$</li></ol><p>$$TC &#x3D; \left( \frac{D}{Q} \times S \right) + \left( \frac{Q}{2} \times H \right)$$</p><p>   其中 (Q) 是每次订购的数量。</p><ol start="2"><li><p><strong>简化公式</strong>：<br>订货成本是年需求量除以每次订货量，再乘以每次的订货费用：  $$ \text{订货成本} &#x3D; \frac{D}{Q} \times S$$<br>持有成本是平均库存量（每次订购量的一半）乘以每单位的持有成本：$$\text{持有成本} &#x3D; \frac{Q}{2} \times H$$<br>因此，总成本公式变为：  $$ TC &#x3D; \frac{DS}{Q} + \frac{QH}{2}$$3. <strong>求导数</strong>：<br>为了找到最小总成本，需要对 (TC) 关于 (Q) 求导，并设置导数为零：   $$\frac{d(TC)}{dQ} &#x3D; -\frac{DS}{Q^2} + \frac{H}{2} &#x3D; 0$$</p></li><li><p><strong>解方程</strong>：<br>将导数设为零，得到：  $$ \frac{H}{2} &#x3D; \frac{DS}{Q^2}$$</p><p>重新整理后可得：   $$Q^2 &#x3D; \frac{2DS}{H}$$</p><p>取平方根，得出EOQ公式：   $$Q &#x3D; \sqrt{\frac{2DS}{H}}$$</p></li></ol><h3 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h3><p>通过以上推导，我们得到了最佳订货量的公式。如果需要进一步探讨或应用实例，随时告诉我！</p><h2 id="第五节-订货时间的确定"><a href="#第五节-订货时间的确定" class="headerlink" title="第五节 订货时间的确定"></a>第五节 订货时间的确定</h2><p>在确定性库存模型中，订货时间的确定是基于使用量和提前期的恒定性。为确保生产不中断，同时避免库存过多，应考虑以下因素：</p><ol><li><strong>再订货点</strong>：决定何时重新订货，或在存货水平达到某一标准时触发订货；</li><li><strong>前置时间</strong>：从发出订货信息到物品入库所需的时间；</li><li><strong>前置时间内的需求量</strong>：即订货前的物资消耗量；</li><li><strong>缺货管理</strong>：对需求量变化或前置时间延长的应对措施，包括调整安全库存量；</li><li><strong>安全库存量</strong>：为应对需求波动或前置时间延长而设定的额外库存，以降低缺货风险。</li></ol><h2 id="第六节-大批量采购与数量折扣"><a href="#第六节-大批量采购与数量折扣" class="headerlink" title="第六节 大批量采购与数量折扣"></a>第六节 大批量采购与数量折扣</h2><h3 id="6-1-大批量采购的优缺点"><a href="#6-1-大批量采购的优缺点" class="headerlink" title="6.1 大批量采购的优缺点"></a>6.1 大批量采购的优缺点</h3><p><strong>优点</strong>：</p><ol><li>获得较低的采购单价；</li><li>减少订货次数，降低订货费用；</li><li>批量运输降低运费；</li><li>减少缺货风险。</li></ol><p><strong>缺点</strong>：</p><ol><li>增加保管费用；</li><li>占用更多资金；</li><li>库存贬值或陈旧的风险加大；</li><li>降低对市场变化的灵活应对能力，尤其在快速变化的行业（如时尚、电子产品等）中。</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机相关课程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机科学与技术 </tag>
+            
+            <tag> 自考 </tag>
+            
+            <tag> 运筹学基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>运筹学基础-第三章-决策</title>
+      <link href="/onion.github.io/2024/10/60dbea2a99f6.html"/>
+      <url>/onion.github.io/2024/10/60dbea2a99f6.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="第三章-决策"><a href="#第三章-决策" class="headerlink" title="第三章 决策"></a>第三章 决策</h1><h2 id="第一节-决策的概念和程序"><a href="#第一节-决策的概念和程序" class="headerlink" title="第一节 决策的概念和程序"></a>第一节 决策的概念和程序</h2><h3 id="1-1-决策的概念"><a href="#1-1-决策的概念" class="headerlink" title="1.1 决策的概念"></a>1.1 决策的概念</h3><ul><li><strong>狭义</strong>：决策是对多个可供选择的方案进行选择。</li><li><strong>广义</strong>：决策不仅包括选择方案，还涉及明确项目目的、寻求可行方案，并对实施结果进行总结和评价。</li></ul><h3 id="1-2-决策的分类"><a href="#1-2-决策的分类" class="headerlink" title="1.2 决策的分类"></a>1.2 决策的分类</h3><ul><li><strong>按决策方法</strong>：<ul><li><strong>常规性决策</strong>：基于经验和固定程序的决策。</li><li><strong>特殊性决策</strong>：针对特定情况的灵活决策。</li></ul></li><li><strong>按计划和控制的关系</strong>：<ul><li><strong>计划性决策</strong>：在计划阶段做出的决策，通常属于特殊性决策。</li><li><strong>控制性决策</strong>：执行阶段的决策，可以是特殊或常规的。</li></ul></li></ul><blockquote><p>计划性决策多数属于特殊性，而控制性决策则有的特殊，有的常规。</p></blockquote><h3 id="1-3-决策的程序"><a href="#1-3-决策的程序" class="headerlink" title="1.3 决策的程序"></a>1.3 决策的程序</h3><ol><li><strong>确定目标</strong>：明确你希望实现的目标。</li><li><strong>拟定多个可行方案</strong>：寻找和制定多个可能的解决方案。</li><li><strong>预测自然状态</strong>：评估可能发生的自然状态，并计算不同方案在这些状态下的收益（或损失），编制决策收益表（或损失表），即决策矩阵。</li><li><strong>决策分析</strong>：基于收益表，运用不同的标准进行分析，选择最优方案。</li></ol><h2 id="第二节-在不同环境下的决策"><a href="#第二节-在不同环境下的决策" class="headerlink" title="第二节 在不同环境下的决策"></a>第二节 在不同环境下的决策</h2><h3 id="2-1-确定条件下的决策"><a href="#2-1-确定条件下的决策" class="headerlink" title="2.1 确定条件下的决策"></a>2.1 确定条件下的决策</h3><ul><li>只有一种自然状态存在。自然状态是指那些决策者无法控制的未来情况。</li></ul><h3 id="2-2-不同条件下的决策"><a href="#2-2-不同条件下的决策" class="headerlink" title="2.2 不同条件下的决策"></a>2.2 不同条件下的决策</h3><ul><li>存在多个自然状态，但决策者对这些状态的了解有限，可能无法准确分配概率。</li></ul><h2 id="第三节-不确定条件下的决策"><a href="#第三节-不确定条件下的决策" class="headerlink" title="第三节 不确定条件下的决策"></a>第三节 不确定条件下的决策</h2><p>特征：</p><ol><li><strong>明确的决策目标</strong>：需要有一个清晰的目标。</li><li><strong>多个可行方案</strong>：能够设计出两个以上的方案进行比较。</li><li><strong>多种自然状态</strong>：存在不止一种自然状态。</li><li><strong>收益损失预测</strong>：能够估计不同方案在不同状态下的收益和损失。</li></ol><h4 id="决策标准"><a href="#决策标准" class="headerlink" title="决策标准"></a>决策标准</h4><ul><li><strong>最大最大决策标准</strong>：从每个方案中选择<strong>最大收益</strong>，再选择其中的<strong>最大值（乐观主义）</strong>。</li><li><strong>最大最小决策标准</strong>：选择每个方案的<strong>最小收益</strong>，再从中选择<strong>最大收益的方案（悲观主义</strong>）。</li><li><strong>最小最大遗憾值决策标准</strong>：计算每种状态下的最大收益与其他方案的差值，选择最小的遗憾值。</li><li><strong>现实主义决策标准</strong>：折中考虑不同方案的优缺点。</li></ul><h4 id="最小最大遗憾值决策"><a href="#最小最大遗憾值决策" class="headerlink" title="最小最大遗憾值决策"></a>最小最大遗憾值决策</h4><p>最小最大遗憾值决策标准是一种决策方法，通常用于不确定性条件下的选择。其基本步骤如下：</p><h5 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h5><ul><li><strong>遗憾值</strong>：在决策过程中，如果选择了某个方案而不是最佳方案，产生的收益损失被称为遗憾值。它反映了未选择最佳方案而带来的损失。</li></ul><h5 id="决策步骤"><a href="#决策步骤" class="headerlink" title="决策步骤"></a>决策步骤</h5><ol><li><p><strong>构建收益表</strong>：列出所有方案及其在不同状态下的收益。</p></li><li><p><strong>计算最大收益</strong>：对于每种状态，找出所有方案中对应的最大收益。</p></li><li><p><strong>计算遗憾值</strong>：</p><ul><li>对于每个方案，在每种状态下计算其遗憾值：<br>[ $\text{遗憾值} &#x3D; \text{最大收益} - \text{该方案的收益}$  ]</li></ul></li><li><p><strong>确定最大遗憾值</strong>：</p><ul><li>对于每个方案，找出其在所有状态下的最大遗憾值。</li></ul></li><li><p><strong>选择方案</strong>：</p><ul><li>选择具有最小最大遗憾值的方案。</li></ul></li></ol><h5 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h5><p>假设有两个方案（A和B）和三个状态（1、2、3）的收益如下：</p><table><thead><tr><th>状态</th><th>方案A</th><th>方案B</th></tr></thead><tbody><tr><td>1</td><td>100</td><td>150</td></tr><tr><td>2</td><td>200</td><td>180</td></tr><tr><td>3</td><td>250</td><td>300</td></tr></tbody></table><ol><li><p><strong>最大收益</strong>：</p><ul><li>状态1：150</li><li>状态2：200</li><li>状态3：300</li></ul></li><li><p><strong>计算遗憾值</strong>：</p></li></ol><table><thead><tr><th>状态</th><th>方案A遗憾值</th><th>方案B遗憾值</th></tr></thead><tbody><tr><td>1</td><td>150 - 100 &#x3D; 50</td><td>0</td></tr><tr><td>2</td><td>200 - 200 &#x3D; 0</td><td>20</td></tr><tr><td>3</td><td>300 - 250 &#x3D; 50</td><td>0</td></tr></tbody></table><ol start="3"><li><p><strong>最大遗憾值</strong>：</p><ul><li>方案A的最大遗憾值：50</li><li>方案B的最大遗憾值：20</li></ul></li><li><p><strong>选择方案</strong>：</p><ul><li>选择方案B，因为其最大遗憾值（20）最小。</li></ul></li></ol><p>这种决策方法帮助在不确定性环境中做出相对理性的选择。</p><h2 id="第四节-风险条件下的决策"><a href="#第四节-风险条件下的决策" class="headerlink" title="第四节 风险条件下的决策"></a>第四节 风险条件下的决策</h2><p>风险决策又称<strong>统计型决策或随机型决策</strong>，依据不同自然状态发生的概率进行决策。</p><p>特征：</p><ol><li><strong>明确的决策目标</strong>：有清晰的目标指向。</li><li><strong>多个可行方案</strong>：可以选择的方案数量多于一个。</li><li><strong>多个自然状态</strong>：存在多个状态，每个状态的概率可估算。</li><li><strong>收益损失的定量计算</strong>：不同方案在不同状态下的收益和损失能够被量化。</li></ol><h3 id="风险决策标准"><a href="#风险决策标准" class="headerlink" title="风险决策标准"></a>风险决策标准</h3><ul><li><strong>最大期望收益值标准</strong>：选择期望收益最大的方案。</li><li><strong>最小期望损失值标准</strong>：选择期望损失最小的方案，包括报废损失和机会损失。</li></ul><h2 id="第五节-决策树"><a href="#第五节-决策树" class="headerlink" title="第五节 决策树"></a>第五节 决策树</h2><p>决策树是一种有效的工具，用于解决单阶段和多阶段的决策问题。</p><ul><li><strong>方块结点</strong>：表示决策点，连接的树枝表示不同方案。</li><li><strong>圆圈结点</strong>：表示状态点，连接的树枝表示不同状态的结果。</li></ul><h3 id="决策树的优点"><a href="#决策树的优点" class="headerlink" title="决策树的优点"></a>决策树的优点</h3><ol><li><strong>有条理</strong>：使决策过程更加清晰和系统。</li><li><strong>全面检验</strong>：确保考虑所有可能的结果。</li><li><strong>易于理解</strong>：以简洁的方式传达决策过程。</li><li><strong>聚焦细节</strong>：集中分析每个财务数字、概率和假设。</li><li><strong>计算机辅助</strong>：可以与计算机结合，模拟多种假设和方案组合。</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机相关课程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机科学与技术 </tag>
+            
+            <tag> 自考 </tag>
+            
+            <tag> 运筹学基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>运筹学基础-第二章-预测</title>
+      <link href="/onion.github.io/2024/10/72940f08dbea.html"/>
+      <url>/onion.github.io/2024/10/72940f08dbea.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="第二章-预测"><a href="#第二章-预测" class="headerlink" title="第二章 预测"></a>第二章 预测</h1><h2 id="第一节-预测的概念和程序"><a href="#第一节-预测的概念和程序" class="headerlink" title="第一节 预测的概念和程序"></a>第一节 预测的概念和程序</h2><h3 id="1-1-预测的概念和作用"><a href="#1-1-预测的概念和作用" class="headerlink" title="1.1 预测的概念和作用"></a>1.1 预测的概念和作用</h3><p>预测是对未来不确定事件的估计或判断，是决策过程中的基础。有效的预测能够帮助组织更好地制定战略和计划，从而应对未来的挑战和机遇。</p><h3 id="1-2-预测的方法和分类"><a href="#1-2-预测的方法和分类" class="headerlink" title="1.2 预测的方法和分类"></a>1.2 预测的方法和分类</h3><p><strong>分类</strong>：</p><ol><li><strong>经济预测</strong>：分析经济趋势和市场变化。</li><li><strong>科技预测</strong>：评估科技发展及其潜在影响。</li><li><strong>社会预测</strong>：研究社会动态和变化趋势。</li><li><strong>军事预测</strong>：对军事形势进行评估。</li></ol><p><strong>方法</strong>：</p><ol><li><p><strong>定性预测</strong>：</p><ul><li>直观预测。</li><li>专家座谈会。</li><li>特尔斐法。</li></ul></li><li><p><strong>定量预测</strong>：</p><ul><li><strong>外推法</strong>：利用历史数据进行推算。</li><li><strong>时间序列分析法</strong>：分析历史数据中的时间序列模式。</li><li><strong>因果法</strong>：基于因果关系的预测，如回归分析、经济计量法、投入产出分析等。</li></ul></li></ol><p><strong>时间分类</strong>：</p><ul><li><strong>经济预测</strong>：<ul><li>长期预测：<strong>3-5年</strong>。宏观经济趋势。</li><li>中期预测：<strong>1-3年</strong>。经济小周期波动。</li><li>短期预测：<strong>一年以内</strong>。对一年以内的经济政策预测。</li></ul></li><li><strong>科技预测</strong>：<ul><li>长期预测：<strong>30-50年。</strong> 潜在的突破性技术和可能改变社会的趋势。</li><li>中期预测：<strong>10-30年。</strong> 研究技术的成熟和普及，对行业的影响。</li><li>短期预测：<strong>5-10年。</strong> 即将到来的技术趋势进行创新。</li></ul></li></ul><p>PS:科技进展相较于瞬息万变的经济变化较慢，周期长10倍。</p><h3 id="1-3-预测的程序"><a href="#1-3-预测的程序" class="headerlink" title="1.3 预测的程序"></a>1.3 预测的程序</h3><ol><li>确定预测对象或目标。</li><li>选择预测周期，适合于特定产品的生命周期和市场变化。</li><li>选择预测方法。</li><li>收集相关资料。</li><li>进行预测。</li></ol><hr><h2 id="第二节-定性预测法：判断预测法"><a href="#第二节-定性预测法：判断预测法" class="headerlink" title="第二节 定性预测法：判断预测法"></a>第二节 定性预测法：判断预测法</h2><p><strong>应用情况</strong>：</p><ol><li>建立模型时缺乏数据，例如预测新产品价格。</li><li>社会或经济环境发生剧烈变化，历史数据不再具有代表性。</li></ol><h3 id="2-1-特尔斐法"><a href="#2-1-特尔斐法" class="headerlink" title="2.1 特尔斐法"></a>2.1 特尔斐法</h3><p>特尔斐法旨在通过 <strong>“专家群”</strong> 获得一致的预测结果。其特点包括：</p><ul><li>专家意见匿名。</li><li>多次信息反馈。</li><li>最终整理专家意见供决策参考。</li></ul><p><strong>步骤</strong>：</p><ol><li>确定课题。</li><li>选择专家。</li><li>设计咨询表。</li><li>逐轮咨询和反馈。</li><li>使用统计分析方法定量评价结果。</li></ol><p>该方法适合<strong>长期或中期预测</strong>，需合理安排时间并酌情报酬以确保专家认真参与。</p><h3 id="2-2-专家小组法"><a href="#2-2-专家小组法" class="headerlink" title="2.2 专家小组法"></a>2.2 专家小组法</h3><p>在小组内进行面对面的讨论和磋商，最终得出一致意见。优点是促进协商和补充，但需注意避免权威人士影响其他成员的创新见解。此方法适合<strong>短期预测</strong>。</p><hr><h2 id="第三节-时间序列预测法"><a href="#第三节-时间序列预测法" class="headerlink" title="第三节 时间序列预测法"></a>第三节 时间序列预测法</h2><p>时间序列预测法基于观察到的历史数据，通常按时间顺序排列的，以识别数据中的模式和趋势，从而进行未来预测。</p><p><strong>基本原理</strong>：</p><ol><li>承认事物发展的延续性，适用于短期预测。</li><li>考虑随机因素的影响和干扰。</li></ol><h3 id="3-1-滑动平均预测法"><a href="#3-1-滑动平均预测法" class="headerlink" title="3.1 滑动平均预测法"></a>3.1 滑动平均预测法</h3><ul><li><strong>简单平均预测法</strong>：<ul><li>横向比较法。</li><li>纵向比较法：简单滑动平均数法。</li></ul></li><li><strong>加权平均数预测法</strong>：<ul><li>横向比较法。</li><li>纵向比较法：加权移动平均数法（近期数据权重更大）。</li></ul></li></ul><hr><h2 id="第四节-回归模型预测法"><a href="#第四节-回归模型预测法" class="headerlink" title="第四节 回归模型预测法"></a>第四节 回归模型预测法</h2><p>回归分析是一种基于内部因素变化的因果关系进行的定量预测方法，主要用于研究变量之间的相互关系。最常见的一元线性回归模型表达为 Y&#x3D;ax+b，可通过最小二乘法进行参数估计。</p><p><strong>自回归综合滑动平均（ARIMA）模型</strong>：</p><ul><li>结合自回归和滑动平均过程，适用于平稳或非平稳数据的时间序列。</li></ul><hr><h2 id="第五节-季节性变动预测"><a href="#第五节-季节性变动预测" class="headerlink" title="第五节 季节性变动预测"></a>第五节 季节性变动预测</h2><p>对于季节性变动的预测，可以结合指数平滑法与一般性变动预测，以适应周期性波动和趋势变化的需求。<br>分析数据的季节性和趋势成分，常用方法包括 <strong>STL 分解</strong>（季节性趋势分解）。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机相关课程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机科学与技术 </tag>
+            
+            <tag> 自考 </tag>
+            
+            <tag> 运筹学基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>运筹学基础-第一章-导论</title>
+      <link href="/onion.github.io/2024/10/22c09d7b4501.html"/>
+      <url>/onion.github.io/2024/10/22c09d7b4501.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="第一章-导论"><a href="#第一章-导论" class="headerlink" title="第一章 导论"></a>第一章 导论</h1><h2 id="第一节-概述"><a href="#第一节-概述" class="headerlink" title="第一节 概述"></a>第一节 概述</h2><h3 id="1-1-运筹学与管理决策"><a href="#1-1-运筹学与管理决策" class="headerlink" title="1.1 运筹学与管理决策"></a>1.1 运筹学与管理决策</h3><ul><li><strong>定义</strong>：运筹学研究如何有效管理人机系统，利用计划方法将复杂关系表示为数学模型，通过定量分析支持决策。</li><li><strong>分析形式</strong>：<ul><li><strong>定性分析</strong>：<ul><li>依赖于<strong>决策者的主观经验、直觉和判断</strong>。</li><li>适用于<strong>不易量化</strong>的因素，如市场情绪、消费者偏好等。</li><li><strong>随着经验的累积，分析者的洞察力和判断力会增强</strong>。</li></ul></li><li><strong>定量分析</strong>：<ul><li>基于<strong>数学模型和量化数据</strong>，使用<strong>统计和数理方法</strong>进行分析。</li><li>适用于<strong>可以量化</strong>的变量，如销售数据、经济指标等。</li><li>通常更具<strong>客观性</strong>，能够提供可验证的结果。</li></ul></li></ul></li></ul><h3 id="1-2-计算机与运筹学"><a href="#1-2-计算机与运筹学" class="headerlink" title="1.2 计算机与运筹学"></a>1.2 计算机与运筹学</h3><ul><li><strong>关系</strong>：计算机是运筹学的重要工具，运筹学与计算机方法是相辅相成、共同发展的。</li></ul><h3 id="1-3-决策方法的分类"><a href="#1-3-决策方法的分类" class="headerlink" title="1.3 决策方法的分类"></a>1.3 决策方法的分类</h3><ol><li><strong>定性决策</strong>：基于决策者的主观经验或知识。</li><li><strong>定量决策</strong>：依赖正式的计量方法。</li><li><strong>混合性决策</strong>：结合定量和定性方法，通常在以下情况下使用：<ul><li>问题复杂且变量众多。</li><li>可获取相关数据。</li><li>各项目标可量化。</li><li>可建立切实可行的模型。</li></ul></li></ol><h2 id="第二节-应用运筹学进行决策过程的几个步骤"><a href="#第二节-应用运筹学进行决策过程的几个步骤" class="headerlink" title="第二节 应用运筹学进行决策过程的几个步骤"></a>第二节 应用运筹学进行决策过程的几个步骤</h2><ol><li><strong>观察待决策问题的环境。</strong></li><li><strong>分析和定义待决策的问题。</strong></li><li><strong>拟定模型</strong>：使用符号或抽象模型。</li><li><strong>选择输出资料</strong>：通过记录、实验等方式收集。</li><li><strong>提出解并验证其合理性</strong>：进行敏感度实验，观察输入变化对输出的影响。</li><li><strong>实施最优解。</strong></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机相关课程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机科学与技术 </tag>
+            
+            <tag> 自考 </tag>
+            
+            <tag> 运筹学基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>运筹学基础资源-思维导图</title>
+      <link href="/onion.github.io/2024/10/bd16dc05e166.html"/>
+      <url>/onion.github.io/2024/10/bd16dc05e166.html</url>
+      
+        <content type="html"><![CDATA[<p><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80%E8%B5%84%E6%BA%90-%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/image-20241018112917433.jpg"></p><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a href="https://www.scmor.com/view/6135">运筹学知识体系思维导图 - 思谋网 (scmor.com)</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机相关课程 </category>
+          
+      </categories>
+      
       
     </entry>
     
