@@ -4,6 +4,101 @@
   
     
     <entry>
+      <title>运筹学基础-第十章-盈亏分析模型</title>
+      <link href="/onion.github.io/2024/10/70914c157835.html"/>
+      <url>/onion.github.io/2024/10/70914c157835.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="第十章-盈亏分析模型"><a href="#第十章-盈亏分析模型" class="headerlink" title="第十章 盈亏分析模型"></a>第十章 盈亏分析模型</h1><h2 id="第一节-盈亏平衡问题概述"><a href="#第一节-盈亏平衡问题概述" class="headerlink" title="第一节 盈亏平衡问题概述"></a>第一节 盈亏平衡问题概述</h2><ol><li>盈亏平衡分析是一种管理决策工具，它用来说明在一定销售量水平上总销量与总成本因素之间的关系。</li><li>模型结构：$利润&#x3D;销售收入-总成本；S&#x3D;I-C$</li><li>盈亏平衡点：总成本&#x3D;总收入，此时利润为0。</li></ol><h2 id="第二节-盈亏分析模型的基本结构"><a href="#第二节-盈亏分析模型的基本结构" class="headerlink" title="第二节 盈亏分析模型的基本结构"></a>第二节 盈亏分析模型的基本结构</h2><h3 id="2-1-产品成本结构"><a href="#2-1-产品成本结构" class="headerlink" title="2.1 产品成本结构"></a>2.1 产品成本结构</h3><p>工业产品的成本费用一般可分为：<strong>原材料费、燃料动力费、工资及附加费、废品损失费、车间经费和企业管理费</strong>六项。</p><ol><li>固定成本和可变成本：固定成本F和可变成本V，即C&#x3D;F+V.上述六项费用中前四项属于可变成本，后两项为固定成本。</li><li>建立成本结构：“计划性能法”的第一步是把固定成本F再分为两大类：预付成本Fc和计划成本Fp，即F&#x3D;Fc+Fp。可变费用V跟生产数量挂钩：V&#x3D;Q，V’为单位可变成本，Q为生产数量。</li></ol><p><strong>成本模型为：</strong>$\mathbf{C&#x3D;F+V&#x3D;F_{c}+F_{p}+V’Q}$</p><h3 id="2-2-产品销售结构"><a href="#2-2-产品销售结构" class="headerlink" title="2.2 产品销售结构"></a>2.2 产品销售结构</h3><p>总销售收入&#x3D;产品销售价格*销售数量 即 $I&#x3D;MQ$。</p><h2 id="第三节-线性盈亏分析模型及其应用示例"><a href="#第三节-线性盈亏分析模型及其应用示例" class="headerlink" title="第三节 线性盈亏分析模型及其应用示例"></a>第三节 线性盈亏分析模型及其应用示例</h2><p>线性盈亏分析模型是指变动费用和销售收入随产量（或销售量）增加而成比例地增加这种线性变化。</p><ol><li><p>基本公式※：S &#x3D; I - C ; C &#x3D; F+V &#x3D; F+V’Q ; I&#x3D;MQ<br>PS:若不特殊指明，我们在计算过程中默认生产数量 &#x3D; 销售数量。<br>上面三大基本公式联立推导得：<br>Q &#x3D; （F+S）&#x2F;(M-V’)<br>盈亏平衡时,$Q_{0}&#x3D;\frac{F}{(M-V’)}$<br>此时I &#x3D; MQ &#x3D; MF&#x2F;(M-V’)</p></li><li><p>边际收益：又称为边际贡献，指产品价格减去单位可变成本后的净值</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机相关课程 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>运筹学基础-第九章-马尔科夫分析</title>
+      <link href="/onion.github.io/2024/10/a36e275f2baf.html"/>
+      <url>/onion.github.io/2024/10/a36e275f2baf.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="第九章-马尔科夫分析"><a href="#第九章-马尔科夫分析" class="headerlink" title="第九章 马尔科夫分析"></a>第九章 马尔科夫分析</h1><h2 id="第一节-马尔科夫分析的数学原理"><a href="#第一节-马尔科夫分析的数学原理" class="headerlink" title="第一节 马尔科夫分析的数学原理"></a>第一节 马尔科夫分析的数学原理</h2><p>在20世纪初（1907年）俄国数学家马尔科夫发现：<strong>在某些事物的概率转换过程中，第N次试验的结果，常常由第N-1次的试验救国所决定。</strong></p><h3 id="1-1-概率向量和概率矩阵"><a href="#1-1-概率向量和概率矩阵" class="headerlink" title="1.1 概率向量和概率矩阵"></a>1.1 概率向量和概率矩阵</h3><ol><li><strong>概率向量※：任意一个向量u&#x3D;(u1,u2,…,un),如果它内部的各个元素为非负数，且总和等于1，则称此向量为概率向量。</strong></li><li><strong>概率矩阵※：一方阵每一行都是概率向量，称为概率矩阵</strong></li><li>平衡概率矩阵（或固定概率矩阵）<img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B9%9D%E7%AB%A0-%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E5%88%86%E6%9E%90/image-20241023154203946.jpg"></li></ol><h3 id="1-2-马尔科夫过程"><a href="#1-2-马尔科夫过程" class="headerlink" title="1.2 马尔科夫过程"></a>1.2 马尔科夫过程</h3><p>马尔科夫过程是指一种情况转变到另一种情况的过程，这个过程具有以下特征：</p><ul><li><strong>转换概率</strong>：状态之间的转移具有一定的概率。</li><li><strong>无记忆性</strong>：未来状态的概率只依赖于当前状态，而与过去状态无关。</li></ul><h4 id="马尔科夫链"><a href="#马尔科夫链" class="headerlink" title="马尔科夫链"></a>马尔科夫链</h4><p><strong>一系列此类转换过程的整体</strong>称为马尔科夫链。马尔科夫链的研究通常包括<strong>状态转移的矩阵</strong>表示和<strong>长期行为的分析</strong>。</p><h4 id="马尔科夫分析"><a href="#马尔科夫分析" class="headerlink" title="马尔科夫分析"></a>马尔科夫分析</h4><p>马尔科夫分析是对马尔科夫过程或马尔科夫链的演变进行观察和预测，旨在了解和预测该过程的趋势及其稳定性。</p><h4 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h4><ul><li><strong>定义1</strong>：任意一个向量，如果它内部的各个元素为非负数，且总和等于1，则此向量称为<strong>概率向量</strong>。</li><li><strong>定义2</strong>：如果一个矩阵的每一行都是概率向量，则该矩阵称为<strong>概率矩阵</strong>。</li></ul><h4 id="定理"><a href="#定理" class="headerlink" title="定理"></a>定理</h4><ul><li><strong>定理1</strong>：如果 A 和 B 都是概率矩阵，则它们的乘积 AB 也是概率矩阵；同理， A 的 N 次方 AN 也是概率矩阵。</li><li><strong>定理2</strong>：在马尔科夫链中，若存在状态转移概率矩阵 PPP，则经过 nnn 步转移后的状态概率分布可表示为$π(n)&#x3D;π(0)Pn$ ,$π(0)$为初始状态概率向量。</li><li><strong>定理3</strong>：如果马尔科夫链是不可约且有周期性的，则其存在平稳分布，使得随着时间的推移，状态分布趋向于平稳分布。</li></ul><h2 id="第二节-马尔科夫分析问题的要求"><a href="#第二节-马尔科夫分析问题的要求" class="headerlink" title="第二节 马尔科夫分析问题的要求"></a>第二节 马尔科夫分析问题的要求</h2><h2 id="马尔可夫分析补充内容"><a href="#马尔可夫分析补充内容" class="headerlink" title="马尔可夫分析补充内容"></a>马尔可夫分析补充内容</h2><h3 id="1-马尔可夫过程的阶"><a href="#1-马尔可夫过程的阶" class="headerlink" title="1. 马尔可夫过程的阶"></a>1. 马尔可夫过程的阶</h3><ul><li><strong>一阶马尔可夫过程</strong>：在确定事件周期的选择概率时，仅考虑前一个周期的选择情况。这意味着当前状态的概率分布只依赖于直接前一个状态。</li><li><strong>二阶马尔可夫过程</strong>：在确定事件周期的选择概率时，考虑前两个周期的选择情况。当前状态的概率分布依赖于前两个状态，这为状态的预测提供了更多的信息。</li></ul><h3 id="2-转移概率"><a href="#2-转移概率" class="headerlink" title="2. 转移概率"></a>2. 转移概率</h3><p>转移概率是指某一销售者保持、获得或失去消费者的概率。它量化了在不同状态之间的变化可能性，是马尔可夫过程中的核心概念。</p><h3 id="3-转移概率矩阵"><a href="#3-转移概率矩阵" class="headerlink" title="3. 转移概率矩阵"></a>3. 转移概率矩阵</h3><p>转移概率矩阵是将转移概率按行和列排列成的矩阵。矩阵的每一行代表当前状态，每一列代表下一个状态，矩阵中的元素则表示从一个状态转移到另一个状态的概率。该矩阵的每一行的元素总和为1，确保每种状态的概率分布。</p><h3 id="4-未来市场份额的确定"><a href="#4-未来市场份额的确定" class="headerlink" title="4. 未来市场份额的确定"></a>4. 未来市场份额的确定</h3><p>设第一周期的市场份额为 T1​，转移概率矩阵为 P，则第二周期的市场份额可通过以下公式确定： $T2&#x3D;T1×P$ 以此类推，可以得出任意周期的市场份额： $Tn&#x3D;Tn−1×P$ 这个公式表明，通过转移概率矩阵 P，可以递推得到未来周期的市场份额，从而帮助分析市场动态。</p><p><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B9%9D%E7%AB%A0-%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E5%88%86%E6%9E%90/image-20241023154533717.jpg"><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B9%9D%E7%AB%A0-%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E5%88%86%E6%9E%90/image-20241023154541367.jpg"></p><h3 id="5-最终（平衡）市场份额的确定※※"><a href="#5-最终（平衡）市场份额的确定※※" class="headerlink" title="5.最终（平衡）市场份额的确定※※"></a>5.最终（平衡）市场份额的确定※※</h3><p>不同销售者在销售过程中的市场份额每个周期都在改变，若消费者的选择概率不变，那麽市场份额在经过一个较长时期的转换后会一直不变，我们称为最终（平衡）的市场份额。<br><strong>计算方法</strong>:最终平衡时，可推导出公式T&#x3D;TP，利用该公式列出线性方程组，在加上概率向量T本身的特点即非负且之和为1，解出未知数来。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B9%9D%E7%AB%A0-%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E5%88%86%E6%9E%90/image-20241023155109999.jpg"><br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B9%9D%E7%AB%A0-%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E5%88%86%E6%9E%90/image-20241023155118390.jpg"><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B9%9D%E7%AB%A0-%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E5%88%86%E6%9E%90/image-20241023155128633.jpg"></p><h2 id="第三节-马尔科夫分析在管理工作中的应用"><a href="#第三节-马尔科夫分析在管理工作中的应用" class="headerlink" title="第三节 马尔科夫分析在管理工作中的应用"></a>第三节 马尔科夫分析在管理工作中的应用</h2><p>马尔可夫分析在管理工作中具有广泛的应用，特别是在预测系统状态变化和决策支持方面。以下是几种常见的应用场景：</p><h3 id="1-市场份额分析"><a href="#1-市场份额分析" class="headerlink" title="1. 市场份额分析"></a>1. <strong>市场份额分析</strong></h3><p>在市场竞争中，企业的市场份额往往会随着时间而变化。马尔可夫分析可以通过历史数据，预测未来某一时刻不同公司之间的市场份额分布。</p><ul><li><p><strong>应用方法</strong>：通过构建转移概率矩阵，企业可以分析消费者在不同公司之间转移的概率。假设消费者可能在各个时期内从一家公司转换到另一家公司，转移概率矩阵可以帮助确定这些转移的概率。</p></li><li><p><strong>应用场景</strong>：例如，在手机市场中，消费者可能在某个时期更换品牌。使用马尔可夫分析，可以预测未来某一段时间内不同品牌的市场份额情况。</p></li></ul><h3 id="2-客户忠诚度与流失分析"><a href="#2-客户忠诚度与流失分析" class="headerlink" title="2. 客户忠诚度与流失分析"></a>2. <strong>客户忠诚度与流失分析</strong></h3><p>企业通常会面临客户流失问题，尤其是在竞争激烈的行业中。马尔可夫分析可用于分析客户的流失与留存率，并帮助企业设计提高客户忠诚度的策略。</p><ul><li><p><strong>应用方法</strong>：通过历史交易数据，企业可以建立客户状态转移矩阵，预测客户在未来某段时间内的转移行为。通过分析客户的转换趋势，可以有效预测客户的流失风险。</p></li><li><p><strong>应用场景</strong>：电信行业经常使用马尔可夫分析来研究用户是否会更换运营商，并在预测客户流失的基础上实施相应的客户维系策略。</p></li></ul><h3 id="3-人员流动与人力资源管理"><a href="#3-人员流动与人力资源管理" class="headerlink" title="3. 人员流动与人力资源管理"></a>3. <strong>人员流动与人力资源管理</strong></h3><p>在组织的人员管理中，马尔可夫分析可以帮助预测员工的职位变化和离职情况，支持人力资源部门制定更合理的招聘与留才计划。</p><ul><li><p><strong>应用方法</strong>：通过对员工在不同职位之间的转换行为进行建模，构建转移概率矩阵，预测未来员工的流动方向。可以分析员工从某个职位晋升、转岗、或者离职的概率。</p></li><li><p><strong>应用场景</strong>：例如，在教育行业中，可以使用马尔可夫分析预测教师的职称晋升率、转岗率或离职率，进而帮助教育机构更好地规划师资力量。</p></li></ul><h3 id="4-库存管理与供应链优化"><a href="#4-库存管理与供应链优化" class="headerlink" title="4. 库存管理与供应链优化"></a>4. <strong>库存管理与供应链优化</strong></h3><p>企业的库存管理通常涉及多个状态之间的转换，例如从仓库中的库存品转移到销售、损耗、过期等状态。马尔可夫分析可以帮助预测库存状态的变化，并据此优化库存水平和补货策略。</p><ul><li><p><strong>应用方法</strong>：通过建立不同库存状态之间的转移概率矩阵，可以预测未来某一时间段内库存的变化情况，从而更好地调整采购计划或仓储管理方案。</p></li><li><p><strong>应用场景</strong>：在零售行业，马尔可夫分析可以预测产品的库存周转周期，并帮助企业减少库存积压或短缺的风险。</p></li></ul><h3 id="5-产品生命周期管理"><a href="#5-产品生命周期管理" class="headerlink" title="5. 产品生命周期管理"></a>5. <strong>产品生命周期管理</strong></h3><p>产品在市场中的生命周期通常分为引入期、成长期、成熟期和衰退期等不同阶段。通过马尔可夫分析，企业可以分析产品在各个阶段之间的转换概率，从而更准确地预测产品的未来发展趋势。</p><ul><li><p><strong>应用方法</strong>：通过构建产品生命周期各阶段的转移概率矩阵，企业能够预测产品进入下一个生命周期阶段的时间点，优化产品策略（如促销、定价、研发投入等）。</p></li><li><p><strong>应用场景</strong>：在汽车行业，马尔可夫分析可以帮助预测某一车型的市场生命周期，帮助企业制定新车推出或旧车停产的最佳时间。</p></li></ul><h3 id="6-项目管理与风险评估"><a href="#6-项目管理与风险评估" class="headerlink" title="6. 项目管理与风险评估"></a>6. <strong>项目管理与风险评估</strong></h3><p>在项目管理中，项目可能处于不同的状态，如规划、执行、监控和收尾等。通过马尔可夫分析，项目经理可以预测项目在未来某个阶段可能处于的状态，并评估项目的风险。</p><ul><li><p><strong>应用方法</strong>：通过记录项目不同状态的历史数据，建立状态转移概率矩阵，预测项目的进展情况和完成概率。此外，还可以通过马尔可夫分析识别潜在的项目风险。</p></li><li><p><strong>应用场景</strong>：在大型工程项目中，马尔可夫分析可以帮助预测项目延误的概率，提供提前制定风险应对计划的依据。</p></li></ul><h3 id="7-设备维护与可靠性分析"><a href="#7-设备维护与可靠性分析" class="headerlink" title="7. 设备维护与可靠性分析"></a>7. <strong>设备维护与可靠性分析</strong></h3><p>在设备维护与管理中，设备的状态可能在正常、故障、维修等状态之间转换。马尔可夫分析可以用来分析设备的使用寿命、预测故障率，并优化设备维护计划。</p><ul><li><p><strong>应用方法</strong>：通过历史数据建立设备的状态转移矩阵，预测设备未来可能出现的故障概率和运行状态。基于这些预测，企业可以优化维护策略，减少故障发生的概率。</p></li><li><p><strong>应用场景</strong>：制造业常用马尔可夫分析来预测设备的故障率，并据此制定预防性维护计划，降低意外停机的风险。</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机相关课程 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>运筹学基础-第八章-图论方法</title>
+      <link href="/onion.github.io/2024/10/1bbc2db63cc4.html"/>
+      <url>/onion.github.io/2024/10/1bbc2db63cc4.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="第八章-图论方法"><a href="#第八章-图论方法" class="headerlink" title="第八章 图论方法"></a>第八章 图论方法</h1><h2 id="第一节-图的基本概念"><a href="#第一节-图的基本概念" class="headerlink" title="第一节 图的基本概念"></a>第一节 图的基本概念</h2><ol><li>图的基本要素：结点、边。</li><li>有向图：所有边都带方向。</li><li>无向图：所有边都没有方向。</li><li>连通图：所有结点都连接起来，没有孤立点的图。</li><li>不连通图：有孤立点的图。</li><li>权：赋给结点或边的信息。</li><li>回路（圈）：从一点出发，还能回到原点的一条路。</li></ol><h2 id="第二节-树和树的逐步生成法"><a href="#第二节-树和树的逐步生成法" class="headerlink" title="第二节 树和树的逐步生成法"></a>第二节 树和树的逐步生成法</h2><ol><li>树：连通且不含圈（回路）的图称为树。</li><li>树的边&#x3D;节点数-1。</li><li>普通图的点数和边数谁多谁少不确定。</li></ol><h2 id="第三节-最小枝杈树问题"><a href="#第三节-最小枝杈树问题" class="headerlink" title="第三节 最小枝杈树问题"></a>第三节 最小枝杈树问题</h2><ol><li>最小枝杈树问题是关于在一个网络中，从一个七点出发到所有点，找出一条或几条路线，以使在这样一些线路中所采用的全部支线的总长度是最小的。</li><li>常用方法：普莱姆法或克鲁斯喀尔法。</li><li>最小枝杈树问题主要应用于管道、电话线、电线、网线等线路铺设中。</li></ol><h4 id="克鲁斯喀尔法（避圈法）"><a href="#克鲁斯喀尔法（避圈法）" class="headerlink" title="克鲁斯喀尔法（避圈法）"></a>克鲁斯喀尔法（避圈法）</h4><ol><li>每次选择剩余边中长度最小的。</li><li>后选的边与已经选好的边不能构成回路，若构成则舍弃。</li><li>重复1、2。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AB%E7%AB%A0-%E5%9B%BE%E8%AE%BA%E6%96%B9%E6%B3%95/image-20241023151135556.jpg">答案：<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AB%E7%AB%A0-%E5%9B%BE%E8%AE%BA%E6%96%B9%E6%B3%95/image-20241023151237221.jpg"></li></ol><h2 id="第四节-最短路线问题"><a href="#第四节-最短路线问题" class="headerlink" title="第四节 最短路线问题"></a>第四节 最短路线问题</h2><p>最短路线问题为当通过网络的各边所需要的时间、距离或费用已知时，寻求两点间的距离最短或费用最少的路性问题。<br>采用方法为逆向推算法。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AB%E7%AB%A0-%E5%9B%BE%E8%AE%BA%E6%96%B9%E6%B3%95/image-20241023151401689.jpg"><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AB%E7%AB%A0-%E5%9B%BE%E8%AE%BA%E6%96%B9%E6%B3%95/image-20241023151512815.jpg"><br>PS：方块中的数字代表该点到终点的最短距离；方块上的文字表示从该点到终点最短路线的走法。</p><h2 id="第五节-最大流量问题"><a href="#第五节-最大流量问题" class="headerlink" title="第五节 最大流量问题"></a>第五节 最大流量问题</h2><p>最大流量问题，就是在一定条件下，要求流过网络的流量为最大的问题。</p><p>想象一个城市的水管网络，水从一个水源（源点）流向一个水池（汇点）。我们希望知道在这个网络中，水最多能流多少。</p><h3 id="增广路径"><a href="#增广路径" class="headerlink" title="增广路径"></a>增广路径</h3><p>在这个水管网络中，水可以通过不同的路径流动。每条路径上的水管都有一个最大流量限制，比如有的管子粗，有的管子细。我们称这条路径为<strong>增广路径</strong>。</p><h3 id="最小容量"><a href="#最小容量" class="headerlink" title="最小容量"></a>最小容量</h3><p>当我们找出一条增广路径时，路径上的每条管道都有一个“水流量上限”。在这条路径中，最细的水管（容量最小的管道）决定了可以通过这条路径额外流动多少水。这个最小容量就是<strong>瓶颈容量</strong>。</p><p>例如，如果我们有以下的水管网络：</p><ul><li>水源到水管A的容量是10升</li><li>水管A到水管B的容量是5升</li><li>水管B到水池的容量是15升</li></ul><p>在这条路径上，水最多只能通过5升，因为水管A到B是最细的，所以<strong>5升</strong>就是这条路径的最小容量。</p><h3 id="最大流量"><a href="#最大流量" class="headerlink" title="最大流量"></a>最大流量</h3><p>我们可以不断找到新的增广路径，并把它们的瓶颈容量加到流量中。最终，经过多次迭代，我们得到的总流量就是<strong>从水源到水池的最大流量</strong>。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机相关课程 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>管理</title>
+      <link href="/onion.github.io/2024/10/20483eeeaebd.html"/>
+      <url>/onion.github.io/2024/10/20483eeeaebd.html</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://wiki.mbalib.com/wiki/Portal:%E7%AE%A1%E7%90%86">Portal:管理 - MBA智库百科</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 调酒（生活） </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>运筹学基础-第七章-网络计划技术</title>
+      <link href="/onion.github.io/2024/10/c3c991a0c383.html"/>
+      <url>/onion.github.io/2024/10/c3c991a0c383.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="第七章-网络计划技术"><a href="#第七章-网络计划技术" class="headerlink" title="第七章 网络计划技术"></a>第七章 网络计划技术</h1><p>网络计划技术是一种组织生产和进行计划管理的科学方法：也称为统筹法，是综合运用计划评核技术的关键路线法的一种比较先进的管理方法：计划评核技术，是对计划项目进行核算，评价。然后选定最优计划方案的一种技术。<br>关键路线法是在计划项目的各项错综复杂的工作中，抓住其中的关键路线进行计划安排的一种方法。<br>网络计划技术特别适合于大型的复杂的生产项目或工程项目。</p><h2 id="第一节-网络图"><a href="#第一节-网络图" class="headerlink" title="第一节 网络图"></a>第一节 网络图</h2><p>这个讲的不错：<a href="https://wiki.mbalib.com/wiki/%E7%BD%91%E7%BB%9C%E5%9B%BE">网络图 - MBA智库百科</a><br>网络图又叫箭头图或统筹图，是计划项目的各个组成部分内在逻辑关系的综合反映，是进行计划和计算的基础，是网络计划技术的基础。</p><h3 id="1-1-网络图的分布"><a href="#1-1-网络图的分布" class="headerlink" title="1.1 网络图的分布"></a>1.1 网络图的分布</h3><p><strong>箭线式网络图</strong>：以箭线代表活动（作业），以结点代表活动的开始和完成，需要引入虚活动，但布图清晰明朗，使用十分广泛。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B8%83%E7%AB%A0-%E7%BD%91%E7%BB%9C%E8%AE%A1%E5%88%92%E6%8A%80%E6%9C%AF/image-20241023100414086.jpg"><strong>节点式网络图</strong>：以节点代表活动，以箭线代表各种活动之间的先后承接关系，虽然不引入虚活动，但在复杂的网络图中，线条纵横交错，很复杂，使用较少。</p><h2 id="1-2-箭线式网络图的组成"><a href="#1-2-箭线式网络图的组成" class="headerlink" title="1.2 箭线式网络图的组成"></a>1.2 箭线式网络图的组成</h2><p>箭线式网络图由活动，节点和路线三部分组成。</p><h4 id="活动"><a href="#活动" class="headerlink" title="活动"></a>活动</h4><p>指作业或工序，用箭线表示，按箭线的方向在左侧写上活动的名称，右侧写上活动占用的时间。<br><strong>虚活动</strong>：不消耗资源，不占用时间。</p><p>两种情况要引入虚活动：</p><ol><li>先后两节点之间的工作过程只能代表一项活动，当两个或以上的活动具有相同的始点和终点时。</li><li>为了正确表示各个活动之间的承接关系，需要引入虚活动。</li></ol><h4 id="结点"><a href="#结点" class="headerlink" title="结点"></a>结点</h4><p>指事项。两个活动之间的交接点。说明一个活动的开始或完成，不占用时间，不消耗资源。<br>一个网络应该<strong>只有一个起始点和终点</strong>。除起始点和终点，其他结点都具有两重性，即对面前是终点，对后面是起始点。<br><strong>结点编号的原则是：箭尾结点小于箭头结点，而且一般采用非连续编号。<br>编号方法是：去点去线编号法。</strong></p><h4 id="线路"><a href="#线路" class="headerlink" title="线路"></a>线路</h4><p>从网络的始点开始，顺着箭线方向，中间经过相互连接的始点和箭线，到终点的一条联线。</p><p><strong>总作业时间最长的线路就是关键线路，或称为主要矛盾线。</strong> 决定了整个网络计划的完工时间。</p><p><strong>线路的总长度叫路长</strong>。</p><p>关键线路在图上用双线或红线标出。</p><h3 id="1-3-箭线式网络图的规则"><a href="#1-3-箭线式网络图的规则" class="headerlink" title="1. 3 箭线式网络图的规则"></a>1. 3 箭线式网络图的规则</h3><h4 id="任务分解"><a href="#任务分解" class="headerlink" title="任务分解"></a>任务分解</h4><p>把一个计划项目的总任务分解为一定数量的分任务，并确定他们之间的先后承接关系。<br><strong>分解的原则：</strong> 分工要清晰，职责要明确，防止分工过细，网络图过于繁琐，又要防止分工不清，互相扯皮现象。 具体来说：</p><ol><li>工作性质不同或由不同单位执行的工作应该分开。</li><li>同一单位进行的工作，工作时间先后不衔接的要分开。</li><li>占用时间，不消耗资源，但影响工程完工日期的都应作为分任务，列入网络图。</li></ol><h4 id="画网络图规则"><a href="#画网络图规则" class="headerlink" title="画网络图规则"></a>画网络图规则</h4><ol><li>网络图中不能出现循环线路，否则永远不能完工。</li><li>进入一个结点的箭线可以有多条，但相邻的两个结点之间只能有一条箭线。当需要表示多活动之间的关系时，需要增加节点（Node）和虚拟作业表示。<img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B8%83%E7%AB%A0-%E7%BD%91%E7%BB%9C%E8%AE%A1%E5%88%92%E6%8A%80%E6%9C%AF/image-20241023101342528.jpg"></li><li>在网络图中，除网络结点、终点外，其他各结点的前后都有箭线连接，即图中不能有缺口，使自网络始点起经由任何箭线都可以达到网络终点。否则，将使某些作业失去与其紧后（或紧前）作业应有的联系。</li><li>箭线的首尾必须有事件，不允许从一条箭线的中间引出另一条箭线。</li><li>为表示工程的开始和结束，在网络图中只能有一个始点和终点。当工程开始时有几个工序平行作业，或在几个工序结束后完工，用一个网络始点，一个网络终点表示。若这些工序不能用一个始点或终点表示，可用虚工序将他们与始点或终点连接。</li><li>网络图绘制力求简单明了，箭线图是最好画成水平线或具有一段水平线的折线；箭线尽量避免交叉；尽可能将关键线路布置在中心位置。</li></ol><h3 id="1-4-网络图作业之间的逻辑关系"><a href="#1-4-网络图作业之间的逻辑关系" class="headerlink" title="1.4 网络图作业之间的逻辑关系"></a>1.4 网络图作业之间的逻辑关系</h3><p>紧前作业、紧后作业和交叉作业。</p><ol><li>紧前作业：紧接该作业前面的作业。紧前作业不结束，该作业不开始。</li><li>紧后作业：紧接该作业之后的作业。该作业不结束，紧后作业不开始。</li><li>平等作业：能与该作业同时开始的作业。</li><li>交叉作业：能与该作业交替进行的作业。下图FG是C的交叉作业。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B8%83%E7%AB%A0-%E7%BD%91%E7%BB%9C%E8%AE%A1%E5%88%92%E6%8A%80%E6%9C%AF/image-20241023104807539.jpg"></li></ol><h3 id="1-5-网络图的绘制"><a href="#1-5-网络图的绘制" class="headerlink" title="1.5 网络图的绘制"></a>1.5 网络图的绘制</h3><h4 id="网络图的元素"><a href="#网络图的元素" class="headerlink" title="网络图的元素"></a>网络图的元素</h4><p>任何一项任务和工作都是由一些基本活动或工作组成的，它们之间有一定的先后顺序和逻辑。</p><ol><li>用带箭头的线”$\longrightarrow$”表示工作。</li><li>用节点“$\bigcirc$”表示两项工作的分界线。</li></ol><p>按工作的先后顺序和逻辑关系画成的工作关系图就是一张网络图。每一个节点称为“事项”，它表示一项工作的结束和另一项工作的开始，除了一个总的开始事项和总结束事项。在节点中可标上数字，以便注明哪项工作的结束和哪一项工作的开始。<br>图一表示某一项工程由10项工作组成，共有10个结点，第$①$节点表示项目开始，第$⑩$节点表示结束。<img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B8%83%E7%AB%A0-%E7%BD%91%E7%BB%9C%E8%AE%A1%E5%88%92%E6%8A%80%E6%9C%AF/image-20241023110917381.jpg"></p><h2 id="第二节-网络时间的计算"><a href="#第二节-网络时间的计算" class="headerlink" title="第二节 网络时间的计算"></a>第二节 网络时间的计算</h2><p><strong>网络事件的计算有图上法，表格计算法，矩阵计算法。</strong> 后两者适用于计算机进行计算。</p><h3 id="2-1-作业时间"><a href="#2-1-作业时间" class="headerlink" title="2.1 作业时间"></a>2.1 作业时间</h3><ul><li><p><strong>单一时间估计法</strong>：</p><ul><li>该方法采用单一的时间估计值来表示每个任务的完成时间。通常基于历史数据或专家经验来确定。虽然方法简单，但在面对不确定性时可能不够准确，适用于任务时间相对稳定且可预测的情况。</li></ul></li><li><p><strong>三种时间估计法</strong>：</p><ul><li><p><strong>乐观时间（O）</strong>：在理想情况下完成任务所需的最短时间。</p></li><li><p><strong>悲观时间（P）</strong>：在最坏情况下完成任务所需的最长时间。</p></li><li><p><strong>最可能时间（M）</strong>：在正常情况下完成任务所需的时间。</p></li><li><p><strong>计算公式</strong>：</p><p>  期望时间: $\text{期望时间} (TE) &#x3D; \frac{O + 4M + P}{6}$</p></li><li><p>这种方法通过综合考虑乐观、悲观和最可能的时间估计，能够提供更为准确的任务时间评估，适合于不确定性较高的项目管理。</p></li></ul></li></ul><h3 id="2-2-结点时间"><a href="#2-2-结点时间" class="headerlink" title="2.2 结点时间"></a>2.2 结点时间</h3><ol><li>结点的最早开始（完成）时间：从起始点开始算，取相加的最大值。$最早开始时间(ES)&#x3D;max(前驱结点的最早完成时间+作业时间)$</li><li>结点的最迟完成时间：从终点开始算，取相减的最小值。$最迟完成时间(LF)&#x3D;min(后继结点的最迟开始时间−作业时间)$</li></ol><h2 id="第三节-时差和关键线路"><a href="#第三节-时差和关键线路" class="headerlink" title="第三节 时差和关键线路"></a>第三节 时差和关键线路</h2><p><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B8%83%E7%AB%A0-%E7%BD%91%E7%BB%9C%E8%AE%A1%E5%88%92%E6%8A%80%E6%9C%AF/image-20241023113334308.jpg"><br>ESi：结点的最早开始时间<br>EFi：结点的最早完成时间<br>LSi：结点的最迟开始时间<br>LFi：结点的最迟完成时间<br>ESij：活动的最早开始时间<br>EFij：活动的最早完成时间<br>LSij：活动的最迟开始时间<br>LFij：活动的最迟完成时间<br>Tij：作业时间</p><h3 id="3-1-结点时差"><a href="#3-1-结点时差" class="headerlink" title="3.1 结点时差"></a>3.1 结点时差</h3><p>$S_{i} &#x3D; LF_{i}-ES_{i}$<br>结点时差为0的结点叫做关键结点。</p><h3 id="3-2-结点时差"><a href="#3-2-结点时差" class="headerlink" title="3.2 结点时差"></a>3.2 结点时差</h3><p>总时差：$S_{ij总} &#x3D; LF_{ij}-T_{ij}-ES_{ij}$<br>专用时差：$S_{ij专} &#x3D; EF_{ij}-$</p><h2 id="第四节-最优方案的选择"><a href="#第四节-最优方案的选择" class="headerlink" title="第四节 最优方案的选择"></a>第四节 最优方案的选择</h2><p>优化：所谓优化，就是要制定除最优的计划方案，即计划方案能最合理地、最有效地利用人力、物力、财力，达到周期最短，成本最低的目的。<br>网络计划优化的内容主要有：</p><ol><li>时间优化：在人力物力财力等基本上有保证的条件下，寻求最短的工程周期。</li><li>时间与资源优化：合理利用资源的条件下，寻求最短的工程周期。</li><li>时间与成本优化：<ol><li>在保证工期最短的情况下，寻求成本较低的方案；</li><li>在成本较低的情况下，寻求合理的工程周期。<br> $直接费用增长率 &#x3D; （极限费用 - 正常费用）&#x2F;（正常时间-极限时间）$</li></ol></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机相关课程 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>稷下咖啡厅入侵计划</title>
       <link href="/onion.github.io/2024/10/a07d19d307eb.html"/>
       <url>/onion.github.io/2024/10/a07d19d307eb.html</url>
@@ -27,7 +122,7 @@
       <link href="/onion.github.io/2024/10/68db2ce9b014.html"/>
       <url>/onion.github.io/2024/10/68db2ce9b014.html</url>
       
-        <content type="html"><![CDATA[<h2 id="第一节-运输问题及其特殊结构"><a href="#第一节-运输问题及其特殊结构" class="headerlink" title="第一节 运输问题及其特殊结构"></a>第一节 运输问题及其特殊结构</h2><p>运输问题涉及多个供应点和需求点，目标是确定最佳的运输方案，以实现<strong>总运输费用最低</strong>或<strong>利润最大化</strong>。为此，基于单纯形法，发展出了一种专门解决运输问题的简便方法，称为<strong>表上作业</strong>。<br>不同运输数量不确定为Xij，代表从第i个产地运往第j个销售地点的运输数量，对于不同的运输数量，产生不同的运费。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241022152826998.jpg"><br>运输问题的解：使得总运费最低的具体运输数量。</p><h2 id="第二节-解决运输问题的步骤"><a href="#第二节-解决运输问题的步骤" class="headerlink" title="第二节 解决运输问题的步骤"></a>第二节 解决运输问题的步骤</h2><h4 id="1-建立运输图"><a href="#1-建立运输图" class="headerlink" title="1. 建立运输图"></a>1. 建立运输图</h4><p>首先，我们画一个图，图的节点代表供应点和需求点，连接这些节点的边表示运输路线。在每条边上，我们会写上运输费用、供应量和需求量。</p><p><strong>产销平衡表和单位运价表是一一对应的，我们可以把这两个表合为一个表称 为平衡表。</strong><br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241022152627370.jpg"></p><h4 id="2-找到初始运输方案-西北角法"><a href="#2-找到初始运输方案-西北角法" class="headerlink" title="2. 找到初始运输方案-西北角法"></a>2. 找到初始运输方案-西北角法</h4><p>我们使用<strong>西北角法</strong>来找一个初步的运输方案：</p><ul><li>从图的<strong>左上角（西北角）开始</strong>，尽量满足每个供应点的供给和每个需求点的需求。</li><li>逐步填写运输量，直到所有的需求和供应都被满足。<ul><li>即先满足A段需求量，再满足B段最后满足C段。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241022152638438.jpg"><br>数字格数为（m+n-1）为5个，总格数为mn，剩余的</li></ul></li></ul><h4 id="3-改进运输方案"><a href="#3-改进运输方案" class="headerlink" title="3. 改进运输方案"></a>3. 改进运输方案</h4><p>接下来，我们要看看是否能进一步降低运输费用：</p><ul><li>闭回路法（推荐）</li><li>修正分配法<br>根据找到的改进路径，我们调整运输方案，直到不能再降低费用为止。</li></ul><h3 id="第三节-闭回路法"><a href="#第三节-闭回路法" class="headerlink" title="第三节 闭回路法"></a>第三节 闭回路法</h3><p>在给出的调运方案的计算表上，从每个空格出发找一条闭回路。<br>以某空格为起点，用水平或垂直线向前划，当碰到数字格时，可以旋转90度（也可以越过)后，继续前进，知道回到起始空格为止。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241022155434986.jpg"><br>每一空格出发一定存在且可以找到唯一的闭回路。<br>因m+n-1个数字格（基变量）对应的系数向量是一个基。则任一空格（非基变量）对应的系数向量均可由这个基线性表示。<br>$$\displaylines{P_{ij} &amp;&#x3D; e_{i}+e_{m+j} \ &amp; &#x3D; P_{ik}-P_{lk}+P_{ls}-P{us}+P_{uj}}$$</p><p><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241022163249014.jpg"></p><h4 id="1-位势的定义"><a href="#1-位势的定义" class="headerlink" title="1. 位势的定义"></a>1. 位势的定义</h4><ul><li><strong>理论位势</strong>：在理想情况下，运输的最佳费用。</li><li><strong>实际位势</strong>：在当前运输方案中实际产生的费用。</li><li><strong>位势差</strong>：理论位势与实际位势之间的差值。</li></ul><p>公式如下：</p><ul><li><strong>位势差</strong> &#x3D; 实际位势 - 理论位势</li><li>这里，理论位势 &#x3D; K（常数），实际位势 &#x3D; 运费 - R（给定值）</li></ul><p>通过这种方式，我们可以判断是否可以通过调整运输量来降低费用。</p><h3 id="修正分配法与闭合回路法的关系"><a href="#修正分配法与闭合回路法的关系" class="headerlink" title="修正分配法与闭合回路法的关系"></a>修正分配法与闭合回路法的关系</h3><h4 id="1-闭合回路法是基础"><a href="#1-闭合回路法是基础" class="headerlink" title="1. 闭合回路法是基础"></a>1. 闭合回路法是基础</h4><p>闭合回路法是修正分配法的基础，意味着在使用修正分配法时，常常需要依赖闭合回路法来寻找改进的路线。</p><h4 id="2-处理顺序不同"><a href="#2-处理顺序不同" class="headerlink" title="2. 处理顺序不同"></a>2. 处理顺序不同</h4><ul><li><strong>闭合回路法</strong>：首先找到改进路线，然后计算改进指数，看看如何调整方案。</li><li><strong>修正分配法</strong>：相反，先计算费用的位势差，再寻找改进机会。</li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 id="第一节-运输问题及其特殊结构"><a href="#第一节-运输问题及其特殊结构" class="headerlink" title="第一节 运输问题及其特殊结构"></a>第一节 运输问题及其特殊结构</h2><p>运输问题涉及多个供应点和需求点，目标是确定最佳的运输方案，以实现<strong>总运输费用最低</strong>或<strong>利润最大化</strong>。为此，基于单纯形法，发展出了一种专门解决运输问题的简便方法，称为<strong>表上作业</strong>。<br>不同运输数量不确定为Xij，代表从第i个产地运往第j个销售地点的运输数量，对于不同的运输数量，产生不同的运费。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241022152826998.jpg"><br>运输问题的解：使得总运费最低的具体运输数量。</p><h2 id="第二节-解决运输问题的步骤"><a href="#第二节-解决运输问题的步骤" class="headerlink" title="第二节 解决运输问题的步骤"></a>第二节 解决运输问题的步骤</h2><h3 id="2-1-建立运输图"><a href="#2-1-建立运输图" class="headerlink" title="2.1 建立运输图"></a>2.1 建立运输图</h3><p>首先，我们画一个图，图的节点代表供应点和需求点，连接这些节点的边表示运输路线。在每条边上，我们会写上运输费用、供应量和需求量。</p><p><strong>产销平衡表和单位运价表是一一对应的，我们可以把这两个表合为一个表称 为平衡表。</strong><br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241022152627370.jpg"></p><h3 id="2-2-找到初始运输方案-西北角法"><a href="#2-2-找到初始运输方案-西北角法" class="headerlink" title="2.2 找到初始运输方案-西北角法"></a>2.2 找到初始运输方案-西北角法</h3><p>我们使用<strong>西北角法</strong>来找一个初步的运输方案：</p><ul><li>从图的<strong>左上角（西北角）开始</strong>，尽量满足每个供应点的供给和每个需求点的需求。</li><li>逐步填写运输量，直到所有的需求和供应都被满足。<ul><li>即先满足A段需求量，再满足B段最后满足C段。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241022152638438.jpg"><br>数字格数为$（m+n-1）$为5个，总格数为$mn$;<br>剩余的空格为 $mn - (m+n-1)$</li></ul></li></ul><h3 id="2-3-改进运输方案"><a href="#2-3-改进运输方案" class="headerlink" title="2.3 改进运输方案"></a>2.3 改进运输方案</h3><p>接下来，我们要看看是否能进一步降低运输费用：</p><ul><li>闭回路法（推荐）</li><li>修正分配法<br>根据找到的改进路径，我们调整运输方案，直到不能再降低费用为止。</li></ul><h2 id="第三节-改进方法：闭回路法、修正分配法"><a href="#第三节-改进方法：闭回路法、修正分配法" class="headerlink" title="第三节 改进方法：闭回路法、修正分配法"></a>第三节 改进方法：闭回路法、修正分配法</h2><h3 id="3-1-闭合回路法"><a href="#3-1-闭合回路法" class="headerlink" title="3.1 闭合回路法"></a>3.1 闭合回路法</h3><p>在给出的调运方案的计算表上，从每个空格出发找一条闭回路。<br>以某空格为起点，用水平或垂直线向前划，<strong>当碰到数字格时，可以旋转90度（也可以越过)后</strong>，继续前进，知道回到起始空格为止。<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241022155434986.jpg"><br>因m+n-1个数字格（基变量）对应的系数向量是一个基。则任一空格（非基变量）对应的系数向量均可由这个基线性表示。<br>$$\displaylines{P_{ij} &amp;&#x3D; e_{i}+e_{m+j} \ &amp; &#x3D; P_{ik}-P_{lk}+P_{ls}-P{us}+P_{uj}}$$</p><p><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241022163249014.jpg"></p><h3 id="3-1-修正分配法"><a href="#3-1-修正分配法" class="headerlink" title="3.1 修正分配法"></a>3.1 修正分配法</h3><p>可用具体看这个qwq：<a href="https://blog.csdn.net/weixin_40493805/article/details/124392716">运输问题的位势法-CSDN博客</a><br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241023085337495.jpg"></p><h4 id="1-位势的定义"><a href="#1-位势的定义" class="headerlink" title="1. 位势的定义"></a>1. 位势的定义</h4><ul><li><strong>理论位势</strong>：在理想情况下，运输的最佳费用。</li><li><strong>实际位势</strong>：在当前运输方案中实际产生的费用。</li><li><strong>位势差</strong>：理论位势与实际位势之间的差值。</li></ul><p>公式如下：</p><ul><li><strong>位势差</strong> &#x3D; 实际位势 - 理论位势</li><li>这里，理论位势 &#x3D; K（常数），实际位势 &#x3D; 运费 - R（给定值）</li></ul><p>通过这种方式，我们可以判断是否可以通过调整运输量来降低费用。</p><h1 id="第三节-需求量不等于供应量的运输问题"><a href="#第三节-需求量不等于供应量的运输问题" class="headerlink" title="第三节 需求量不等于供应量的运输问题"></a>第三节 需求量不等于供应量的运输问题</h1><h3 id="3-1-思路"><a href="#3-1-思路" class="headerlink" title="3.1 思路"></a>3.1 思路</h3><p>虚设站点把不平衡的改为平衡的在做。</p><h4 id="需求量小于供应量"><a href="#需求量小于供应量" class="headerlink" title="需求量小于供应量"></a>需求量小于供应量</h4><ol><li>虚设一个需求点；</li><li>虚设的需求点的需求量 &#x3D; 总供应量 - 总需求量；</li><li>虚设点的单位运费为0<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241023090923211.jpg"></li></ol><h4 id="需求量大于供应量"><a href="#需求量大于供应量" class="headerlink" title="需求量大于供应量"></a>需求量大于供应量</h4><ol><li>虚设一个供应点；</li><li>虚设的供应点的供应量 &#x3D; 总需求量 - 总供应量；</li><li>虚设点的单位运费为0；<br><img src="/onion.github.io/images/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80_%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98/image-20241023090936736.jpg">总结起来就是谁少补谁。</li></ol><h3 id="3-2-退化现象"><a href="#3-2-退化现象" class="headerlink" title="3.2 退化现象"></a>3.2 退化现象</h3><p><strong>退化一</strong><br>迭代过程中，若某一格填数时需同时划去一行和一列，此时出现退化。为保证m+n-1个非空格，需在上述的行或列中填入数字0。<br><strong>退化二</strong><br>闭回路上出现两个或两个以上的具有（-）标记的相等的最小值。只能选一个作为调入格，经过调整后，得退化解。则在另一数字格上填入0.</p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>本章内容选择、填空和名词解释都会涉及，计算题考察主要有三个知识点:<br>1、西北角法建立初始方案<br>2、闭合回路法或修正分配法，检验解是否最优。<br>3、闭回路法改进方案</p>]]></content>
       
       
       <categories>
@@ -220,9 +315,9 @@
             
             <tag> 计算机科学与技术 </tag>
             
-            <tag> 自考 </tag>
-            
             <tag> 运筹学基础 </tag>
+            
+            <tag> 自考 </tag>
             
         </tags>
       
@@ -249,9 +344,9 @@
             
             <tag> 计算机科学与技术 </tag>
             
-            <tag> 计算机系统结构 </tag>
-            
             <tag> 自考 </tag>
+            
+            <tag> 计算机系统结构 </tag>
             
         </tags>
       
@@ -278,9 +373,9 @@
             
             <tag> 计算机科学与技术 </tag>
             
-            <tag> 计算机系统结构 </tag>
-            
             <tag> 自考 </tag>
+            
+            <tag> 计算机系统结构 </tag>
             
         </tags>
       
@@ -307,9 +402,9 @@
             
             <tag> 计算机科学与技术 </tag>
             
-            <tag> 计算机系统结构 </tag>
-            
             <tag> 自考 </tag>
+            
+            <tag> 计算机系统结构 </tag>
             
         </tags>
       
@@ -336,9 +431,9 @@
             
             <tag> 计算机科学与技术 </tag>
             
-            <tag> 计算机系统结构 </tag>
-            
             <tag> 自考 </tag>
+            
+            <tag> 计算机系统结构 </tag>
             
         </tags>
       
@@ -365,9 +460,9 @@
             
             <tag> 计算机科学与技术 </tag>
             
-            <tag> 计算机系统结构 </tag>
-            
             <tag> 自考 </tag>
+            
+            <tag> 计算机系统结构 </tag>
             
         </tags>
       
@@ -394,9 +489,9 @@
             
             <tag> 计算机科学与技术 </tag>
             
-            <tag> 计算机系统结构 </tag>
-            
             <tag> 自考 </tag>
+            
+            <tag> 计算机系统结构 </tag>
             
         </tags>
       
@@ -493,7 +588,7 @@
       <link href="/onion.github.io/2024/10/68da4b2181f9.html"/>
       <url>/onion.github.io/2024/10/68da4b2181f9.html</url>
       
-        <content type="html"><![CDATA[<blockquote><p>英语、计算机、数学，无论将来做什么都是有用的。<br>——沃巴</p></blockquote><p>英语是学不会了，没有点这个天赋，但是计算机和数学可以学一点，为了督促自己学习计算机，报名了计算机网络技术的成人自考，以为会好好学，现在成了临阵磨枪，60分万岁了qwq</p><h1 id="课程"><a href="#课程" class="headerlink" title="课程"></a>课程</h1><h2 id="计算机系统结构"><a href="#计算机系统结构" class="headerlink" title="计算机系统结构"></a>计算机系统结构</h2><p><a href="https://blog.csdn.net/weixin_43605641/article/details/124428484">02325《计算机系统结构》自考复习重点目录_02325填空题简答题考点-CSDN博客</a><br><a href="https://blog.csdn.net/meiaoxue1234/article/details/136080117">计算机系统结构-考试知识点总结_自考计算机系统结构知识点!-CSDN博客</a><br>名词解释：<a href="https://abg.baidu.com/ndoffview/83b447272f60ddccda38a0ec">自考02325计算机系统结构–复习资料大全 - 百度爱伴功 (baidu.com)</a><br>章节:<a href="https://abg.baidu.com/view/5a655ae9998fcc22bcd10d4f">自考02325计算机系统结构考点笔记 - 百度爱伴功 (baidu.com)</a></p><h2 id="运筹学基础"><a href="#运筹学基础" class="headerlink" title="运筹学基础"></a>运筹学基础</h2><p>知识点，没分章节：<a href="https://abg.baidu.com/view/4273004be45c3b3567ec8b1b?fr=search-income-top3page">运筹学基础自考 精心整理 - 百度爱伴功</a><br>章节知识点：<a href="https://abg.baidu.com/view/bc15e3d080eb6294dd886c0e?fr=search-income-top3page">自考运筹学基础学习笔记 修改版本 - 百度爱伴功</a><br>往年试题：<a href="https://github.com/Eished/self-study-exam_notes/blob/master/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80%2002375.md">self-study-exam_notes&#x2F;运筹学基础 02375.md at master · Eished&#x2F;self-study-exam_notes</a></p><h1 id="计算机其他相关资源"><a href="#计算机其他相关资源" class="headerlink" title="计算机其他相关资源"></a>计算机其他相关资源</h1><p><a href="http://www.heycode.com/">编程日记 (heycode.com)</a></p>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>英语、计算机、数学，无论将来做什么都是有用的。<br>——沃巴</p></blockquote><p>英语是学不会了，没有点这个天赋，但是计算机和数学可以学一点，为了督促自己学习计算机，报名了计算机网络技术的成人自考，以为会好好学，现在成了临阵磨枪，60分万岁了qwq</p><h1 id="课程"><a href="#课程" class="headerlink" title="课程"></a>课程</h1><h2 id="计算机系统结构"><a href="#计算机系统结构" class="headerlink" title="计算机系统结构"></a>计算机系统结构</h2><p><a href="https://blog.csdn.net/weixin_43605641/article/details/124428484">02325《计算机系统结构》自考复习重点目录_02325填空题简答题考点-CSDN博客</a><br><a href="https://blog.csdn.net/meiaoxue1234/article/details/136080117">计算机系统结构-考试知识点总结_自考计算机系统结构知识点!-CSDN博客</a><br>名词解释：<a href="https://abg.baidu.com/ndoffview/83b447272f60ddccda38a0ec">自考02325计算机系统结构–复习资料大全 - 百度爱伴功 (baidu.com)</a><br>章节:<a href="https://abg.baidu.com/view/5a655ae9998fcc22bcd10d4f">自考02325计算机系统结构考点笔记 - 百度爱伴功 (baidu.com)</a></p><h2 id="运筹学基础"><a href="#运筹学基础" class="headerlink" title="运筹学基础"></a>运筹学基础</h2><p>知识点，没分章节：<a href="https://abg.baidu.com/view/4273004be45c3b3567ec8b1b?fr=search-income-top3page">运筹学基础自考 精心整理 - 百度爱伴功</a><br>章节知识点：<a href="https://abg.baidu.com/view/bc15e3d080eb6294dd886c0e?fr=search-income-top3page">自考运筹学基础学习笔记 修改版本 - 百度爱伴功</a><br>往年试题：<a href="https://github.com/Eished/self-study-exam_notes/blob/master/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80%2002375.md">self-study-exam_notes&#x2F;运筹学基础 02375.md at master · Eished&#x2F;self-study-exam_notes</a></p><h1 id="计算机其他相关资源"><a href="#计算机其他相关资源" class="headerlink" title="计算机其他相关资源"></a>计算机其他相关资源</h1><p><a href="http://www.heycode.com/">编程日记 (heycode.com)</a></p><h1 id="markdown笔记写作"><a href="#markdown笔记写作" class="headerlink" title="markdown笔记写作"></a>markdown笔记写作</h1><p><a href="https://www.latexlive.com/help">在线LaTeX公式编辑器-帮助文档</a></p>]]></content>
       
       
       <categories>
